@@ -1,0 +1,24 @@
+#include <windows.h>
+
+#include "looter.h"
+
+// tray icon
+ICON_LOOTER ICON "looter.ico"
+
+// tray menu
+MNU_LOOTER MENU
+BEGIN
+    POPUP "looter"
+    BEGIN
+        MENUITEM "Looter - Tibia 8.0", mnuNull
+        MENUITEM SEPARATOR
+		MENUITEM "&Loot Items", mnuLoot, CHECKED
+        MENUITEM "&Stack Items", mnuStack, CHECKED
+        MENUITEM "&Eat Items", mnuEat, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&ID of last seen item...", mnuSeeId
+        MENUITEM SEPARATOR
+		MENUITEM "&About...", mnuAbout
+        MENUITEM "E&xit", mnuExit
+    END
+END
