@@ -1,0 +1,45 @@
+# Project: looter80
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = looter/Release/looter80_private.res
+OBJ  = looter/Release/ini.o looter/Release/trainer.o looter/Release/tibia.o looter/Release/tibiapacket.o looter/Release/looter.o $(RES)
+LINKOBJ  = looter/Release/ini.o looter/Release/trainer.o looter/Release/tibia.o looter/Release/tibiapacket.o looter/Release/looter.o $(RES)
+LIBS =  -L"C:/DevCpp/lib" -mwindows  -s 
+INCS =  -I"C:/DevCpp/include"  -I"C:/DevCpp/projects/ini"  -I"C:/DevCpp/projects/trainer"  -I"C:/DevCpp/projects/tibia" 
+CXXINCS =  -I"C:/DevCpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/DevCpp/include/c++/3.4.2/backward"  -I"C:/DevCpp/include/c++/3.4.2/mingw32"  -I"C:/DevCpp/include/c++/3.4.2"  -I"C:/DevCpp/include"  -I"C:/DevCpp/projects/ini"  -I"C:/DevCpp/projects/trainer"  -I"C:/DevCpp/projects/tibia" 
+BIN  = looter/Release/looter80.exe
+CXXFLAGS = $(CXXINCS)   -fexpensive-optimizations -O3
+CFLAGS = $(INCS)   -fexpensive-optimizations -O3
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before looter/Release/looter80.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "looter\Release\looter80.exe" $(LIBS)
+
+looter/Release/ini.o: ../ini/ini.cpp
+	$(CPP) -c ../ini/ini.cpp -o looter/Release/ini.o $(CXXFLAGS)
+
+looter/Release/trainer.o: ../trainer/trainer.cpp
+	$(CPP) -c ../trainer/trainer.cpp -o looter/Release/trainer.o $(CXXFLAGS)
+
+looter/Release/tibia.o: ../tibia/tibia.cpp
+	$(CPP) -c ../tibia/tibia.cpp -o looter/Release/tibia.o $(CXXFLAGS)
+
+looter/Release/tibiapacket.o: ../tibia/tibiapacket.cpp
+	$(CPP) -c ../tibia/tibiapacket.cpp -o looter/Release/tibiapacket.o $(CXXFLAGS)
+
+looter/Release/looter.o: looter/looter.cpp
+	$(CPP) -c looter/looter.cpp -o looter/Release/looter.o $(CXXFLAGS)
+
+looter/Release/looter80_private.res: looter80_private.rc 
+	$(WINDRES) -i looter80_private.rc --input-format=rc -o looter/Release/looter80_private.res -O coff  --include-dir C:/DevCpp/projects/looter80/looter
