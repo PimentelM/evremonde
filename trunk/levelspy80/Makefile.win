@@ -1,0 +1,36 @@
+# Project: levelspy80
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = levelspy/Release/trainer.o levelspy/Release/tibia.o levelspy/Release/levelspy.o $(RES)
+LINKOBJ  = levelspy/Release/trainer.o levelspy/Release/tibia.o levelspy/Release/levelspy.o $(RES)
+LIBS =  -L"C:/DevCpp/lib" -mwindows  -s 
+INCS =  -I"C:/DevCpp/include"  -I"C:/DevCpp/projects/tibia"  -I"C:/DevCpp/projects/trainer" 
+CXXINCS =  -I"C:/DevCpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/DevCpp/include/c++/3.4.2/backward"  -I"C:/DevCpp/include/c++/3.4.2/mingw32"  -I"C:/DevCpp/include/c++/3.4.2"  -I"C:/DevCpp/include"  -I"C:/DevCpp/projects/tibia"  -I"C:/DevCpp/projects/trainer" 
+BIN  = levelspy/Release/levelspy80.exe
+CXXFLAGS = $(CXXINCS)   -fexpensive-optimizations -O3
+CFLAGS = $(INCS)   -fexpensive-optimizations -O3
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before levelspy/Release/levelspy80.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "levelspy\Release\levelspy80.exe" $(LIBS)
+
+levelspy/Release/trainer.o: ../trainer/trainer.cpp
+	$(CPP) -c ../trainer/trainer.cpp -o levelspy/Release/trainer.o $(CXXFLAGS)
+
+levelspy/Release/tibia.o: ../tibia/tibia.cpp
+	$(CPP) -c ../tibia/tibia.cpp -o levelspy/Release/tibia.o $(CXXFLAGS)
+
+levelspy/Release/levelspy.o: levelspy/levelspy.cpp
+	$(CPP) -c levelspy/levelspy.cpp -o levelspy/Release/levelspy.o $(CXXFLAGS)
