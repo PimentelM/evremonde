@@ -1,0 +1,2 @@
+REM Tiny C Compiler: http://fabrice.bellard.free.fr/tcc/
+c:\tinyc\tcc\tcc.exe -Ic:/tinyc/include -Ic:/tinyc/include/winapi -Lc:/tinyc/lib -w -o c:/tinyc/projects/fasthands81/release/fasthands81.exe c:/tinyc/projects/fasthands81/fasthands81.c
