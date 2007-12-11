@@ -1,0 +1,2 @@
+REM Tiny C Compiler: http://fabrice.bellard.free.fr/tcc/
+c:\tinyc\tcc\tcc.exe -Ic:/tinyc/include -Ic:/tinyc/include/winapi -Lc:/tinyc/lib -w -o c:/tinyc/projects/cod4levelup/release/cod4levelup.exe c:/tinyc/projects/cod4levelup/cod4levelup.c
