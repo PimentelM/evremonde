@@ -1,0 +1,30 @@
+#include <windows.h>
+
+#include "looter81.h"
+
+// windows xp theme
+1 RT_MANIFEST "xptheme.xml"
+
+// application icon
+ID_ICON_LOOTER ICON "looter81.ico"
+
+// tray menu
+ID_MENU_LOOTER MENU
+BEGIN
+	POPUP "looter81"
+	BEGIN
+		MENUITEM "Looter - Tibia 8.1", ID_MENU_NULL
+		MENUITEM SEPARATOR
+		MENUITEM "&Open looter ini file...", ID_MENU_INI
+		MENUITEM SEPARATOR
+		MENUITEM "&Loot Items", ID_MENU_LOOT, CHECKED
+		MENUITEM "&Stack Items", ID_MENU_STACK, CHECKED
+		MENUITEM "&Eat Items", ID_MENU_EAT, CHECKED
+		MENUITEM SEPARATOR
+		MENUITEM "Show &ID of last seen item...", ID_MENU_SEE_ID
+		MENUITEM SEPARATOR
+		MENUITEM "&About...", ID_MENU_ABOUT
+		MENUITEM "&Homepage...", ID_MENU_HOMEPAGE
+		MENUITEM "E&xit", ID_MENU_EXIT
+	END
+END
