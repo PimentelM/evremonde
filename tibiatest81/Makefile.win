@@ -1,0 +1,39 @@
+# Project: tibiatest81
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = tibiatest/release/obj/tibia.o tibiatest/release/obj/tibiapacket.o tibiatest/release/obj/tibiatest81.o tibiatest/release/obj/trainer.o $(RES)
+LINKOBJ  = tibiatest/release/obj/tibia.o tibiatest/release/obj/tibiapacket.o tibiatest/release/obj/tibiatest81.o tibiatest/release/obj/trainer.o $(RES)
+LIBS =   -s 
+INCS =  -I"C:/cpp/trainer"  -I"C:/cpp/tibia" 
+CXXINCS =  -I"C:/cpp/trainer"  -I"C:/cpp/tibia" 
+BIN  = tibiatest/release/tibiatest81.exe
+CXXFLAGS = $(CXXINCS)   -fexpensive-optimizations -O2
+CFLAGS = $(INCS)   -fexpensive-optimizations -O2
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before tibiatest/release/tibiatest81.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "tibiatest\release\tibiatest81.exe" $(LIBS)
+
+tibiatest/release/obj/tibia.o: ../tibia/tibia.cpp
+	$(CPP) -c ../tibia/tibia.cpp -o tibiatest/release/obj/tibia.o $(CXXFLAGS)
+
+tibiatest/release/obj/tibiapacket.o: ../tibia/tibiapacket.cpp
+	$(CPP) -c ../tibia/tibiapacket.cpp -o tibiatest/release/obj/tibiapacket.o $(CXXFLAGS)
+
+tibiatest/release/obj/tibiatest81.o: tibiatest/tibiatest81.cpp
+	$(CPP) -c tibiatest/tibiatest81.cpp -o tibiatest/release/obj/tibiatest81.o $(CXXFLAGS)
+
+tibiatest/release/obj/trainer.o: ../trainer/trainer.cpp
+	$(CPP) -c ../trainer/trainer.cpp -o tibiatest/release/obj/trainer.o $(CXXFLAGS)
