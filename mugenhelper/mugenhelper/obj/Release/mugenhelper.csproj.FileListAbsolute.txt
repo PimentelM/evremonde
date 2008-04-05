@@ -1,5 +1,0 @@
-C:\Documents and Settings\Kevin\My Documents\SharpDevelop Projects\mugenhelper\mugenhelper\bin\Release\mugenhelper.exe
-C:\Documents and Settings\Kevin\My Documents\SharpDevelop Projects\mugenhelper\mugenhelper\obj\Release\ResolveAssemblyReference.cache
-C:\Documents and Settings\Kevin\My Documents\SharpDevelop Projects\mugenhelper\mugenhelper\obj\Release\mugenhelper.MainForm.resources
-C:\Documents and Settings\Kevin\My Documents\SharpDevelop Projects\mugenhelper\mugenhelper\obj\Release\mugenhelper.csproj.GenerateResource.Cache
-C:\Documents and Settings\Kevin\My Documents\SharpDevelop Projects\mugenhelper\mugenhelper\obj\Release\mugenhelper.exe
