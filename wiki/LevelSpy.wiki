@@ -16,4 +16,4 @@ Add your content here.  Format your content with:
 
 = Screenshot =
 
-[http://c.imagehost.org/view/0961/levelspy811.png]
+http://c.imagehost.org/view/0961/levelspy811.png
