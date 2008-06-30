@@ -1,11 +1,11 @@
 #summary View levels or floors that are above or below your character
 #labels Featured
 
-= How To Use =
+== How To Use ==
 
 Level Spy is a tray icon application with a popup menu and two sets of hotkeys. Use the menu or hotkeys while in-game to turn features on or off. You can turn the sets of hotkeys on or off to suit your preference.
 
-= Features =
+== Features ==
 
   * Level Spy
   * Name Spy
@@ -13,6 +13,6 @@ Level Spy is a tray icon application with a popup menu and two sets of hotkeys. 
   * Full Light
 
 
-= Screenshots =
+== Screenshots ==
 
 http://img246.imageshack.us/img246/6555/levelspy811bw1.png
