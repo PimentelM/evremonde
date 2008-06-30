@@ -1,0 +1,118 @@
+#include <windows.h>
+
+#include "evrebot.h"
+
+// xp theme
+1 RT_MANIFEST "xptheme.xml"
+
+// icon
+ICON_EVREBOT ICON "evrebot.ico"
+
+// menu
+MNU_EVREBOT MENU
+BEGIN
+    POPUP "evrebot"
+    BEGIN
+        MENUITEM "evrebot - Tibia 8.0", mnuNull
+        MENUITEM SEPARATOR
+        MENUITEM "Hotkeys", mnuHotkeys, CHECKED
+        MENUITEM "View Hotkeys...", mnuViewHotkeys
+        MENUITEM SEPARATOR
+        MENUITEM "Anti-AFK", mnuAntiAFK, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "Name Spy", mnuNameSpy, CHECKED
+        MENUITEM "View Creatures...", mnuViewCreatures
+		MENUITEM SEPARATOR
+        MENUITEM "Loot Money", mnuLootMoney, CHECKED
+		MENUITEM "Stack Money", mnuStackMoney, CHECKED
+		MENUITEM SEPARATOR
+        MENUITEM "Show Water w/ Fish", mnuFishingWater
+		MENUITEM "Change Trees to Bushes", mnuTreesToBushes
+		MENUITEM SEPARATOR
+        POPUP "Light"
+        BEGIN
+            MENUITEM "None", mnuLightNone
+            MENUITEM SEPARATOR
+            MENUITEM "Torch", mnuLightTorch
+            MENUITEM "Full", mnuLightFull
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Click", mnuClick
+        MENUITEM "Fast Drag", mnuFastDrag
+        MENUITEM SEPARATOR
+        POPUP "Outfit"
+        BEGIN
+            MENUITEM "( Free )", mnuNull, GRAYED
+            POPUP "Male"
+            BEGIN
+                MENUITEM "Citizen", mnuOutfitMaleDruid
+                MENUITEM "Hunter", mnuOutfitMalePaladin
+                MENUITEM "Mage", mnuOutfitMaleSorcerer
+                MENUITEM "Knight", mnuOutfitMaleKnight
+            END
+            POPUP "Female"
+            BEGIN
+                MENUITEM "Citizen", mnuOutfitFemaleDruid
+                MENUITEM "Hunter", mnuOutfitFemalePaladin
+                MENUITEM "Summoner", mnuOutfitFemaleSorcerer
+                MENUITEM "Knight", mnuOutfitFemaleKnight
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "( Premium )", mnuNull, GRAYED
+            POPUP "Male"
+            BEGIN
+                MENUITEM "Nobleman", mnuOutfitMalePremium1
+                MENUITEM "Summoner", mnuOutfitMalePremium2
+                MENUITEM "Warrior", mnuOutfitMalePremium3
+                MENUITEM "Barbarian", mnuOutfitMalePremium4
+                MENUITEM "Druid", mnuOutfitMalePremium5
+                MENUITEM "Wizard", mnuOutfitMalePremium6
+                MENUITEM "Oriental", mnuOutfitMalePremium7, MENUBARBREAK
+                MENUITEM "Pirate", mnuOutfitMalePremium8
+                MENUITEM "Assassin", mnuOutfitMalePremium9
+                MENUITEM "Beggar", mnuOutfitMalePremium10
+                MENUITEM "Shaman", mnuOutfitMalePremium11
+                MENUITEM "Eskimo", mnuOutfitMalePremium12
+            END
+            POPUP "Female"
+            BEGIN
+                MENUITEM "Nobleman", mnuOutfitFemalePremium1
+                MENUITEM "Mage", mnuOutfitFemalePremium2
+                MENUITEM "Warrior", mnuOutfitFemalePremium3
+                MENUITEM "Barbarian", mnuOutfitFemalePremium4
+                MENUITEM "Druid", mnuOutfitFemalePremium5
+                MENUITEM "Wizard", mnuOutfitFemalePremium6
+                MENUITEM "Oriental" ,mnuOutfitFemalePremium7, MENUBARBREAK
+                MENUITEM "Pirate", mnuOutfitFemalePremium8
+                MENUITEM "Assassin", mnuOutfitFemalePremium9
+                MENUITEM "Beggar", mnuOutfitFemalePremium10
+                MENUITEM "Shaman", mnuOutfitFemalePremium11
+                MENUITEM "Eskimo", mnuOutfitFemalePremium12
+            END
+            MENUITEM SEPARATOR
+            POPUP "Other"
+            BEGIN
+                MENUITEM "Hero", mnuOutfitOtherHero
+                MENUITEM "Gamemaster", mnuOutfitOtherGamemaster
+                MENUITEM SEPARATOR
+                MENUITEM "Elf", mnuOutfitOtherElf
+                MENUITEM "Dwarf", mnuOutfitOtherDwarf
+                MENUITEM "Cult", mnuOutfitOtherCult
+                MENUITEM SEPARATOR
+                MENUITEM "Panda", mnuOutfitOtherPanda
+                MENUITEM "Ferumbras", mnuOutfitOtherFerumbras
+            END
+        END
+        POPUP "Outfit Addon"
+        BEGIN
+            MENUITEM "None", mnuOutfitAddonNone, CHECKED
+            MENUITEM SEPARATOR
+            MENUITEM "# 1", mnuOutfitAddon1
+            MENUITEM "# 2", mnuOutfitAddon2
+            MENUITEM "Both", mnuOutfitAddonBoth
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "About...", mnuAbout
+        MENUITEM "Exit", mnuExit
+    END
+END
