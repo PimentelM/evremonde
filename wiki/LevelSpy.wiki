@@ -14,6 +14,6 @@ Add your content here.  Format your content with:
   * Automatic links to other wiki pages
 
 
-= Screenshot =
+= Screenshots =
 
 http://img246.imageshack.us/img246/6555/levelspy811bw1.png
