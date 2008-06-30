@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Mouse dragging macro to loot items quickly
 #labels Featured
 
 = Introduction =
