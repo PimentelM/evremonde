@@ -1,0 +1,77 @@
+evrebot for Tibia 7.6
+
+<!-- Items -->
+item:3492:other_worms
+
+item:2853:container_bag
+item:2854:container_backpack
+
+item:3003:utility_rope
+item:3456:utility_pick
+item:3457:utility_shovel
+item:3483:utility_fishing rod
+
+item:3031:money_gold
+item:3035:money_platinum
+item:3043:money_crystal
+
+item:3147:rune_blank
+item:3180:rune_mwall
+item:3160:rune_uh
+item:3155:rune_sd
+item:3200:rune_explo
+item:3191:rune_gfb
+item:3174:rune_lmm
+item:3198:rune_hmm
+item:3192:rune_fbomb
+item:3149:rune_ebomb
+item:3173:rune_pbomb
+item:3190:rune_fwall
+item:3166:rune_ewall
+item:3176:rune_pwall
+item:3196:rune_soulfire
+item:3179:rune_envenom
+
+item:3577:food_meat
+item:3578:food_fish
+item:3582:food_ham
+item:3588:food_blueberry
+item:3723:food_mushroom
+
+item:2992:ammo_snowball
+item:3446:ammo_bolt
+item:3447:ammo_arrow
+item:3448:ammo_poison arrow
+item:3449:ammo_burst arrow
+item:3450:ammo_power bolt
+
+item:3057:necklace_aol
+item:3079:feet_boh
+
+<!-- Loot -->
+loot:money_gold
+loot:money_platinum
+loot:money_crystal
+
+loot:other_worms
+
+loot:food_blueberry
+loot:food_mushroom
+
+<!-- Stack -->
+stack:money_gold
+stack:money_platinum
+stack:money_crystal
+
+stack:other_worms
+
+stack:food_blueberry
+stack:food_mushroom
+stack:food_meat
+stack:food_ham
+
+<!-- Eat -->
+eat:food_blueberry
+eat:food_mushroom
+eat:food_meat
+eat:food_ham
