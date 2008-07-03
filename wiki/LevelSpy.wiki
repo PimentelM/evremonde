@@ -7,12 +7,12 @@ Level Spy is a tray icon application with a popup menu and two sets of hotkeys. 
 
 == Features ==
 
-  * Level Spy
-  * Name Spy
+  * Level Spy (Floor Hack)
+  * Name Spy (X-Ray)
   * Show Invisible Creatures
   * Full Light
 
 
 == Screenshots ==
 
-http://img246.imageshack.us/img246/6555/levelspy811bw1.png
+http://img381.imageshack.us/img381/3767/levelspy82yc7.jpg
