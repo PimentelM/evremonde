@@ -1,10 +1,4 @@
 #summary Mouse dragging macro to loot items quickly
 #labels Featured
 
-== How To Use ==
-
-Fast Hands is a tray icon application with a popup menu and hotkeys. Use the hotkeys while in-game to turn features on or off. Relies on the middle mouse button (Mouse3) as one of the hotkeys. You will need to set a location to where the items will be dragged before the mouse dragging macro can be activated.
-
-== Screenshots ==
-
 http://img523.imageshack.us/img523/5521/fasthands811py4.png
