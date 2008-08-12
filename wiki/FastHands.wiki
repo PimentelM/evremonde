@@ -1,4 +1,0 @@
-#summary Mouse dragging macro to loot items quickly
-#labels Featured
-
-http://img523.imageshack.us/img523/5521/fasthands811py4.png
