@@ -1,4 +1,0 @@
-#summary View levels or floors that are above or below your character
-#labels Featured
-
-http://img381.imageshack.us/img381/3767/levelspy82yc7.jpg
