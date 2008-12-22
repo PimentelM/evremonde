@@ -1,7 +1,7 @@
 /*
  * IP Changer for Tibia 8.40
  * by Evremonde
- * Last updated on 12/10/2008
+ * Last updated on 12/21/2008
  */
 
 #include <stdio.h>
