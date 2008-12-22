@@ -120,7 +120,7 @@ SendPacket proc ProcessId:DWORD,Packet:DWORD
                     xor ebx,ebp
                     add ebx,edx
                     mov ebp,eax
-                    AND ebp,3
+                    and ebp,3
                     mov ebp,DWORD ptr ds:[esi+ebp*4]
                     add ebp,eax
                     xor ebx,ebp
@@ -134,7 +134,7 @@ SendPacket proc ProcessId:DWORD,Packet:DWORD
                     add ebx,ecx
                     mov ebp,eax
                     shr ebp,0Bh
-                    AND ebp,3
+                    and ebp,3
                     mov ebp,DWORD ptr ds:[esi+ebp*4]
                     add ebp,eax
                     xor ebx,ebp
