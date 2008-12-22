@@ -1,7 +1,7 @@
 /*
  * Level Spy for Tibia 8.40
  * by Evremonde
- * Last updated on 12/10/2008
+ * Last updated on 12/21/2008
  */
 
 #include <stdio.h>
@@ -267,7 +267,7 @@ char* readString(DWORD address)
 void doShowAbout()
 {
     MessageBox(0,
-        "Level Spy for Tibia 8.40\nby Evremonde\nLast updated on 12/10/2008\n\nHotkeys:\n*\tLevel Spy On/Off\n+\tLevel Spy Up\n-\tLevel Spy Down\n/\tName Spy On/Off\nDel\tShow Invisible Creatures On/Off\nIns\tFull Light On/Off\n\nHomepage:\nhttp://code.google.com/p/evremonde/",
+        "Level Spy for Tibia 8.40\nby Evremonde\nLast updated on 12/21/2008\n\nHotkeys:\n*\tLevel Spy On/Off\n+\tLevel Spy Up\n-\tLevel Spy Down\n/\tName Spy On/Off\nDel\tShow Invisible Creatures On/Off\nIns\tFull Light On/Off\n\nHomepage:\nhttp://code.google.com/p/evremonde/",
         "About", MB_OK | MB_ICONINFORMATION);
 }
 
