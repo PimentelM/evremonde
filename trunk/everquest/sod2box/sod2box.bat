@@ -1,0 +1,2 @@
+make all clean
+PAUSE
