@@ -14,7 +14,9 @@ int main()
     FILE *file = fopen("tibia.exe", "r");
     if (file == NULL)
     {
-        MessageBox(NULL, "Tibia.exe not found!\nLooter files must be in Tibia folder!", "Error", MB_OK | MB_ICONERROR);
+        MessageBox(NULL,
+            "Tibia.exe not found!\nLooter files must be in Tibia folder!",
+            "Error", MB_OK | MB_ICONERROR);
         fclose(file);
         return 0;
     }
@@ -24,7 +26,9 @@ int main()
     HWND clientWindow = FindWindow("tibiaclient", NULL);
     if (clientWindow == NULL)
     {
-        MessageBox(NULL, "Tibia window not found!\nPlease open the Tibia client first!", "Error", MB_OK | MB_ICONERROR);
+        MessageBox(NULL,
+            "Tibia window not found!\nPlease open the Tibia client first!",
+            "Error", MB_OK | MB_ICONERROR);
         return 0;
     }
 
@@ -42,7 +46,7 @@ int main()
     // inject dll
     LPVOID remoteMemory = VirtualAllocEx(processHandle, NULL, strlen(dllPathName), MEM_RESERVE | MEM_COMMIT, PAGE_READWRITE);
 
-    WriteProcessMemory(processHandle, remoteMemory, dllPathName, strlen(dllPathName), 0);
+    WriteProcessMemory(processHandle, remoteMemory, dllPathName, strlen(dllPathName), NULL);
 
     HANDLE remoteThread = CreateRemoteThread(processHandle, NULL, 0, (LPTHREAD_START_ROUTINE)GetProcAddress(GetModuleHandle("Kernel32"), "LoadLibraryA"), remoteMemory, 0, NULL);
 
