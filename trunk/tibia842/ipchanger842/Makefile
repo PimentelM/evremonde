@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wl,-subsystem,windows -Wall -O0
+CFLAGS = -Wl,-subsystem,console -Wall -O0
 LDFLAGS = -s
 LIBS = -lkernel32 -luser32 -lgdi32 -lshell32
 
