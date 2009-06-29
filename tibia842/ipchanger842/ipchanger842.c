@@ -41,7 +41,7 @@ const int TIBIA_OFFSET_LOGIN_SERVER_PORT = 100;
 
 int main(int argc, char *argv[])
 {
-    printf("IP Changer for Tibia 8.42\nby Evremonde\n\n");
+    printf("IP Changer for Tibia 8.42\nby Evremonde\nCompile Date: "__DATE__"\n\n");
 
     // check command line arguments
     if (argc != 3)
