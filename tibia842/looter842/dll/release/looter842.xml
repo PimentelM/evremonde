@@ -1,31 +1,4 @@
-<?xml version="1.0" ?>
-
-<!--
-    Looter for Tibia 8.42
-    by Evremonde
--->
-
-<!--
-    Loot or pick up the item.
-    loot="?"
-    0 = no
-    1 = yes
--->
-
-<!--
-    Stack or group the item together.
-    stack="?"
-    0 = no
-    1 = yes
--->
-
-<!--
-    Use or eat the item.
-    use="?"
-    0 = no
-    1 = yes
--->
-
+<?xml version="1.0"?>
 <!--
     Equipment slot to where items will be looted.
     slot="?"
@@ -40,10 +13,32 @@
     Ring
     Ammo
 -->
-
+<!--
+    Enable or disable the looting, stacking, or using of the item.
+    enabled="?"
+    0 = no
+    1 = yes
+-->
+<!--
+    Loot or pick up the item.
+    loot="?"
+    0 = no
+    1 = yes
+-->
+<!--
+    Stack or group the item together.
+    stack="?"
+    0 = no
+    1 = yes
+-->
+<!--
+    Use or eat the item.
+    use="?"
+    0 = no
+    1 = yes
+-->
 <items>
-    <!-- Currency -->
-    <item id="3031" name="Gold"     slot="Backpack" loot="1" stack="1" use="0" />
-    <item id="3035" name="Platinum" slot="Backpack" loot="1" stack="1" use="0" />
-    <item id="3043" name="Crystal"  slot="Backpack" loot="1" stack="1" use="0" />
+    <item id="3031" name="Gold" type="Currency" slot="Backpack" enabled="1" loot="1" stack="1" use="0"/>
+    <item id="3035" name="Platinum" type="Currency" slot="Backpack" enabled="1" loot="1" stack="1" use="0"/>
+    <item id="3043" name="Crystal" type="Currency" slot="Backpack" enabled="1" loot="1" stack="1" use="0"/>
 </items>
