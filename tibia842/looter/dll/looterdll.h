@@ -71,10 +71,10 @@ DWORD *TIBIA_PLAYER_X = (DWORD *)0x00640B40; // TIBIA_PLAYER_Z + 8
 typedef struct
 {
     unsigned int timer;
-    char text[255];
-} Statusbar;
+    char text[256];
+} TibiaStatusbar;
 
-Statusbar *TIBIA_STATUSBAR = (Statusbar *)0x007902CC;
+TibiaStatusbar *TIBIA_STATUSBAR = (TibiaStatusbar *)0x007902CC;
 
 //#define TIBIA_STATUSBAR_TIMER 0x007902CC; // TIBIA_STATUSBAR_TEXT - 4
 //#define TIBIA_STATUSBAR_TEXT  0x007902D0;
@@ -93,14 +93,14 @@ typedef struct
     char* containerName;
     int position;
     int bFound;
-} ContainerItem;
+} TibiaContainerItem;
 
 typedef struct
 {
     unsigned int id;
     unsigned int count;
     unsigned int unknown;
-} Item;
+} TibiaItem;
 
 typedef struct
 {
@@ -112,15 +112,15 @@ typedef struct
     unsigned int volume;
     unsigned int bHasParent; // isChild
     unsigned int amount;
-    Item item[36];
-} Container;
+    TibiaItem item[36];
+} TibiaContainer;
 
 typedef struct
 {
-    Container container[16];
-} Inventory;
+    TibiaContainer container[16];
+} TibiaInventory;
 
-Inventory *TIBIA_INVENTORY = (Inventory *)0x0063E248;
+TibiaInventory *TIBIA_INVENTORY = (TibiaInventory *)0x0063E248;
 
 //#define TIBIA_CONTAINER_BEGIN 0x0063E248
 //#define TIBIA_CONTAINER_END   0x00640108 // TIBIA_CONTAINER_BEGIN + (TIBIA_STEP_CONTAINER * TIBIA_MAX_CONTAINERS)
