@@ -9,7 +9,7 @@
 #include <windows.h>
 
 // version
-#define VERSION "8.42"
+//#define TIBIA_VERSION "8.42"
 
 // tibia version information
 #define TIBIA_FILE_PRODUCT_NAME    "Tibia Player"
