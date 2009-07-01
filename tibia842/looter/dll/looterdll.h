@@ -165,6 +165,6 @@ const int TIBIA_EQUIPMENT_SLOT_AMMO     = 10;
 //const int TIBIA_ITEM_CONTAINER_BACKPACK = 2854;
 
 const int TIBIA_TRIGGER_EVENT_DIALOG_OK = 1;
-const int TIBIA_TRIGGER_EVENT_INFO      = 30;
+const int TIBIA_TRIGGER_EVENT_INFO      = 30; // version information
 
 #endif // _LOOTERDLL_H_
