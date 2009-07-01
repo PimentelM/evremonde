@@ -10,7 +10,7 @@
 #include <windows.h>
 
 // version
-#define VERSION "8.42"
+#define TIBIA_VERSION "8.42"
 
 // file names
 #define FILENAME "looter.dll"
