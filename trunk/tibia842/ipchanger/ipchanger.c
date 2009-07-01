@@ -9,7 +9,7 @@
 #include <windows.h>
 
 // version
-#define VERSION "8.42"
+#define TIBIA_VERSION "8.42"
 
 // tibia version information
 #define TIBIA_FILE_PRODUCT_NAME    "Tibia Player"
@@ -53,7 +53,7 @@ const int TIBIA_OFFSET_LOGIN_SERVER_PORT = 100;
 
 int main(int argc, char *argv[])
 {
-    printf("IP Changer for Tibia " VERSION "\nby Evremonde\nCompile Date: " __DATE__ "\n\n");
+    printf("IP Changer for Tibia " TIBIA_VERSION "\nby Evremonde\nCompile Date: " __DATE__ "\n\n");
 
     // check command line arguments
     if (argc != 3)
