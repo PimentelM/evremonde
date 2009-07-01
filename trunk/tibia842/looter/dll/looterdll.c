@@ -54,9 +54,9 @@ void WriteInventoryToFile()
 }
 
 // find container item
-ContainerItem FindContainerItem(int itemId, int itemCount, char* containerName, int bGetNextContainerItem, int bSkipMaxStackedItems)
+TibiaContainerItem FindContainerItem(int itemId, int itemCount, char* containerName, int bGetNextContainerItem, int bSkipMaxStackedItems)
 {
-    ContainerItem containerItem;
+    TibiaContainerItem containerItem;
 
     // next container item not found yet
     int bFoundNextContainerItem = 0;
@@ -140,7 +140,7 @@ ContainerItem FindContainerItem(int itemId, int itemCount, char* containerName, 
 // move container item to equipment slot
 void MoveContainerItemToEquipmentSlot(int itemId, char* fromContainerName, int toEquipmentSlot)
 {
-    ContainerItem containerItem = FindContainerItem(itemId, 0, fromContainerName, 0, 0);
+    TibiaContainerItem containerItem = FindContainerItem(itemId, 0, fromContainerName, 0, 0);
     if (containerItem.bFound == 0)
         return;
 
@@ -150,8 +150,8 @@ void MoveContainerItemToEquipmentSlot(int itemId, char* fromContainerName, int t
 // stack container items
 void StackContainerItems(int itemId)
 {
-    ContainerItem firstContainerItem = FindContainerItem(itemId, 0, "", 0, 1);
-    ContainerItem nextContainerItem  = FindContainerItem(itemId, 0, "", 1, 1);
+    TibiaContainerItem firstContainerItem = FindContainerItem(itemId, 0, "", 0, 1);
+    TibiaContainerItem nextContainerItem  = FindContainerItem(itemId, 0, "", 1, 1);
     if (firstContainerItem.bFound == 0 || nextContainerItem.bFound == 0)
         return;
 
@@ -167,7 +167,7 @@ void StackContainerItems(int itemId)
 // use container item
 void UseContainerItem(int itemId)
 {
-    ContainerItem containerItem = FindContainerItem(itemId, 0, "", 0, 0);
+    TibiaContainerItem containerItem = FindContainerItem(itemId, 0, "", 0, 0);
     if (containerItem.bFound == 0)
         return;
 
