@@ -240,9 +240,9 @@ void ParseLooterFile(int parseType)
                             //if (xmlHasProp(nodeItem, (xmlChar *)"name"))
                                 //itemName = xmlGetProp(nodeItem, (xmlChar *)"name");
 
-                            //char* itemType = "";
-                            //if (xmlHasProp(nodeItem, (xmlChar *)"type"))
-                                //itemType = xmlGetProp(nodeItem, (xmlChar *)"type");
+                            char* itemType = "";
+                            if (xmlHasProp(nodeItem, (xmlChar *)"type"))
+                                itemType = xmlGetProp(nodeItem, (xmlChar *)"type");
 
                             char* equipmentSlot = "";
                             if (xmlHasProp(nodeItem, (xmlChar *)"slot"))
@@ -308,8 +308,11 @@ void ParseLooterFile(int parseType)
                             // use
                             if (parseType == LOOTER_PARSE_TYPE_USE)
                             {
-                                if (bIsUseEnabled == 1 && strstr(TIBIA_STATUSBAR->text, "You are full.") == NULL)
-                                    UseContainerItem(itemId);
+                                if (bIsUseEnabled == 1)
+                                {
+                                    if (strcmp(itemType, "Food") == 0 && strstr(TIBIA_STATUSBAR->text, "You are full.") == NULL)
+                                        UseContainerItem(itemId);
+                                }
                             }
                         }
                     }
