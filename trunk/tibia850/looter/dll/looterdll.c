@@ -310,8 +310,11 @@ void ParseLooterFile(int parseType)
                             {
                                 if (bIsUseEnabled == 1)
                                 {
-                                    if (strcmp(itemType, "Food") == 0 && strstr(TIBIA_STATUSBAR->text, "You are full.") == NULL)
-                                        UseContainerItem(itemId);
+                                    // do not use food if player is full
+                                    if (strcmp(itemType, "Food") == 0 && strstr(TIBIA_STATUSBAR->text, "You are full.") != NULL)
+                                        continue;
+
+                                    UseContainerItem(itemId);
                                 }
                             }
                         }
