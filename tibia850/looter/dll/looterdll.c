@@ -289,8 +289,12 @@ void ParseLooterFile(int parseType)
                             // loot or loot items around player
                             if (parseType == LOOTER_PARSE_TYPE_LOOT_ITEMS_AROUND_PLAYER || parseType == LOOTER_PARSE_TYPE_LOOT)
                             {
-                                if (bIsLootEnabled == 1 && *TIBIA_PLAYER_CAP > 0 && strstr(TIBIA_STATUSBAR->text, "You cannot put more objects in this container.") == NULL)
+                                if (bIsLootEnabled == 1)
                                 {
+                                    // check if player has enough cap or if container is full
+                                    if (*TIBIA_PLAYER_CAP == 0 || *TIBIA_PLAYER_CAP < 1 || strstr(TIBIA_STATUSBAR->text, "You cannot put more objects in this container.") != NULL)
+                                        continue;
+
                                     if (parseType == LOOTER_PARSE_TYPE_LOOT_ITEMS_AROUND_PLAYER)
                                         LootItemsAroundPlayer(itemId, toEquipmentSlot);
                                     else if (parseType == LOOTER_PARSE_TYPE_LOOT)
