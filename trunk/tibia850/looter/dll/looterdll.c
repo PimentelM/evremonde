@@ -194,7 +194,7 @@ void ParseLooterFile(int parseType)
     FILE *file = fopen(FILENAME_PARSE_LOOTER_FILE, "r");
     if (file == NULL)
     {
-        Tibia_SetStatusbarText("Error: " FILENAME_PARSE_LOOTER_FILE " file not found! Looter files must be in Tibia folder!", 0);
+        Tibia_SetStatusbarText("Error: " FILENAME_PARSE_LOOTER_FILE " file not found! " APPLICATION_NAME " files must be in Tibia folder!", 0);
         fclose(file);
         return;
     }
@@ -431,7 +431,7 @@ BOOL APIENTRY DllMain(HANDLE hModule, DWORD fdwReason, LPVOID lpReserved)
         //MessageBox(0, "fdwReason == DLL_PROCESS_ATTACH", "DllMain", MB_OK | MB_ICONINFORMATION);
 
         // welcome message
-        Tibia_TriggerEventEx(TIBIA_TRIGGER_EVENT_DIALOG_OK, "Looter for Tibia " TIBIA_VERSION, "Hello!\n\nPress \"Home\" to loot items around yourself from the ground.\nPress \"End\" to show the item ID number of the last seen item.\n\nPress \"Pause\" or \"Break\" to close or exit the looter.\n\nCompile Date: " __DATE__);
+        Tibia_TriggerEventEx(TIBIA_TRIGGER_EVENT_DIALOG_OK, APPLICATION_NAME " for Tibia " TIBIA_VERSION, "Hello!\n\nPress \"Home\" to loot items around yourself from the ground.\nPress \"End\" to show the item ID number of the last seen item.\n\nPress \"Pause\" or \"Break\" to close or exit the " APPLICATION_NAME ".\n\nCompile Date: " __DATE__ "\nHomepage: " APPLICATION_HOMEPAGE);
 
         // create threads
         hDllThread  = CreateThread(0, 0, (LPTHREAD_START_ROUTINE)DllThread,   (LPVOID)0, 0, 0);
@@ -441,7 +441,7 @@ BOOL APIENTRY DllMain(HANDLE hModule, DWORD fdwReason, LPVOID lpReserved)
         hThreads[2] = CreateThread(0, 0, (LPTHREAD_START_ROUTINE)UseThread,   (LPVOID)3, 0, 0);
 
         // loaded
-        Tibia_SetStatusbarText("Looter for Tibia " TIBIA_VERSION " loaded!", 0);
+        Tibia_SetStatusbarText(APPLICATION_NAME " for Tibia " TIBIA_VERSION " loaded!", 0);
     }
 
     if (fdwReason == DLL_PROCESS_DETACH)
@@ -449,7 +449,7 @@ BOOL APIENTRY DllMain(HANDLE hModule, DWORD fdwReason, LPVOID lpReserved)
         //MessageBox(0, "fdwReason == DLL_PROCESS_DETACH", "DllMain", MB_OK | MB_ICONINFORMATION);
 
         // unloaded
-        Tibia_SetStatusbarText("Looter for Tibia " TIBIA_VERSION " unloaded!", 0);
+        Tibia_SetStatusbarText(APPLICATION_NAME " for Tibia " TIBIA_VERSION " unloaded!", 0);
     }
 
     return TRUE;

@@ -15,6 +15,9 @@
 #define TIBIA_FILE_PRODUCT_NAME    "Tibia Player"
 #define TIBIA_FILE_PRODUCT_VERSION "8.5.0.0"
 
+// application name
+#define APPLICATION_NAME "Looter"
+
 // file names
 #define FILENAME "looter.dll"
 
@@ -27,7 +30,7 @@ int main()
     if (file == NULL)
     {
         MessageBox(NULL,
-            FILENAME_TIBIA_CLIENT " not found!\nLooter files must be in Tibia folder!",
+            FILENAME_TIBIA_CLIENT " not found!\n" APPLICATION_NAME " files must be in Tibia folder!",
             "Error", MB_OK | MB_ICONERROR);
         fclose(file);
         return 0;
