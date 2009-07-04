@@ -15,6 +15,12 @@
 #define TIBIA_FILE_PRODUCT_NAME    "Tibia Player"
 #define TIBIA_FILE_PRODUCT_VERSION "8.5.0.0"
 
+// application name
+#define APPLICATION_NAME "IP Changer"
+
+// application homepage
+#define APPLICATION_HOMEPAGE "http://code.google.com/p/evremonde/"
+
 // file names
 #define FILENAME "ipchanger.exe"
 
@@ -53,7 +59,7 @@ const int TIBIA_OFFSET_LOGIN_SERVER_PORT = 100;
 
 int main(int argc, char *argv[])
 {
-    printf("IP Changer for Tibia " TIBIA_VERSION "\nby Evremonde\nCompile Date: " __DATE__ "\n\n");
+    printf(APPLICATION_NAME " for Tibia " TIBIA_VERSION "\nby Evremonde\nCompile Date: " __DATE__ "\nHomepage: " APPLICATION_HOMEPAGE "\n\n");
 
     // check command line arguments
     if (argc != 3)
