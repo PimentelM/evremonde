@@ -75,6 +75,8 @@ const int SF4_STEP_UNLOCK_PERSONAL_ACTIONS = 4;
 
 const int SF4_MAX_UNLOCK_PERSONAL_ACTIONS = 9;
 
+/* main function */
+
 int main()
 {
     // get game window
