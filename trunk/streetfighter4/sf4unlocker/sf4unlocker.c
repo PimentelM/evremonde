@@ -54,6 +54,25 @@
 // unlock voice settings per character
 #define SF4_UNLOCK_VOICE_SETTINGS_PER_CHARACTER 0x00A4BBA0
 
+// unlock movies
+#define SF4_UNLOCK_MOVIES_BEGIN 0x00A4BBA8
+#define SF4_UNLOCK_MOVIES_END   0x00A4BC84 // = SF4_UNLOCK_MOVIES_BEGIN + (SF4_STEP_UNLOCK_MOVIES * SF4_MAX_UNLOCK_MOVIES_)
+
+// unlock credits
+#define SF4_UNLOCK_CREDITS 0x00A4BC84
+
+// unlock artwork
+#define SF4_UNLOCK_ARTWORK_BEGIN 0x00A4BC98
+#define SF4_UNLOCK_ARTWORK_END   0x00A4BE8C // = SF4_UNLOCK_ARTWORK_BEGIN + (SF4_STEP_UNLOCK_ARTWORK * SF4_MAX_UNLOCK_ARTWORK)
+
+// unlock titles
+#define SF4_UNLOCK_TITLES_BEGIN 0x00A4BE8C
+#define SF4_UNLOCK_TITLES_END   0x00A4C3E0 // = SF4_UNLOCK_TITLES_BEGIN + (SF4_STEP_UNLOCK_TITLES * SF4_MAX_UNLOCK_TITLES)
+
+// unlock icons
+#define SF4_UNLOCK_ICONS_BEGIN 0x00A4C3E0
+#define SF4_UNLOCK_ICONS_END   0x00A4C4B0 // = SF4_UNLOCK_ICONS_BEGIN + (SF4_STEP_UNLOCK_ICONS * SF4_MAX_UNLOCK_ICONS)
+
 /* constants */
 
 // locked/unlocked status
@@ -74,6 +93,26 @@ const int SF4_MAX_UNLOCK_COLORS = 8;
 const int SF4_STEP_UNLOCK_PERSONAL_ACTIONS = 4;
 
 const int SF4_MAX_UNLOCK_PERSONAL_ACTIONS = 9;
+
+// unlock movies
+const int SF4_STEP_UNLOCK_MOVIES = 4;
+
+const int SF4_MAX_UNLOCK_MOVIES = 55;
+
+// unlock artwork
+const int SF4_STEP_UNLOCK_ARTWORK = 4;
+
+const int SF4_MAX_UNLOCK_ARTWORK = 125;
+
+// unlock titles
+const int SF4_STEP_UNLOCK_TITLES = 4;
+
+const int SF4_MAX_UNLOCK_TITLES = 341;
+
+// unlock icons
+const int SF4_STEP_UNLOCK_ICONS = 4;
+
+const int SF4_MAX_UNLOCK_ICONS = 52;
 
 /* main function */
 
@@ -113,12 +152,31 @@ int main()
     // unlock voice settings per character
     WriteProcessMemory(processHandle, (LPVOID)SF4_UNLOCK_VOICE_SETTINGS_PER_CHARACTER, &SF4_UNLOCKED, 4, NULL);
 
+    // unlock movies
+    for (i = SF4_UNLOCK_MOVIES_BEGIN; i < SF4_UNLOCK_MOVIES_END; i += SF4_STEP_UNLOCK_MOVIES)
+        WriteProcessMemory(processHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
+
+    // unlock credits
+    WriteProcessMemory(processHandle, (LPVOID)SF4_UNLOCK_CREDITS, &SF4_UNLOCKED, 4, NULL);
+
+    // unlock artwork
+    for (i = SF4_UNLOCK_ARTWORK_BEGIN; i < SF4_UNLOCK_ARTWORK_END; i += SF4_STEP_UNLOCK_ARTWORK)
+        WriteProcessMemory(processHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
+
+    // unlock titles
+    for (i = SF4_UNLOCK_TITLES_BEGIN; i < SF4_UNLOCK_TITLES_END; i += SF4_STEP_UNLOCK_TITLES)
+        WriteProcessMemory(processHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
+
+    // unlock icons
+    for (i = SF4_UNLOCK_ICONS_BEGIN; i < SF4_UNLOCK_ICONS_END; i += SF4_STEP_UNLOCK_ICONS)
+        WriteProcessMemory(processHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
+
     // close process handle
     CloseHandle(processHandle);
 
     // success message
     MessageBox(NULL,
-        APPLICATION_NAME "\nby Evremonde\n\nStreet Fighter IV characters, colors, personal actions, and voice settings per character unlocked!\n\nCompile Date: " __DATE__ "\nHomepage: " APPLICATION_HOMEPAGE,
+        APPLICATION_NAME "\nby Evremonde\n\nStreet Fighter IV characters, colors, personal actions, voice settings per character, movies, credits, artwork, titles and icons unlocked!\n\nCompile Date: " __DATE__ "\nHomepage: " APPLICATION_HOMEPAGE,
         "Success", MB_OK | MB_ICONINFORMATION);
 
     return 0;
