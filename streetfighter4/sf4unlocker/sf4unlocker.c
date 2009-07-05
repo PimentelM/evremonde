@@ -5,6 +5,12 @@
 
 #include <windows.h>
 
+// application name
+#define APPLICATION_NAME "Street Fighter IV Unlocker"
+
+// application homepage
+#define APPLICATION_HOMEPAGE "http://code.google.com/p/evremonde/"
+
 /* memory addresses */
 
 // unlock characters
@@ -110,8 +116,8 @@ int main()
 
     // success message
     MessageBox(NULL,
-        "Street Fighter IV characters, colors, personal actions, and voice settings per character unlocked!",
-        "Success", MB_OK | MB_ICONERROR);
+        APPLICATION_NAME "\nby Evremonde\n\nStreet Fighter IV characters, colors, personal actions, and voice settings per character unlocked!\n\nCompile Date: " __DATE__ "\nHomepage: " APPLICATION_HOMEPAGE,
+        "Success", MB_OK | MB_ICONINFORMATION);
 
     return 0;
 }
