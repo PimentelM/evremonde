@@ -70,7 +70,7 @@ static _Tibia_MoveObject *Tibia_MoveObject = (_Tibia_MoveObject *)0x00405220;
 typedef void __stdcall _Tibia_UseObject(int fromX, int fromY, int fromZ, int id, int stack); //(int fromX, int fromY, int fromZ, int id, int stack, int toX, int toY, int toZ, int count);
 static _Tibia_UseObject *Tibia_UseObject = (_Tibia_UseObject *)0x00406240;
 
-/* memory addresses and structures */
+/* tibia memory addresses, structures, and constants */
 
 DWORD *TIBIA_PLAYER_CAP = (DWORD *)0x00632EA0; // TIBIA_PLAYER_CAP / 100 = float playerCap
 
@@ -139,11 +139,9 @@ typedef struct
 TibiaInventory *TIBIA_INVENTORY = (TibiaInventory *)0x0063F388;
 
 //#define TIBIA_CONTAINER_BEGIN 0x0063F388
-//#define TIBIA_CONTAINER_END   0x00641248 // TIBIA_CONTAINER_BEGIN + (TIBIA_STEP_CONTAINER * TIBIA_MAX_CONTAINERS)
+//#define TIBIA_CONTAINER_END   0x00641248 // = TIBIA_CONTAINER_BEGIN + (TIBIA_STEP_CONTAINER * TIBIA_MAX_CONTAINERS)
 
-/* constants */
-
-const int TIBIA_FIRST_CONTAINER = 64; // 0x40
+const int TIBIA_FIRST_CONTAINER = 64; // = 0x40
 
 //const int TIBIA_STEP_CONTAINER      = 492; // containers in inventory
 //const int TIBIA_STEP_CONTAINER_ITEM = 12;  // items in containers
@@ -162,16 +160,31 @@ const int TIBIA_MAX_CONTAINER_ITEMS = 36; // max number of items in container
 
 const int TIBIA_MAX_STACK = 100; // max stacked item count
 
-const int TIBIA_EQUIPMENT_SLOT_HEAD     = 1;
-const int TIBIA_EQUIPMENT_SLOT_NECK     = 2;
-const int TIBIA_EQUIPMENT_SLOT_BACKPACK = 3; // container
-const int TIBIA_EQUIPMENT_SLOT_BODY     = 4;
-const int TIBIA_EQUIPMENT_SLOT_RIGHT    = 5;
-const int TIBIA_EQUIPMENT_SLOT_LEFT     = 6;
-const int TIBIA_EQUIPMENT_SLOT_LEGS     = 7;
-const int TIBIA_EQUIPMENT_SLOT_FEET     = 8;
-const int TIBIA_EQUIPMENT_SLOT_RING     = 9;
-const int TIBIA_EQUIPMENT_SLOT_AMMO     = 10;
+typedef enum
+{
+    TIBIA_EQUIPMENT_SLOT_NULL,
+    TIBIA_EQUIPMENT_SLOT_HEAD,
+    TIBIA_EQUIPMENT_SLOT_NECK,
+    TIBIA_EQUIPMENT_SLOT_BACKPACK, // container
+    TIBIA_EQUIPMENT_SLOT_BODY,
+    TIBIA_EQUIPMENT_SLOT_RIGHT,
+    TIBIA_EQUIPMENT_SLOT_LEFT,
+    TIBIA_EQUIPMENT_SLOT_LEGS,
+    TIBIA_EQUIPMENT_SLOT_FEET,
+    TIBIA_EQUIPMENT_SLOT_RING,
+    TIBIA_EQUIPMENT_SLOT_AMMO
+} TibiaEquipmentSlot;
+
+//const int TIBIA_EQUIPMENT_SLOT_HEAD     = 1;
+//const int TIBIA_EQUIPMENT_SLOT_NECK     = 2;
+//const int TIBIA_EQUIPMENT_SLOT_BACKPACK = 3; // container
+//const int TIBIA_EQUIPMENT_SLOT_BODY     = 4;
+//const int TIBIA_EQUIPMENT_SLOT_RIGHT    = 5;
+//const int TIBIA_EQUIPMENT_SLOT_LEFT     = 6;
+//const int TIBIA_EQUIPMENT_SLOT_LEGS     = 7;
+//const int TIBIA_EQUIPMENT_SLOT_FEET     = 8;
+//const int TIBIA_EQUIPMENT_SLOT_RING     = 9;
+//const int TIBIA_EQUIPMENT_SLOT_AMMO     = 10;
 
 //const int TIBIA_ITEM_CURRENCY_GOLD     = 3031;
 //const int TIBIA_ITEM_CURRENCY_PLATINUM = 3035;

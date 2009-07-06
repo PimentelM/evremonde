@@ -138,7 +138,7 @@ TibiaContainerItem FindContainerItem(int itemId, int itemCount, char* containerN
 }
 
 // move container item to equipment slot
-void MoveContainerItemToEquipmentSlot(int itemId, char* fromContainerName, int toEquipmentSlot)
+void MoveContainerItemToEquipmentSlot(int itemId, char* fromContainerName, TibiaEquipmentSlot toEquipmentSlot)
 {
     TibiaContainerItem containerItem = FindContainerItem(itemId, 0, fromContainerName, 0, 0);
     if (containerItem.bFound == 0)
@@ -175,7 +175,7 @@ void UseContainerItem(int itemId)
 }
 
 // loot items around player
-void LootItemsAroundPlayer(int itemId, int toEquipmentSlot)
+void LootItemsAroundPlayer(int itemId, TibiaEquipmentSlot toEquipmentSlot)
 {
     Tibia_MoveObject(*TIBIA_PLAYER_X,     *TIBIA_PLAYER_Y,     *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
     Tibia_MoveObject(*TIBIA_PLAYER_X - 1, *TIBIA_PLAYER_Y - 1, *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
@@ -248,7 +248,7 @@ void ParseLooterFile(LooterParseType parseType)
                             if (xmlHasProp(nodeItem, (xmlChar *)"slot"))
                                 equipmentSlot = xmlGetProp(nodeItem, (xmlChar *)"slot");
 
-                            int toEquipmentSlot = 0;
+                            TibiaEquipmentSlot toEquipmentSlot = TIBIA_EQUIPMENT_SLOT_BACKPACK; // default to backpack equipment slot
                             if (strcmp(equipmentSlot, "Head") == 0)
                                 toEquipmentSlot = TIBIA_EQUIPMENT_SLOT_HEAD;
                             if (strcmp(equipmentSlot, "Neck") == 0)
@@ -269,10 +269,6 @@ void ParseLooterFile(LooterParseType parseType)
                                 toEquipmentSlot = TIBIA_EQUIPMENT_SLOT_RING;
                             if (strcmp(equipmentSlot, "Ammo") == 0)
                                 toEquipmentSlot = TIBIA_EQUIPMENT_SLOT_AMMO;
-
-                            // default to backpack equipment slot
-                            if (toEquipmentSlot == 0)
-                                toEquipmentSlot = TIBIA_EQUIPMENT_SLOT_BACKPACK;
 
                             int bIsLootEnabled = 0;
                             if (xmlHasProp(nodeItem, (xmlChar *)"loot"))
