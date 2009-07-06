@@ -189,7 +189,7 @@ void LootItemsAroundPlayer(int itemId, int toEquipmentSlot)
 }
 
 // parse looter file
-void ParseLooterFile(int parseType)
+void ParseLooterFile(LooterParseType parseType)
 {
     FILE *file = fopen(FILENAME_PARSE_LOOTER_FILE, "r");
     if (file == NULL)

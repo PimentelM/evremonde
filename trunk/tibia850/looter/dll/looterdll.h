@@ -36,13 +36,13 @@ const int nThreads = 3;
 
 /* enums */
 
-enum LooterParseType
+typedef enum
 {
     LOOTER_PARSE_TYPE_LOOT_ITEMS_AROUND_PLAYER,
     LOOTER_PARSE_TYPE_LOOT,
     LOOTER_PARSE_TYPE_STACK,
     LOOTER_PARSE_TYPE_USE
-};
+} LooterParseType;
 
 /* tibia client functions */
 
