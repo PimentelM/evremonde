@@ -19,7 +19,7 @@ void WriteInventoryToFile()
         {
             fprintf(file, "....Container #: %i",          i + 1);
             fprintf(file, "\n");
-            fprintf(file, "....Container Is Open: %u",    TIBIA_INVENTORY->container[i].bIsOpen);
+            fprintf(file, "....Container Is Open: %u",    TIBIA_INVENTORY->container[i].isOpen);
             fprintf(file, "\n");
             fprintf(file, "....Container ID: %u",         TIBIA_INVENTORY->container[i].id);
             fprintf(file, "\n");
@@ -31,7 +31,7 @@ void WriteInventoryToFile()
             fprintf(file, "\n");
             fprintf(file, "....Container Volume: %u",     TIBIA_INVENTORY->container[i].volume);
             fprintf(file, "\n");
-            fprintf(file, "....Container Has Parent: %u", TIBIA_INVENTORY->container[i].bHasParent);
+            fprintf(file, "....Container Has Parent: %u", TIBIA_INVENTORY->container[i].hasParent);
             fprintf(file, "\n");
             fprintf(file, "....Container Amount: %u",     TIBIA_INVENTORY->container[i].amount);
             fprintf(file, "\n");
@@ -54,19 +54,19 @@ void WriteInventoryToFile()
 }
 
 // find container item
-TibiaContainerItem FindContainerItem(int itemId, int itemCount, char* containerName, int bGetNextContainerItem, int bSkipMaxStackedItems)
+TibiaContainerItem FindContainerItem(int itemId, int itemCount, char* containerName, int shouldGetNextContainerItem, int shouldSkipMaxStackedItems)
 {
     TibiaContainerItem containerItem;
 
     // next container item not found yet
-    int bFoundNextContainerItem = 0;
+    int isFoundNextContainerItem = 0;
 
     // loop through containers
     int i = 0;
     for(i = 0; i < TIBIA_MAX_CONTAINERS; i++)
     {
         // container must be open
-        if (TIBIA_INVENTORY->container[i].bIsOpen == 0)
+        if (TIBIA_INVENTORY->container[i].isOpen == 0)
             continue;
 
         // container must not be empty
@@ -90,7 +90,7 @@ TibiaContainerItem FindContainerItem(int itemId, int itemCount, char* containerN
                 continue;
 
             // skip max stacked items
-            if (bSkipMaxStackedItems == 1)
+            if (shouldSkipMaxStackedItems == 1)
             {
                 // item must not already be stacked
                 if (TIBIA_INVENTORY->container[i].item[j].count >= TIBIA_MAX_STACK)
@@ -101,10 +101,10 @@ TibiaContainerItem FindContainerItem(int itemId, int itemCount, char* containerN
             if (TIBIA_INVENTORY->container[i].item[j].id == itemId)
             {
                 // use get next container item
-                if (bGetNextContainerItem == 1 && bFoundNextContainerItem == 0)
+                if (shouldGetNextContainerItem == 1 && isFoundNextContainerItem == 0)
                 {
                     // next container item found
-                    bFoundNextContainerItem = 1;
+                    isFoundNextContainerItem = 1;
                     continue;
                 }
 
@@ -113,7 +113,7 @@ TibiaContainerItem FindContainerItem(int itemId, int itemCount, char* containerN
                 containerItem.container     = i;
                 containerItem.containerName = TIBIA_INVENTORY->container[i].name;
                 containerItem.position      = j;
-                containerItem.bFound        = 1;
+                containerItem.isFound       = 1;
 
                 // use item count
                 if (itemCount > 0)
@@ -133,7 +133,7 @@ TibiaContainerItem FindContainerItem(int itemId, int itemCount, char* containerN
     containerItem.container     = 0;
     containerItem.containerName = "";
     containerItem.position      = 0;
-    containerItem.bFound        = 0;
+    containerItem.isFound       = 0;
     return containerItem;
 }
 
@@ -141,10 +141,10 @@ TibiaContainerItem FindContainerItem(int itemId, int itemCount, char* containerN
 void MoveContainerItemToEquipmentSlot(int itemId, char* fromContainerName, TibiaEquipmentSlot toEquipmentSlot)
 {
     TibiaContainerItem containerItem = FindContainerItem(itemId, 0, fromContainerName, 0, 0);
-    if (containerItem.bFound == 0)
+    if (containerItem.isFound == 0)
         return;
 
-    Tibia_MoveObject(0xFFFF, TIBIA_FIRST_CONTAINER + containerItem.container, containerItem.position, itemId, containerItem.position, 0xFFFF, toEquipmentSlot, 0x00, containerItem.count);
+    tibia_move_object(0xFFFF, TIBIA_FIRST_CONTAINER + containerItem.container, containerItem.position, itemId, containerItem.position, 0xFFFF, toEquipmentSlot, 0x00, containerItem.count);
 }
 
 // stack container items
@@ -152,7 +152,7 @@ void StackContainerItems(int itemId)
 {
     TibiaContainerItem firstContainerItem = FindContainerItem(itemId, 0, "", 0, 1);
     TibiaContainerItem nextContainerItem  = FindContainerItem(itemId, 0, "", 1, 1);
-    if (firstContainerItem.bFound == 0 || nextContainerItem.bFound == 0)
+    if (firstContainerItem.isFound == 0 || nextContainerItem.isFound == 0)
         return;
 
     // do not stack to special containers
@@ -161,31 +161,31 @@ void StackContainerItems(int itemId)
         strstr(nextContainerItem.containerName, "Depot Chest") != NULL)
         return;
 
-    Tibia_MoveObject(0xFFFF, TIBIA_FIRST_CONTAINER + nextContainerItem.container, nextContainerItem.position, itemId, nextContainerItem.position, 0xFFFF, TIBIA_FIRST_CONTAINER + firstContainerItem.container, firstContainerItem.position, nextContainerItem.count);
+    tibia_move_object(0xFFFF, TIBIA_FIRST_CONTAINER + nextContainerItem.container, nextContainerItem.position, itemId, nextContainerItem.position, 0xFFFF, TIBIA_FIRST_CONTAINER + firstContainerItem.container, firstContainerItem.position, nextContainerItem.count);
 }
 
 // use container item
 void UseContainerItem(int itemId)
 {
     TibiaContainerItem containerItem = FindContainerItem(itemId, 0, "", 0, 0);
-    if (containerItem.bFound == 0)
+    if (containerItem.isFound == 0)
         return;
 
-    Tibia_UseObject(0xFFFF, TIBIA_FIRST_CONTAINER + containerItem.container, containerItem.position, itemId, containerItem.position);
+    tibia_use_object(0xFFFF, TIBIA_FIRST_CONTAINER + containerItem.container, containerItem.position, itemId, containerItem.position);
 }
 
 // loot items around player
 void LootItemsAroundPlayer(int itemId, TibiaEquipmentSlot toEquipmentSlot)
 {
-    Tibia_MoveObject(*TIBIA_PLAYER_X,     *TIBIA_PLAYER_Y,     *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
-    Tibia_MoveObject(*TIBIA_PLAYER_X - 1, *TIBIA_PLAYER_Y - 1, *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
-    Tibia_MoveObject(*TIBIA_PLAYER_X + 1, *TIBIA_PLAYER_Y + 1, *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
-    Tibia_MoveObject(*TIBIA_PLAYER_X - 1, *TIBIA_PLAYER_Y + 1, *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
-    Tibia_MoveObject(*TIBIA_PLAYER_X + 1, *TIBIA_PLAYER_Y - 1, *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
-    Tibia_MoveObject(*TIBIA_PLAYER_X - 1, *TIBIA_PLAYER_Y,     *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
-    Tibia_MoveObject(*TIBIA_PLAYER_X + 1, *TIBIA_PLAYER_Y,     *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
-    Tibia_MoveObject(*TIBIA_PLAYER_X,     *TIBIA_PLAYER_Y - 1, *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
-    Tibia_MoveObject(*TIBIA_PLAYER_X,     *TIBIA_PLAYER_Y + 1, *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
+    tibia_move_object(*TIBIA_PLAYER_X,     *TIBIA_PLAYER_Y,     *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
+    tibia_move_object(*TIBIA_PLAYER_X - 1, *TIBIA_PLAYER_Y - 1, *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
+    tibia_move_object(*TIBIA_PLAYER_X + 1, *TIBIA_PLAYER_Y + 1, *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
+    tibia_move_object(*TIBIA_PLAYER_X - 1, *TIBIA_PLAYER_Y + 1, *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
+    tibia_move_object(*TIBIA_PLAYER_X + 1, *TIBIA_PLAYER_Y - 1, *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
+    tibia_move_object(*TIBIA_PLAYER_X - 1, *TIBIA_PLAYER_Y,     *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
+    tibia_move_object(*TIBIA_PLAYER_X + 1, *TIBIA_PLAYER_Y,     *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
+    tibia_move_object(*TIBIA_PLAYER_X,     *TIBIA_PLAYER_Y - 1, *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
+    tibia_move_object(*TIBIA_PLAYER_X,     *TIBIA_PLAYER_Y + 1, *TIBIA_PLAYER_Z, itemId, 1, 0xFFFF, toEquipmentSlot, 0x0, TIBIA_MAX_STACK);
 }
 
 // parse looter file
@@ -194,7 +194,7 @@ void ParseLooterFile(LooterParseType parseType)
     FILE *file = fopen(FILENAME_PARSE_LOOTER_FILE, "r");
     if (file == NULL)
     {
-        Tibia_SetStatusbarText("Error: " FILENAME_PARSE_LOOTER_FILE " file not found! " APPLICATION_NAME " files must be in Tibia folder!", 0);
+        tibia_set_statusbar_text("Error: " FILENAME_PARSE_LOOTER_FILE " file not found! " APPLICATION_NAME " files must be in Tibia folder!", 0);
         fclose(file);
         return;
     }
@@ -204,7 +204,7 @@ void ParseLooterFile(LooterParseType parseType)
     doc = xmlParseFile(FILENAME_PARSE_LOOTER_FILE);
     if (doc == NULL)
     {
-        Tibia_SetStatusbarText("Error: " FILENAME_PARSE_LOOTER_FILE " file not found or contains syntax errors!", 0);
+        tibia_set_statusbar_text("Error: " FILENAME_PARSE_LOOTER_FILE " file not found or contains syntax errors!", 0);
         xmlFreeDoc(doc);
         return;
     }
@@ -385,7 +385,7 @@ DWORD WINAPI DllThread()
             strcat(buffer, itemId);
             strcat(buffer, ")");
 
-            Tibia_SetStatusbarText(buffer, 0);
+            tibia_set_statusbar_text(buffer, 0);
         }
 
         // uninject dll
@@ -427,7 +427,7 @@ BOOL APIENTRY DllMain(HANDLE hModule, DWORD fdwReason, LPVOID lpReserved)
         //MessageBox(0, "fdwReason == DLL_PROCESS_ATTACH", "DllMain", MB_OK | MB_ICONINFORMATION);
 
         // welcome message
-        Tibia_TriggerEventEx(TIBIA_TRIGGER_EVENT_DIALOG_OK, APPLICATION_NAME " for Tibia " TIBIA_VERSION, "Hello!\n\nPress \"Home\" to loot items around yourself from the ground.\nPress \"End\" to show the item ID number of the last seen item.\n\nPress \"Pause\" or \"Break\" to close or exit the " APPLICATION_NAME ".\n\nCompile Date: " __DATE__ "\nHomepage: " APPLICATION_HOMEPAGE);
+        tibia_trigger_event_ex(TIBIA_TRIGGER_EVENT_DIALOG_OK, APPLICATION_NAME " for Tibia " TIBIA_VERSION, "Hello!\n\nPress \"Home\" to loot items around yourself from the ground.\nPress \"End\" to show the item ID number of the last seen item.\n\nPress \"Pause\" or \"Break\" to close or exit the " APPLICATION_NAME ".\n\nCompile Date: " __DATE__ "\nHomepage: " APPLICATION_HOMEPAGE);
 
         // create threads
         hDllThread  = CreateThread(0, 0, (LPTHREAD_START_ROUTINE)DllThread,   (LPVOID)0, 0, 0);
@@ -437,7 +437,7 @@ BOOL APIENTRY DllMain(HANDLE hModule, DWORD fdwReason, LPVOID lpReserved)
         hThreads[2] = CreateThread(0, 0, (LPTHREAD_START_ROUTINE)UseThread,   (LPVOID)3, 0, 0);
 
         // loaded
-        Tibia_SetStatusbarText(APPLICATION_NAME " for Tibia " TIBIA_VERSION " loaded!", 0);
+        tibia_set_statusbar_text(APPLICATION_NAME " for Tibia " TIBIA_VERSION " loaded!", 0);
     }
 
     if (fdwReason == DLL_PROCESS_DETACH)
@@ -445,7 +445,7 @@ BOOL APIENTRY DllMain(HANDLE hModule, DWORD fdwReason, LPVOID lpReserved)
         //MessageBox(0, "fdwReason == DLL_PROCESS_DETACH", "DllMain", MB_OK | MB_ICONINFORMATION);
 
         // unloaded
-        Tibia_SetStatusbarText(APPLICATION_NAME " for Tibia " TIBIA_VERSION " unloaded!", 0);
+        tibia_set_statusbar_text(APPLICATION_NAME " for Tibia " TIBIA_VERSION " unloaded!", 0);
     }
 
     return TRUE;

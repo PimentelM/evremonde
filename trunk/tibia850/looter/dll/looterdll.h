@@ -1,13 +1,13 @@
-#ifndef _LOOTERDLL_H_
-#define _LOOTERDLL_H_
+#ifndef LOOTERDLL_H
+#define LOOTERDLL_H
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-#include <libxml/tree.h>
-
 #include <windows.h>
+
+#include <libxml/tree.h>
 
 // version
 #define TIBIA_VERSION "8.50"
@@ -46,17 +46,17 @@ typedef enum
 
 /* tibia client functions */
 
-typedef void __stdcall _Tibia_SetStatusbarText(char* text, int bShowForever);
-static _Tibia_SetStatusbarText *Tibia_SetStatusbarText = (_Tibia_SetStatusbarText *)0x0053E500;
+typedef void __stdcall _tibia_set_statusbar_text(char* text, int bShowForever);
+static _tibia_set_statusbar_text *tibia_set_statusbar_text = (_tibia_set_statusbar_text *)0x0053E500;
 
-//typedef void __stdcall _Tibia_TriggerEvent(int event, int maw, int mow);
-//static _Tibia_TriggerEvent *Tibia_TriggerEvent = (_Tibia_TriggerEvent *)0x00519770;
+//typedef void __stdcall _tibia_trigger_event(int event, int maw, int mow);
+//static _tibia_trigger_event *tibia_trigger_event = (_tibia_trigger_event *)0x00519770;
 
-typedef void __stdcall _Tibia_TriggerEventEx(int event, char* maw, char* mow);
-static _Tibia_TriggerEventEx *Tibia_TriggerEventEx = (_Tibia_TriggerEventEx *)0x00519770;
+typedef void __stdcall _tibia_trigger_event_ex(int event, char* maw, char* mow);
+static _tibia_trigger_event_ex *tibia_trigger_event_ex = (_tibia_trigger_event_ex *)0x00519770;
 
-typedef void __stdcall _Tibia_MoveObject(int fromX, int fromY, int fromZ, int id, int stack, int toX, int toY, int toZ, int count);
-static _Tibia_MoveObject *Tibia_MoveObject = (_Tibia_MoveObject *)0x00405220;
+typedef void __stdcall _tibia_move_object(int fromX, int fromY, int fromZ, int id, int stack, int toX, int toY, int toZ, int count);
+static _tibia_move_object *tibia_move_object = (_tibia_move_object *)0x00405220;
 // 1 = from X else 0xFFFF
 // 2 = from Container 0x40+i or from Slot 0x01-0x0A or from Y
 // 3 = from Container Position or from Z
@@ -67,8 +67,8 @@ static _Tibia_MoveObject *Tibia_MoveObject = (_Tibia_MoveObject *)0x00405220;
 // 8 = to Container Position or to Z
 // 9 = Item Count
 
-typedef void __stdcall _Tibia_UseObject(int fromX, int fromY, int fromZ, int id, int stack); //(int fromX, int fromY, int fromZ, int id, int stack, int toX, int toY, int toZ, int count);
-static _Tibia_UseObject *Tibia_UseObject = (_Tibia_UseObject *)0x00406240;
+typedef void __stdcall _tibia_use_object(int fromX, int fromY, int fromZ, int id, int stack); //(int fromX, int fromY, int fromZ, int id, int stack, int toX, int toY, int toZ, int count);
+static _tibia_use_object *tibia_use_object = (_tibia_use_object *)0x00406240;
 
 /* tibia memory addresses, structures, and constants */
 
@@ -108,7 +108,7 @@ typedef struct
     int container;
     char* containerName;
     int position;
-    int bFound;
+    int isFound;
 } TibiaContainerItem;
 
 typedef struct
@@ -120,13 +120,13 @@ typedef struct
 
 typedef struct
 {
-    unsigned int bIsOpen;
+    unsigned int isOpen;
     unsigned int id;
     unsigned int unknown1;
     unsigned int unknown2;
     char name[32];
     unsigned int volume;
-    unsigned int bHasParent; // isChild
+    unsigned int hasParent; // isChild
     unsigned int amount;
     TibiaItem item[36];
 } TibiaContainer;
@@ -196,4 +196,4 @@ typedef enum
 const int TIBIA_TRIGGER_EVENT_DIALOG_OK   = 1;
 const int TIBIA_TRIGGER_EVENT_DIALOG_INFO = 30; // version, copyright, website information
 
-#endif // _LOOTERDLL_H_
+#endif // LOOTERDLL_H
