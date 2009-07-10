@@ -1,6 +1,6 @@
 #include "tibia.h"
 
-__declspec(dllexport) void tibiaMessageBox()
+DLL_EXPORT void tibiaMessageBox()
 {
     MessageBox(NULL, "Tibia version is: " TIBIA_VERSION, "tibiaMessageBox", MB_OK);
 }

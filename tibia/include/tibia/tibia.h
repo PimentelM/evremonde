@@ -3,11 +3,12 @@
 
 #include <windows.h>
 
+#include "addresses.h"
+#include "constants.h"
+
 #define DLL_EXPORT __declspec(dllexport)
 
 DLL_EXPORT void tibiaMessageBox();
-
-#define TIBIA_VERSION "8.50"
 
 #endif // TIBIA_H
 
