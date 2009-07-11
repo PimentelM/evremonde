@@ -1,0 +1,3 @@
+tibiaGetStatusbarTimer: 0
+tibiaGetStatusbarText: 
+

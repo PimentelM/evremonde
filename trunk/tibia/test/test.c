@@ -1,5 +1,5 @@
 /**
- *  Tibia DLL Example
+ *  Tibia DLL Test
  *  by Evremonde
  */
 
@@ -10,9 +10,11 @@
 
 #include <tibia/tibia.h>
 
+#define FILENAME_TEST "test.txt"
+
 int main()
 {
-    printf("Tibia DLL Example\n");
+    printf("Tibia DLL Test\n");
     printf("\n");
 
     printf("Tibia Version: " TIBIA_VERSION "\n");
@@ -30,8 +32,17 @@ int main()
         printf("\n");
     }
 
-    printf("tibiaGetStatusbarTimer: %i\n", tibiaGetStatusbarTimer());
-    printf("tibiaGetStatusbarText: %s\n", tibiaGetStatusbarText());
+    printf("Printing test results to " FILENAME_TEST "...");
+
+    FILE *file = fopen(FILENAME_TEST, "w");
+    if (file != NULL)
+    {
+        fprintf(file, "tibiaGetStatusbarTimer: %i\n", tibiaGetStatusbarTimer());
+        fprintf(file, "tibiaGetStatusbarText: %s\n", tibiaGetStatusbarText());
+    }
+    fclose(file);
+
+    printf("Done!\n");
     printf("\n");
 
     printf("Press enter to exit...");
