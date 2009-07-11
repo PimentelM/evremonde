@@ -119,8 +119,8 @@ const int SF4_MAX_UNLOCK_ICONS = 52;
 int main()
 {
     // get game window
-    HWND gameWindow = FindWindow(NULL, "STREET FIGHTER IV");
-    if (gameWindow == NULL)
+    HWND hwndGameWindow = FindWindow(NULL, "STREET FIGHTER IV");
+    if (hwndGameWindow == NULL)
     {
         MessageBox(NULL,
             "Street Fighter IV window not found!",
@@ -129,50 +129,50 @@ int main()
     }
 
     // get process id
-    DWORD processId;
-    GetWindowThreadProcessId(gameWindow, &processId);
+    DWORD dwProcessId;
+    GetWindowThreadProcessId(hwndGameWindow, &dwProcessId);
 
     // get process handle
-    HANDLE processHandle = OpenProcess(PROCESS_ALL_ACCESS, 0, processId);
+    HANDLE hProcessHandle = OpenProcess(PROCESS_ALL_ACCESS, 0, dwProcessId);
 
     int i = 0;
 
     // unlock characters
     for (i = SF4_UNLOCK_CHARACTERS_BEGIN; i < SF4_UNLOCK_CHARACTERS_END; i += SF4_STEP_UNLOCK_CHARACTERS)
-        WriteProcessMemory(processHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
+        WriteProcessMemory(hProcessHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
 
     // unlock colors
     for (i = SF4_UNLOCK_COLORS_BEGIN; i < SF4_UNLOCK_COLORS_END; i += SF4_STEP_UNLOCK_COLORS)
-        WriteProcessMemory(processHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
+        WriteProcessMemory(hProcessHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
 
     // unlock personal actions
     for (i = SF4_UNLOCK_PERSONAL_ACTIONS_BEGIN; i < SF4_UNLOCK_PERSONAL_ACTIONS_END; i += SF4_STEP_UNLOCK_PERSONAL_ACTIONS)
-        WriteProcessMemory(processHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
+        WriteProcessMemory(hProcessHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
 
     // unlock voice settings per character
-    WriteProcessMemory(processHandle, (LPVOID)SF4_UNLOCK_VOICE_SETTINGS_PER_CHARACTER, &SF4_UNLOCKED, 4, NULL);
+    WriteProcessMemory(hProcessHandle, (LPVOID)SF4_UNLOCK_VOICE_SETTINGS_PER_CHARACTER, &SF4_UNLOCKED, 4, NULL);
 
     // unlock movies
     for (i = SF4_UNLOCK_MOVIES_BEGIN; i < SF4_UNLOCK_MOVIES_END; i += SF4_STEP_UNLOCK_MOVIES)
-        WriteProcessMemory(processHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
+        WriteProcessMemory(hProcessHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
 
     // unlock credits
-    WriteProcessMemory(processHandle, (LPVOID)SF4_UNLOCK_CREDITS, &SF4_UNLOCKED, 4, NULL);
+    WriteProcessMemory(hProcessHandle, (LPVOID)SF4_UNLOCK_CREDITS, &SF4_UNLOCKED, 4, NULL);
 
     // unlock artwork
     for (i = SF4_UNLOCK_ARTWORK_BEGIN; i < SF4_UNLOCK_ARTWORK_END; i += SF4_STEP_UNLOCK_ARTWORK)
-        WriteProcessMemory(processHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
+        WriteProcessMemory(hProcessHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
 
     // unlock titles
     for (i = SF4_UNLOCK_TITLES_BEGIN; i < SF4_UNLOCK_TITLES_END; i += SF4_STEP_UNLOCK_TITLES)
-        WriteProcessMemory(processHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
+        WriteProcessMemory(hProcessHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
 
     // unlock icons
     for (i = SF4_UNLOCK_ICONS_BEGIN; i < SF4_UNLOCK_ICONS_END; i += SF4_STEP_UNLOCK_ICONS)
-        WriteProcessMemory(processHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
+        WriteProcessMemory(hProcessHandle, (LPVOID)i, &SF4_UNLOCKED, 4, NULL);
 
     // close process handle
-    CloseHandle(processHandle);
+    CloseHandle(hProcessHandle);
 
     // success message
     MessageBox(NULL,
