@@ -1,8 +1,13 @@
+/**
+ *  Tibia DLL
+ *  by Evremonde
+ */
+
 #include "tibia.h"
 
-DLL_EXPORT void tibiaMessageBox()
+DLL_EXPORT void tibiaShowVersion()
 {
-    MessageBox(NULL, "Tibia version is: " TIBIA_VERSION, "tibiaMessageBox", MB_OK);
+    MessageBox(NULL, "Tibia " TIBIA_VERSION, "Tibia Version", MB_OK | MB_ICONINFORMATION);
 }
 
 // dll main

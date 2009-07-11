@@ -5,10 +5,11 @@
 
 #include "addresses.h"
 #include "constants.h"
+#include "types.h"
 
 #define DLL_EXPORT __declspec(dllexport)
 
-DLL_EXPORT void tibiaMessageBox();
+DLL_EXPORT void tibiaShowVersion();
 
 #endif // TIBIA_H
 
