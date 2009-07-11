@@ -1,2 +1,14 @@
 EXPORTS
-    tibiaMessageBox @1
+    tibiaGetClientWindow @1
+    tibiaGetProcessHandle @2
+    tibiaGetProcessId @3
+    tibiaGetStatusbarText @4
+    tibiaGetStatusbarTimer @5
+    tibiaReadBytes @6
+    tibiaReadString @7
+    tibiaSetStatusbarText @8
+    tibiaSetStatusbarTimer @9
+    tibiaShowVersion @10
+    tibiaWriteBytes @11
+    tibiaWriteNops @12
+    tibiaWriteString @13
