@@ -418,7 +418,7 @@ DWORD WINAPI DllThread()
 }
 
 // dll main
-BOOL APIENTRY DllMain(HANDLE hModule, DWORD fdwReason, LPVOID lpReserved)
+BOOL APIENTRY DllMain(HANDLE hModule, DWORD fdwReason, LPVOID lpvReserved)
 {
     hMod = hModule;
 
