@@ -158,6 +158,14 @@ const int TIBIA_MAX_ITEM_STACK = 100; // max stacked item count
 
 /* enumerated types */
 
+// connection status
+typedef enum
+{
+    CONNECTION_STATUS_OFFLINE    = 0,
+    CONNECTION_STATUS_LOGGING_IN = 6,
+    CONNECTION_STATUS_ONLINE     = 8
+} ConnectionStatus;
+
 // equipment slots
 typedef enum
 {
