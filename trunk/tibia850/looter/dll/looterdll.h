@@ -193,7 +193,7 @@ typedef enum
 //const int TIBIA_ITEM_CONTAINER_BAG      = 2853;
 //const int TIBIA_ITEM_CONTAINER_BACKPACK = 2854;
 
-const int TIBIA_TRIGGER_EVENT_DIALOG_OK   = 1;
-const int TIBIA_TRIGGER_EVENT_DIALOG_INFO = 30; // version, copyright, website information
+const int TIBIA_TRIGGER_EVENT_DIALOG_OK          = 1;
+const int TIBIA_TRIGGER_EVENT_DIALOG_INFORMATION = 30; // version, copyright, website information
 
 #endif // LOOTERDLL_H
