@@ -46,7 +46,7 @@ typedef enum
 
 /* tibia client functions */
 
-typedef void __stdcall _tibia_set_statusbar_text(char* text, int bShowForever);
+typedef void __stdcall _tibia_set_statusbar_text(char* text, int shouldShowForever);
 static _tibia_set_statusbar_text *tibia_set_statusbar_text = (_tibia_set_statusbar_text *)0x0053E500;
 
 //typedef void __stdcall _tibia_trigger_event(int event, int maw, int mow);
@@ -153,26 +153,26 @@ const int TIBIA_MAX_CONTAINER_ITEMS = 36; // max number of items in container
 //const int TIBIA_OFFSET_CONTAINER_ID         = 4;
 //const int TIBIA_OFFSET_CONTAINER_NAME       = 16;
 //const int TIBIA_OFFSET_CONTAINER_VOLUME     = 48; // max number of items in container
-//const int TIBIA_OFFSET_CONTAINER_HAS_PARENT = 52; // OFFSET_CONTAINER_IS_CHILD
+//const int TIBIA_OFFSET_CONTAINER_HAS_PARENT = 52; // TIBIA_OFFSET_CONTAINER_IS_CHILD
 //const int TIBIA_OFFSET_CONTAINER_AMOUNT     = 56; // current number of items in container
 //const int TIBIA_OFFSET_CONTAINER_ITEM_ID    = 60;
 //const int TIBIA_OFFSET_CONTAINER_ITEM_COUNT = 64; // stacked item count
 
-const int TIBIA_MAX_STACK = 100; // max stacked item count
+const int TIBIA_MAX_ITEM_STACK = 100; // max stacked item count
 
 typedef enum
 {
-    TIBIA_EQUIPMENT_SLOT_NULL,
-    TIBIA_EQUIPMENT_SLOT_HEAD,
-    TIBIA_EQUIPMENT_SLOT_NECK,
-    TIBIA_EQUIPMENT_SLOT_BACKPACK, // container
-    TIBIA_EQUIPMENT_SLOT_BODY,
-    TIBIA_EQUIPMENT_SLOT_RIGHT,
-    TIBIA_EQUIPMENT_SLOT_LEFT,
-    TIBIA_EQUIPMENT_SLOT_LEGS,
-    TIBIA_EQUIPMENT_SLOT_FEET,
-    TIBIA_EQUIPMENT_SLOT_RING,
-    TIBIA_EQUIPMENT_SLOT_AMMO
+    TIBIA_EQUIPMENT_SLOT_NULL     = 0,
+    TIBIA_EQUIPMENT_SLOT_HEAD     = 1,
+    TIBIA_EQUIPMENT_SLOT_NECK     = 2,
+    TIBIA_EQUIPMENT_SLOT_BACKPACK = 3, // container
+    TIBIA_EQUIPMENT_SLOT_BODY     = 4,
+    TIBIA_EQUIPMENT_SLOT_RIGHT    = 5,
+    TIBIA_EQUIPMENT_SLOT_LEFT     = 6,
+    TIBIA_EQUIPMENT_SLOT_LEGS     = 7,
+    TIBIA_EQUIPMENT_SLOT_FEET     = 8,
+    TIBIA_EQUIPMENT_SLOT_RING     = 9,
+    TIBIA_EQUIPMENT_SLOT_AMMO     = 10
 } TibiaEquipmentSlot;
 
 //const int TIBIA_EQUIPMENT_SLOT_HEAD     = 1;
