@@ -93,7 +93,7 @@ TibiaContainerItem FindContainerItem(int itemId, int itemCount, char* containerN
             if (shouldSkipMaxStackedItems == 1)
             {
                 // item must not already be stacked
-                if (TIBIA_INVENTORY->container[i].item[j].count >= TIBIA_MAX_STACK)
+                if (TIBIA_INVENTORY->container[i].item[j].count >= TIBIA_MAX_ITEM_STACK)
                     continue;
             }
 
