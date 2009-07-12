@@ -1,3 +1,3 @@
+TIBIA_OFFSET_CONTAINER_IS_CHILD = 52
 tibiaGetStatusbarTimer: 0
-tibiaGetStatusbarText: 
-
+tibiaGetStatusbarText: You lose 4 hitpoints due to an attack by a rat.

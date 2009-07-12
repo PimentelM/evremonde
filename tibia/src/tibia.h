@@ -71,17 +71,41 @@ static _tibia_use_object *tibia_use_object = (_tibia_use_object *)0x00406240;
 
 /* memory addresses */
 
-// statusbar
-#define TIBIA_STATUSBAR_TIMER 0x00791414 // TIBIA_STATUSBAR_TEXT - 4
-#define TIBIA_STATUSBAR_TEXT  0x00791418
+// action state
+#define TIBIA_ACTION_STATE 0x0078F5F8 // tibiaActionState
+DWORD *_TIBIA_ACTION_STATE = (DWORD *)TIBIA_ACTION_STATE;
+
+// container
+#define TIBIA_CONTAINER_BEGIN 0x0063F388
+#define TIBIA_CONTAINER_END   0x00641248 // = TIBIA_CONTAINER_BEGIN + (TIBIA_STEP_CONTAINER * TIBIA_MAX_CONTAINERS)
 
 typedef struct
 {
-    unsigned int timer;
-    char text[256];
-} TibiaStatusbar;
+    unsigned int id;
+    unsigned int count;
+    unsigned int unknown;
+} tibiaContainerItem;
 
-TibiaStatusbar *_TIBIA_STATUSBAR = (TibiaStatusbar *)TIBIA_STATUSBAR_TEXT;
+typedef struct
+{
+    unsigned int isOpen;
+    unsigned int id;
+    unsigned int unknown1;
+    unsigned int unknown2;
+    char name[32];
+    unsigned int volume;
+    unsigned int hasParent; // isChild
+    unsigned int amount;
+    tibiaContainerItem item[36];
+} tibiaContainer;
+
+// inventory
+typedef struct
+{
+    tibiaContainer container[16];
+} tibiaInventory;
+
+tibiaInventory *_TIBIA_INVENTORY = (tibiaInventory *)TIBIA_CONTAINER_BEGIN;
 
 // player
 #define TIBIA_PLAYER_CAP 0x00632EA0 // TIBIA_PLAYER_CAP / 100 = float playerCap
@@ -94,46 +118,19 @@ DWORD *_TIBIA_PLAYER_Z = (DWORD *)TIBIA_PLAYER_Z;
 DWORD *_TIBIA_PLAYER_Y = (DWORD *)TIBIA_PLAYER_Y; 
 DWORD *_TIBIA_PLAYER_X = (DWORD *)TIBIA_PLAYER_X;
 
-// container
-#define TIBIA_CONTAINER_BEGIN 0x0063F388
-#define TIBIA_CONTAINER_END   0x00641248 // = TIBIA_CONTAINER_BEGIN + (TIBIA_STEP_CONTAINER * TIBIA_MAX_CONTAINERS)
-
-typedef struct
-{
-    unsigned int id;
-    unsigned int count;
-    unsigned int unknown;
-} TibiaContainerItem;
-
-typedef struct
-{
-    unsigned int isOpen;
-    unsigned int id;
-    unsigned int unknown1;
-    unsigned int unknown2;
-    char name[32];
-    unsigned int volume;
-    unsigned int hasParent; // isChild
-    unsigned int amount;
-    TibiaContainerItem item[36];
-} TibiaContainer;
-
-typedef struct
-{
-    TibiaContainer container[16];
-} TibiaInventory;
-
-// inventory
-TibiaInventory *_TIBIA_INVENTORY = (TibiaInventory *)TIBIA_CONTAINER_BEGIN;
-
 // see
 #define TIBIA_SEE_ID   0x0078F640
 #define TIBIA_SEE_TEXT 0x00791640
-
-/* constants */
+DWORD *_TIBIA_SEE_ID   = (DWORD *)TIBIA_SEE_ID;
+char  *_TIBIA_SEE_TEXT = (char *) TIBIA_SEE_TEXT;
 
 // statusbar
-const int TIBIA_STATUSBAR_TEXT_DEFAULT_DURATION = 50; // duration to show statusbar text
+#define TIBIA_STATUSBAR_TIMER 0x00791414 // TIBIA_STATUSBAR_TEXT - 4
+#define TIBIA_STATUSBAR_TEXT  0x00791418
+DWORD *_TIBIA_STATUSBAR_TIMER = (DWORD *)TIBIA_STATUSBAR_TIMER;
+char  *_TIBIA_STATUSBAR_TEXT  = (char *) TIBIA_STATUSBAR_TEXT;
+
+/* constants */
 
 // container
 const int TIBIA_FIRST_CONTAINER = 64; // = 0x40
@@ -144,29 +141,46 @@ const int TIBIA_STEP_CONTAINER_ITEM = 12;  // items in containers
 const int TIBIA_MAX_CONTAINERS      = 16; // number of containers open in client
 const int TIBIA_MAX_CONTAINER_ITEMS = 36; // number of items in a container
 
-const int TIBIA_OFFSET_CONTAINER_IS_OPEN    = 0;
-const int TIBIA_OFFSET_CONTAINER_ID         = 4;
-const int TIBIA_OFFSET_CONTAINER_NAME       = 16;
-const int TIBIA_OFFSET_CONTAINER_VOLUME     = 48; // max number of items in the container
-const int TIBIA_OFFSET_CONTAINER_HAS_PARENT = 52; // = TIBIA_OFFSET_CONTAINER_IS_CHILD
-const int TIBIA_OFFSET_CONTAINER_AMOUNT     = 56; // current number of items in the container
-const int TIBIA_OFFSET_CONTAINER_ITEM_ID    = 60;
-const int TIBIA_OFFSET_CONTAINER_ITEM_COUNT = 64; // stacked item count
-
 // item
+const int TIBIA_ITEM_CURRENCY_GOLD     = 3031;
+const int TIBIA_ITEM_CURRENCY_PLATINUM = 3035;
+const int TIBIA_ITEM_CURRENCY_CRYSTAL  = 3043;
+
+const int TIBIA_ITEM_CONTAINER_BAG      = 2853;
+const int TIBIA_ITEM_CONTAINER_BACKPACK = 2854;
+
 const int TIBIA_MAX_ITEM_STACK = 100; // max stacked item count
+
+// statusbar
+const int TIBIA_STATUSBAR_TEXT_DEFAULT_DURATION = 50; // duration to show statusbar text
 
 /* enumerated types */
 
-// connection status
+// action state
 typedef enum
 {
-    CONNECTION_STATUS_OFFLINE    = 0,
-    CONNECTION_STATUS_LOGGING_IN = 6,
-    CONNECTION_STATUS_ONLINE     = 8
-} ConnectionStatus;
+    TIBIA_ACTION_STATE_NONE                 = 0,
+    TIBIA_ACTION_STATE_LEFT_CLICK           = 1,  // left-click to walk or to use the client interface
+    TIBIA_ACTION_STATE_RIGHT_CLICK          = 2,  // right-click to use an object such as a torch or an apple
+    TIBIA_ACTION_STATE_INSPECT_OBJECT       = 3,  // left-click + right-click to see or inspect an object
+    TIBIA_ACTION_STATE_MOVE_OBJECT          = 6,  // dragging an object to move it to a new location
+    TIBIA_ACTION_STATE_USE_OBJECT           = 7,  // using an object such as a rope, a shovel, a fishing rod, or a rune
+    TIBIA_ACTION_STATE_SELECT_HOTKEY_OBJECT = 8,  // selecting an object to bind to a hotkey from the "Hotkey Options" window
+    TIBIA_ACTION_STATE_TRADE_OBJECT         = 9,  // using "Trade with..." on an object to select a player with whom to trade
+    TIBIA_ACTION_STATE_CLIENT_HELP          = 10, // client mouse over tooltip help
+    TIBIA_ACTION_STATE_OPEN_DIALOG_WINDOW   = 11, // opening a dialog window such as the "Options" window, "Select Outfit" window, or "Move Objects" window
+    TIBIA_ACTION_STATE_POPUP_MENU           = 12  // showing a popup menu with options such as "Invite to Party", "Set Outfit", "Copy Name", or "Set Mark"
+} tibiaActionState;
 
-// equipment slots
+// creature type
+typedef enum
+{
+    TIBIA_CREATURE_TYPE_PLAYER = 0,
+    TIBIA_CREATURE_TYPE_TARGET = 1,
+    TIBIA_CREATURE_TYPE_NPC    = 64 // npc, merchant, quest giver or monster
+} tibiaCreatureType;
+
+// equipment slot
 typedef enum
 {
     TIBIA_EQUIPMENT_SLOT_NULL     = 0,
@@ -179,10 +193,120 @@ typedef enum
     TIBIA_EQUIPMENT_SLOT_LEGS     = 7,
     TIBIA_EQUIPMENT_SLOT_FEET     = 8,
     TIBIA_EQUIPMENT_SLOT_RING     = 9,
-    TIBIA_EQUIPMENT_SLOT_AMMO     = 10
+    TIBIA_EQUIPMENT_SLOT_AMMO     = 10,
+    TIBIA_EQUIPMENT_SLOT_FIRST    = TIBIA_EQUIPMENT_SLOT_HEAD,
+    TIBIA_EQUIPMENT_SLOT_LAST     = TIBIA_EQUIPMENT_SLOT_AMMO
 } tibiaEquipmentSlot;
 
-// trigger events
+// flag
+typedef enum
+{
+    TIBIA_FLAG_NONE                                   = 0,
+    TIBIA_FLAG_POISONED                               = 1,
+    TIBIA_FLAG_BURNING                                = 2,
+    TIBIA_FLAG_ELECTRIFIED                            = 4,
+    TIBIA_FLAG_DRUNK                                  = 8,
+    TIBIA_FLAG_PROTECTED_BY_MAGIC_SHIELD              = 16,
+    TIBIA_FLAG_PARALYSED                              = 32,
+    TIBIA_FLAG_PARALYZED                              = TIBIA_FLAG_PARALYSED,
+    TIBIA_FLAG_HASTED                                 = 64,
+    TIBIA_FLAG_IN_BATTLE                              = 128,
+    TIBIA_FLAG_DROWNING                               = 256,
+    TIBIA_FLAG_FREEZING                               = 512,
+    TIBIA_FLAG_DAZZLED                                = 1024,
+    TIBIA_FLAG_CURSED                                 = 2048,
+    TIBIA_FLAG_STRENGTHENED                           = 4096,
+    TIBIA_FLAG_CANNOT_LOGOUT_OR_ENTER_PROTECTION_ZONE = 8192,
+    TIBIA_FLAG_WITHIN_PROTECTION_ZONE                 = 16384
+} tibiaFlag;
+
+// light amount
+typedef enum
+{
+    TIBIA_LIGHT_AMOUNT_DEFAULT = 128,
+    TIBIA_LIGHT_AMOUNT_FULL    = 255
+} tibiaLightAmount;
+
+// light color
+typedef enum
+{
+    TIBIA_LIGHT_COLOR_NONE    = 0,
+    TIBIA_LIGHT_COLOR_DEFAULT = 206,
+    TIBIA_LIGHT_COLOR_ORANGE  = TIBIA_LIGHT_COLOR_DEFAULT,
+    TIBIA_LIGHT_COLOR_WHITE   = 215
+} tibiaLightColor;
+
+// light radius
+typedef enum
+{
+    TIBIA_LIGHT_RADIUS_NONE  = 0,
+    TIBIA_LIGHT_RADIUS_TORCH = 7,
+    TIBIA_LIGHT_RADIUS_FULL  = 20
+} tibiaLightRadius;
+
+// login status
+typedef enum
+{
+    TIBIA_LOGIN_STATUS_LOGGED_OUT = 0,
+    TIBIA_LOGIN_STATUS_LOGGING_IN = 6,
+    TIBIA_LOGIN_STATUS_LOGGED_IN  = 8
+} tibiaLoginStatus;
+
+// offset container
+typedef enum
+{
+    TIBIA_OFFSET_CONTAINER_IS_OPEN    = 0,
+    TIBIA_OFFSET_CONTAINER_ID         = 4,
+    TIBIA_OFFSET_CONTAINER_NAME       = 16,
+    TIBIA_OFFSET_CONTAINER_VOLUME     = 48, // max number of items in the container
+    TIBIA_OFFSET_CONTAINER_HAS_PARENT = 52, // the container is a container inside another container
+    TIBIA_OFFSET_CONTAINER_IS_CHILD   = TIBIA_OFFSET_CONTAINER_HAS_PARENT,
+    TIBIA_OFFSET_CONTAINER_AMOUNT     = 56, // current number of items in the container
+    TIBIA_OFFSET_CONTAINER_ITEM_ID    = 60,
+    TIBIA_OFFSET_CONTAINER_ITEM_COUNT = 64  // stacked item count
+} tibiaOffsetContainer;
+
+// outfit addon
+typedef enum
+{
+    TIBIA_OUTFIT_ADDON_NONE   = 0,
+    TIBIA_OUTFIT_ADDON_1      = 1,
+    TIBIA_OUTFIT_ADDON_2      = 2,
+    TIBIA_OUTFIT_ADDON_3      = 3,
+    TIBIA_OUTFIT_ADDON_FIRST  = TIBIA_OUTFIT_ADDON_1,
+    TIBIA_OUTFIT_ADDON_SECOND = TIBIA_OUTFIT_ADDON_2,
+    TIBIA_OUTFIT_ADDON_BOTH   = TIBIA_OUTFIT_ADDON_3
+} tibiaOutfitAddon;
+
+// party
+typedef enum
+{
+    TIBIA_PARTY_NONE                       = 0,
+    TIBIA_PARTY_HOST                       = 1, // the host invites the guest to the party
+    TIBIA_PARTY_INVITER                    = TIBIA_PARTY_HOST,
+    TIBIA_PARTY_GUEST                      = 2, // the guest joins the host at the party
+    TIBIA_PARTY_INVITEE                    = TIBIA_PARTY_GUEST,
+    TIBIA_PARTY_MEMBER                     = 3,
+    TIBIA_PARTY_LEADER                     = 4,
+    TIBIA_PARTY_MEMBER_SHARED_EXP          = 5,
+    TIBIA_PARTY_LEADER_SHARED_EXP          = 6,
+    TIBIA_PARTY_MEMBER_SHARED_EXP_INACTIVE = 7,
+    TIBIA_PARTY_LEADER_SHARED_EXP_INACTIVE = 8
+} tibiaParty;
+
+
+// skull
+typedef enum
+{
+    TIBIA_SKULL_NONE   = 0,
+    TIBIA_SKULL_YELLOW = 1,
+    TIBIA_SKULL_GREEN  = 2,
+    TIBIA_SKULL_WHITE  = 3,
+    TIBIA_SKULL_RED    = 4,
+    TIBIA_SKULL_BLACK  = 5
+} tibiaSkull;
+
+// trigger event
 typedef enum
 {
     TIBIA_TRIGGER_EVENT_DIALOG_OK          = 1,
@@ -190,4 +314,3 @@ typedef enum
 } tibiaTriggerEvent;
 
 #endif // TIBIA_H
-
