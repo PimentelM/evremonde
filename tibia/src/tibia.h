@@ -147,6 +147,48 @@ const int TIBIA_MAX_ITEM_STACK = 100; // max stacked item count
 // statusbar
 const int TIBIA_STATUSBAR_TEXT_DEFAULT_DURATION = 50; // duration to show statusbar text
 
+/* offset constants */
+
+// container
+const int TIBIA_OFFSET_CONTAINER_IS_OPEN    = 0;
+const int TIBIA_OFFSET_CONTAINER_ID         = 4;
+const int TIBIA_OFFSET_CONTAINER_NAME       = 16;
+const int TIBIA_OFFSET_CONTAINER_VOLUME     = 48; // max number of items in the container
+const int TIBIA_OFFSET_CONTAINER_HAS_PARENT = 52; // the container is a container inside another container
+const int TIBIA_OFFSET_CONTAINER_IS_CHILD   = TIBIA_OFFSET_CONTAINER_HAS_PARENT;
+const int TIBIA_OFFSET_CONTAINER_AMOUNT     = 56; // current number of items in the container
+const int TIBIA_OFFSET_CONTAINER_ITEM_ID    = 60;
+const int TIBIA_OFFSET_CONTAINER_ITEM_COUNT = 64; // stacked item count
+
+// creature
+const int TIBIA_OFFSET_CREATURE_ID                 = 0;
+const int TIBIA_OFFSET_CREATURE_TYPE               = 3;   // tibiaCreature_t
+const int TIBIA_OFFSET_CREATURE_NAME               = 4;
+const int TIBIA_OFFSET_CREATURE_X                  = 36;
+const int TIBIA_OFFSET_CREATURE_Y                  = 40;
+const int TIBIA_OFFSET_CREATURE_Z                  = 44;
+const int TIBIA_OFFSET_CREATURE_IS_WALKING         = 76;
+const int TIBIA_OFFSET_CREATURE_DIRECTION          = 80;  // tibiaDirection_t
+const int TIBIA_OFFSET_CREATURE_OUTFIT             = 96;  // tibiaOutfit_t
+const int TIBIA_OFFSET_CREATURE_OUTFIT_COLOR_HEAD  = 100; // tibiaOutfitColor_t
+const int TIBIA_OFFSET_CREATURE_OUTFIT_COLOR_BODY  = 104; // tibiaOutfitColor_t
+const int TIBIA_OFFSET_CREATURE_OUTFIT_COLOR_LEGS  = 108; // tibiaOutfitColor_t
+const int TIBIA_OFFSET_CREATURE_OUTFIT_COLOR_FEET  = 112; // tibiaOutfitColor_t
+const int TIBIA_OFFSET_CREATURE_OUTFIT_ADDON       = 116; // tibiaOutfitAddon_t
+const int TIBIA_OFFSET_CREATURE_LIGHT_RADIUS       = 120; // tibiaLightRadius_t
+const int TIBIA_OFFSET_CREATURE_LIGHT_COLOR        = 124; // tibiaLightColor_t
+const int TIBIA_OFFSET_CREATURE_HP_PERCENT         = 136; // health bar percentage
+const int TIBIA_OFFSET_CREATURE_WALK_SPEED         = 140;
+const int TIBIA_OFFSET_CREATURE_IS_VIEWABLE        = 144; // creature is within viewable distance
+const int TIBIA_OFFSET_CREATURE_SKULL              = 148; // tibiaSkull_t
+const int TIBIA_OFFSET_CREATURE_PARTY              = 152; // tibiaParty_t
+
+// vip
+const int TIBIA_OFFSET_VIP_ID        = 0;
+const int TIBIA_OFFSET_VIP_NAME      = 4;
+const int TIBIA_OFFSET_VIP_IS_ONLINE = 34;
+const int TIBIA_OFFSET_VIP_ICON      = 40; // tibiaVipIcon_t
+
 /* enumerated constants */
 
 // action state
@@ -163,8 +205,8 @@ typedef enum
     TIBIA_ACTION_STATE_SELECT_HOTKEY_OBJECT = 8,  // selecting an object to bind to a hotkey from the "Hotkey Options" window
     TIBIA_ACTION_STATE_TRADE_OBJECT         = 9,  // using "Trade with..." on an object to select a player with whom to trade
     TIBIA_ACTION_STATE_CLIENT_HELP          = 10, // client mouse over tooltip help
-    TIBIA_ACTION_STATE_OPEN_DIALOG_WINDOW   = 11, // opening a dialog window such as the "Options" window, "Select Outfit" window, or "Move Objects" window
-    TIBIA_ACTION_STATE_POPUP_MENU           = 12  // showing a popup menu with options such as "Invite to Party", "Set Outfit", "Copy Name", or "Set Mark"
+    TIBIA_ACTION_STATE_DIALOG_WINDOW        = 11, // interacting with a dialog window such as the "Options" window, "Select Outfit" window, or "Move Objects" window
+    TIBIA_ACTION_STATE_POPUP_MENU           = 12  // interacting with a popup menu with options such as "Invite to Party", "Set Outfit", "Copy Name", or "Set Mark"
 } tibiaActionState_t;
 
 // creature
@@ -186,7 +228,7 @@ typedef enum
     TIBIA_DIRECTION_UP_RIGHT   = 5,
     TIBIA_DIRECTION_DOWN_RIGHT = 6,
     TIBIA_DIRECTION_DOWN_LEFT  = 7,
-    TIBIA_DIRECTION_UP_LEFT    = 8,
+    TIBIA_DIRECTION_UP_LEFT    = 8
 } tibiaDirection_t;
 
 // equipment slot
@@ -290,55 +332,6 @@ typedef enum
     TIBIA_OBJECT_LOCKER   = 3499,
     TIBIA_OBJECT_DEPOT    = 3502
 } tibiaObject_t;
-
-// offset container
-typedef enum
-{
-    TIBIA_OFFSET_CONTAINER_IS_OPEN    = 0,
-    TIBIA_OFFSET_CONTAINER_ID         = 4,
-    TIBIA_OFFSET_CONTAINER_NAME       = 16,
-    TIBIA_OFFSET_CONTAINER_VOLUME     = 48, // max number of items in the container
-    TIBIA_OFFSET_CONTAINER_HAS_PARENT = 52, // the container is a container inside another container
-    TIBIA_OFFSET_CONTAINER_IS_CHILD   = TIBIA_OFFSET_CONTAINER_HAS_PARENT,
-    TIBIA_OFFSET_CONTAINER_AMOUNT     = 56, // current number of items in the container
-    TIBIA_OFFSET_CONTAINER_ITEM_ID    = 60,
-    TIBIA_OFFSET_CONTAINER_ITEM_COUNT = 64  // stacked item count
-} tibiaOffsetContainer_t;
-
-// offset creature
-typedef enum
-{
-    TIBIA_OFFSET_CREATURE_ID                 = 0,
-    TIBIA_OFFSET_CREATURE_TYPE               = 3,   // tibiaCreature_t
-    TIBIA_OFFSET_CREATURE_NAME               = 4,
-    TIBIA_OFFSET_CREATURE_X                  = 36,
-    TIBIA_OFFSET_CREATURE_Y                  = 40,
-    TIBIA_OFFSET_CREATURE_Z                  = 44,
-    TIBIA_OFFSET_CREATURE_IS_WALKING         = 76,
-    TIBIA_OFFSET_CREATURE_DIRECTION          = 80,  // tibiaDirection_t
-    TIBIA_OFFSET_CREATURE_OUTFIT             = 96,  // tibiaOutfit_t
-    TIBIA_OFFSET_CREATURE_OUTFIT_COLOR_HEAD  = 100, // tibiaOutfitColor_t
-    TIBIA_OFFSET_CREATURE_OUTFIT_COLOR_BODY  = 104, // tibiaOutfitColor_t
-    TIBIA_OFFSET_CREATURE_OUTFIT_COLOR_LEGS  = 108, // tibiaOutfitColor_t
-    TIBIA_OFFSET_CREATURE_OUTFIT_COLOR_FEET  = 112, // tibiaOutfitColor_t
-    TIBIA_OFFSET_CREATURE_OUTFIT_ADDON       = 116, // tibiaOutfitAddon_t
-    TIBIA_OFFSET_CREATURE_LIGHT_RADIUS       = 120, // tibiaLightRadius_t
-    TIBIA_OFFSET_CREATURE_LIGHT_COLOR        = 124, // tibiaLightColor_t
-    TIBIA_OFFSET_CREATURE_HP_PERCENT         = 136, // health bar percentage
-    TIBIA_OFFSET_CREATURE_WALK_SPEED         = 140,
-    TIBIA_OFFSET_CREATURE_IS_VIEWABLE        = 144, // creature is within viewable distance
-    TIBIA_OFFSET_CREATURE_SKULL              = 148, // tibiaSkull_t
-    TIBIA_OFFSET_CREATURE_PARTY              = 152  // tibiaParty_t
-} tibiaOffsetCreature_t;
-
-// offset vip
-typedef enum
-{
-    TIBIA_OFFSET_VIP_ID        = 0,
-    TIBIA_OFFSET_VIP_NAME      = 4,
-    TIBIA_OFFSET_VIP_IS_ONLINE = 34,
-    TIBIA_OFFSET_VIP_ICON      = 40 // tibiaVipIcon
-} tibiaOffsetVip_t;
 
 // outfit
 typedef enum
