@@ -1,0 +1,38 @@
+{
+    "items":
+    {
+        "item":
+        {
+            "id":      3031,
+            "name":    "gold",
+            "type":    "currency",
+            "slot":    "backpack",
+            "enabled": true,
+            "loot":    true,
+            "stack":   true,
+            "use":     false
+        },
+        "item":
+        {
+            "id":      3035,
+            "name":    "platinum",
+            "type":    "currency",
+            "slot":    "backpack",
+            "enabled": true,
+            "loot":    true,
+            "stack":   true,
+            "use":     false
+        },
+        "item":
+        {
+            "id":      3043,
+            "name":    "crystal",
+            "type":    "currency",
+            "slot":    "backpack",
+            "enabled": true,
+            "loot":    true,
+            "stack":   true,
+            "use":     false
+        }
+    }
+}
