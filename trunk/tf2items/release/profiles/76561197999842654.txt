@@ -1,0 +1,96 @@
+Time: 14:18:42
+Date: Feb 13 2010
+
+http://steamcommunity.com/id/76561197999842654
+http://www.tf2items.com/id/76561197999842654
+
+??? = Found but not yet in backpack
+*** = Hat
+%%% = Hatless
+$$$ = Metal
+@@@ = Token
+!!! = Special
+^^^ = Misc
+&&& = All Classes
+### = Holiday Restriction
+
+*** !!! &&& Cheater's Lament (Level: 1)
+The Killing Gloves of Boxing (Level: 7)
+Jarate (Level: 5)
+The Force-A-Nature (Level: 10)
+Natascha (Level: 5)
+The Axetinguisher (Level: 10)
+The Dead Ringer (Level: 5)
+*** Demoman's Fro (Level: 0)
+*** Football Helmet (Level: 81)
+*** Prussian Pickelhaube (Level: 38)
+*** Pyros Beanie (Level: 0)
+*** Batter's Helmet (Level: 29)
+*** Trophy Belt (Level: 33)
+*** Soldier's Stash (Level: 28)
+*** Fancy Fedora (Level: 71)
+The Sandman (Level: 15)
+The Huntsman (Level: 10)
+The Ambassador (Level: 5)
+The Cloak and Dagger (Level: 5)
+The Flare Gun (Level: 10)
+Bonk! Atomic Punch (Level: 5)
+The Ubersaw (Level: 10)
+The Sandvich (Level: 1)
+The Kritzkrieg (Level: 24)
+*** Tyrant's Helm (Level: 64)
+*** Tough Guy's Toque (Level: 35)
+*** Stainless Pot (Level: 53)
+*** Brigade Helm (Level: 90)
+*** Scotsman's Stove Pipe (Level: 8)
+*** Texas Ten Gallon (Level: 87)
+*** Respectless Rubber Glove (Level: 63)
+!!! ^^^ Gentle Manne's Service Medal (Level: 100)
+^^^ Camera Beard (Level: 69)
+*** Master's Yellow Belt (Level: 5)
+*** Bonk Helm (Level: 88)
+%%% Ritzy Rick's Hair Fixative (Level: 78)
+The Backburner (Level: 10)
+%%% Texas Slim's Dome Shine (Level: 59)
+*** Engineer's Cap (Level: 78)
+The Blutsauger (Level: 5)
+The Razorback (Level: 10)
+The Razorback (Level: 10)
+*** !!! &&& ### Mildly Disturbing Halloween Mask (Level: 10) (Holiday Restriction: Halloween)
+*** !!! &&& Ghastly Ghibus (Level: 10)
+*** !!! &&& Ghastly Ghibus (Level: 10)
+*** !!! &&& Bill's Hat (Level: 10)
+Natascha (Level: 5)
+The Dead Ringer (Level: 5)
+The Gunboats (Level: 10)
+The Chargin' Targe (Level: 10)
+The Eyelander (Level: 5)
+The Buff Banner (Level: 5)
+The Equalizer (Level: 10)
+The Direct Hit (Level: 1)
+The Equalizer (Level: 10)
+The Buff Banner (Level: 5)
+The Scottish Resistance (Level: 5)
+The Chargin' Targe (Level: 10)
+The Eyelander (Level: 5)
+$$$ Scrap Metal (Level: 1)
+$$$ Scrap Metal (Level: 1)
+$$$ Reclaimed Metal (Level: 2)
+*** &&& Towering Pillar of Hats (Level: 88)
+*** &&& Noble Amassment of Hats (Level: 89)
+*** &&& Modest Pile of Hat (Level: 96)
+@@@ Class Token - Sniper (Level: 1)
+
+Items Summary!
+Items: 66 / 100
+Items Found: 0
+Items Total: 66 / 100
+Hats: 26
+Hatless: 2
+Hats Total: 28
+Metals: 3
+Metals Worth: 15 scrap metal(s), 0 hat(s) crafting 0 refined metal(s)
+Tokens: 1
+Specials: 6
+Misc: 2
+Holiday: 1

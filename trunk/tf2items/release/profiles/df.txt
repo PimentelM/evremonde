@@ -1,0 +1,109 @@
+Time: 14:18:42
+Date: Feb 13 2010
+
+http://steamcommunity.com/id/df
+http://www.tf2items.com/id/df
+
+??? = Found but not yet in backpack
+*** = Hat
+%%% = Hatless
+$$$ = Metal
+@@@ = Token
+!!! = Special
+^^^ = Misc
+&&& = All Classes
+### = Holiday Restriction
+
+*** !!! &&& Ghastly Ghibus (Level: 10)
+!!! ^^^ Gentle Manne's Service Medal (Level: 100)
+The Blutsauger (Level: 5)
+The Kritzkrieg (Level: 8)
+The Ubersaw (Level: 10)
+The Flare Gun (Level: 10)
+The Axetinguisher (Level: 10)
+The Sandvich (Level: 1)
+Natascha (Level: 5)
+The Killing Gloves of Boxing (Level: 7)
+The Force-A-Nature (Level: 10)
+The Sandman (Level: 15)
+Bonk! Atomic Punch (Level: 5)
+The Dead Ringer (Level: 5)
+The Backburner (Level: 10)
+The Ambassador (Level: 5)
+The Razorback (Level: 10)
+The Huntsman (Level: 10)
+Jarate (Level: 5)
+Knife (Level: 50)
+*** Officer's Ushanka (Level: 33)
+*** Texas Ten Gallon (Level: 76)
+*** !!! &&& ### Mildly Disturbing Halloween Mask (Level: 10) (Holiday Restriction: Halloween)
+*** !!! &&& Ghastly Ghibus (Level: 10)
+*** !!! &&& Bill's Hat (Level: 10)
+*** Professional's Panama (Level: 19)
+The Chargin' Targe (Level: 10)
+The Scottish Resistance (Level: 5)
+The Equalizer (Level: 10)
+The Direct Hit (Level: 1)
+The Buff Banner (Level: 5)
+The Eyelander (Level: 5)
+The Gunboats (Level: 10)
+@@@ Class Token - Sniper (Level: 1)
+$$$ Refined Metal (Level: 3)
+$$$ Refined Metal (Level: 3)
+@@@ Class Token - Spy (Level: 1)
+*** Scotsman's Stove Pipe (Level: 97)
+The Cloak and Dagger (Level: 5)
+^^^ Camera Beard (Level: 99)
+$$$ Refined Metal (Level: 3)
+$$$ Refined Metal (Level: 3)
+$$$ Refined Metal (Level: 3)
+*** Soldier's Stash (Level: 87)
+$$$ Reclaimed Metal (Level: 2)
+*** Pyros Beanie (Level: 62)
+$$$ Reclaimed Metal (Level: 2)
+$$$ Reclaimed Metal (Level: 2)
+$$$ Reclaimed Metal (Level: 2)
+$$$ Refined Metal (Level: 3)
+%%% Texas Slim's Dome Shine (Level: 76)
+$$$ Scrap Metal (Level: 1)
+$$$ Reclaimed Metal (Level: 2)
+$$$ Scrap Metal (Level: 1)
+$$$ Scrap Metal (Level: 1)
+$$$ Scrap Metal (Level: 1)
+$$$ Reclaimed Metal (Level: 2)
+$$$ Scrap Metal (Level: 1)
+$$$ Scrap Metal (Level: 1)
+$$$ Refined Metal (Level: 3)
+$$$ Scrap Metal (Level: 1)
+$$$ Refined Metal (Level: 3)
+$$$ Refined Metal (Level: 3)
+$$$ Reclaimed Metal (Level: 2)
+The Sandman (Level: 15)
+*** &&& Noble Amassment of Hats (Level: 49)
+The Force-A-Nature (Level: 10)
+*** Glengarry Bonnet (Level: 43)
+The Ambassador (Level: 5)
+The Sandvich (Level: 1)
+$$$ Scrap Metal (Level: 1)
+The Gunboats (Level: 10)
+The Buff Banner (Level: 5)
+The Axetinguisher (Level: 10)
+*** &&& Towering Pillar of Hats (Level: 61)
+The Scottish Resistance (Level: 5)
+The Dead Ringer (Level: 5)
+The Gunboats (Level: 10)
+$$$ Refined Metal (Level: 3)
+
+Items Summary!
+Items: 79 / 100
+Items Found: 0
+Items Total: 79 / 100
+Hats: 13
+Hatless: 1
+Hats Total: 14
+Metals: 25
+Metals Worth: 357 scrap metal(s), 4 hat(s) crafting 12 refined metal(s)
+Tokens: 2
+Specials: 5
+Misc: 2
+Holiday: 1

@@ -1,0 +1,87 @@
+Time: 14:18:42
+Date: Feb 13 2010
+
+http://steamcommunity.com/id/robinwalker
+http://www.tf2items.com/id/robinwalker
+
+??? = Found but not yet in backpack
+*** = Hat
+%%% = Hatless
+$$$ = Metal
+@@@ = Token
+!!! = Special
+^^^ = Misc
+&&& = All Classes
+### = Holiday Restriction
+
+*** !!! &&& Cheater's Lament (Level: 1)
+The Kritzkrieg (Level: 8)
+The Ubersaw (Level: 10)
+The Axetinguisher (Level: 10)
+Natascha (Level: 5)
+The Killing Gloves of Boxing (Level: 7)
+The Sandman (Level: 15)
+The Cloak and Dagger (Level: 5)
+The Blutsauger (Level: 5)
+Jarate (Level: 5)
+The Huntsman (Level: 10)
+The Dead Ringer (Level: 5)
+*** Texas Ten Gallon (Level: 50)
+*** Engineer's Cap (Level: 63)
+*** Officer's Ushanka (Level: 96)
+*** Tough Guy's Toque (Level: 18)
+*** Stainless Pot (Level: 27)
+*** Tyrant's Helm (Level: 49)
+*** Glengarry Bonnet (Level: 19)
+*** Vintage Tyrolean (Level: 14)
+*** Respectless Rubber Glove (Level: 92)
+^^^ Camera Beard (Level: 28)
+*** Otolaryngologist's Mirror (Level: 98)
+*** Brigade Helm (Level: 69)
+*** Ye Olde Baker Boy (Level: 76)
+*** Backbiter's Billycock (Level: 59)
+*** Professional's Panama (Level: 61)
+%%% Texas Slim's Dome Shine (Level: 62)
+Rocket Launcher (Level: 100)
+Scattergun (Level: 100)
+Sniper Rifle (Level: 100)
+Minigun (Level: 100)
+Syringe Gun (Level: 100)
+Stickybomb Launcher (Level: 100)
+Flamethrower (Level: 100)
+Shotgun (Level: 100)
+Revolver (Level: 100)
+Medi Gun (Level: 100)
+*** !!! &&& ### Mildly Disturbing Halloween Mask (Level: 10) (Holiday Restriction: Halloween)
+*** !!! &&& Ghastly Ghibus (Level: 10)
+The Huntsman (Level: 10)
+The Eyelander (Level: 100)
+The Equalizer (Level: 100)
+The Chargin' Targe (Level: 100)
+The Scottish Resistance (Level: 5)
+The Direct Hit (Level: 1)
+The Buff Banner (Level: 5)
+The Gunboats (Level: 10)
+The Chargin' Targe (Level: 10)
+The Eyelander (Level: 5)
+Natascha (Level: 5)
+The Axetinguisher (Level: 10)
+The Blutsauger (Level: 5)
+The Equalizer (Level: 10)
+The Force-A-Nature (Level: 10)
+The Scottish Resistance (Level: 5)
+The Direct Hit (Level: 1)
+
+Items Summary!
+Items: 57 / 100
+Items Found: 0
+Items Total: 57 / 100
+Hats: 17
+Hatless: 1
+Hats Total: 18
+Metals: 0
+Metals Worth: 0 scrap metal(s), 0 hat(s) crafting 0 refined metal(s)
+Tokens: 0
+Specials: 3
+Misc: 1
+Holiday: 1
