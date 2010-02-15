@@ -1,2 +1,0 @@
-items_game
-pause
