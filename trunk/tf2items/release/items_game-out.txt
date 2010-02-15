@@ -1,0 +1,1289 @@
+{
+	"items":	{
+		"item":	{
+			"id":	0,
+			"name":	"TF_WEAPON_BAT",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"scout":	true
+				}]
+		},
+		"item":	{
+			"id":	1,
+			"name":	"TF_WEAPON_BOTTLE",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"demoman":	true
+				}]
+		},
+		"item":	{
+			"id":	2,
+			"name":	"TF_WEAPON_FIREAXE",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	3,
+			"name":	"TF_WEAPON_CLUB",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"sniper":	true
+				}]
+		},
+		"item":	{
+			"id":	4,
+			"name":	"TF_WEAPON_KNIFE",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"spy":	true
+				}]
+		},
+		"item":	{
+			"id":	5,
+			"name":	"TF_WEAPON_FISTS",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"heavy":	true
+				}]
+		},
+		"item":	{
+			"id":	6,
+			"name":	"TF_WEAPON_SHOVEL",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"soldier":	true
+				}]
+		},
+		"item":	{
+			"id":	7,
+			"name":	"TF_WEAPON_WRENCH",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"engineer":	true
+				}]
+		},
+		"item":	{
+			"id":	8,
+			"name":	"TF_WEAPON_BONESAW",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"medic":	true
+				}]
+		},
+		"item":	{
+			"id":	9,
+			"name":	"TF_WEAPON_SHOTGUN_PRIMARY",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"engineer":	true
+				}]
+		},
+		"item":	{
+			"id":	10,
+			"name":	"TF_WEAPON_SHOTGUN_SOLDIER",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"soldier":	true
+				}]
+		},
+		"item":	{
+			"id":	11,
+			"name":	"TF_WEAPON_SHOTGUN_HWG",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"heavy":	true
+				}]
+		},
+		"item":	{
+			"id":	12,
+			"name":	"TF_WEAPON_SHOTGUN_PYRO",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	13,
+			"name":	"TF_WEAPON_SCATTERGUN",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"scout":	true
+				}]
+		},
+		"item":	{
+			"id":	14,
+			"name":	"TF_WEAPON_SNIPERRIFLE",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"sniper":	true
+				}]
+		},
+		"item":	{
+			"id":	15,
+			"name":	"TF_WEAPON_MINIGUN",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"heavy":	true
+				}]
+		},
+		"item":	{
+			"id":	16,
+			"name":	"TF_WEAPON_SMG",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"sniper":	true
+				}]
+		},
+		"item":	{
+			"id":	17,
+			"name":	"TF_WEAPON_SYRINGEGUN_MEDIC",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"medic":	true
+				}]
+		},
+		"item":	{
+			"id":	18,
+			"name":	"TF_WEAPON_ROCKETLAUNCHER",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"soldier":	true
+				}]
+		},
+		"item":	{
+			"id":	19,
+			"name":	"TF_WEAPON_GRENADELAUNCHER",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"demoman":	true
+				}]
+		},
+		"item":	{
+			"id":	20,
+			"name":	"TF_WEAPON_PIPEBOMBLAUNCHER",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"demoman":	true
+				}]
+		},
+		"item":	{
+			"id":	21,
+			"name":	"TF_WEAPON_FLAMETHROWER",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	22,
+			"name":	"TF_WEAPON_PISTOL",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"engineer":	true
+				}]
+		},
+		"item":	{
+			"id":	23,
+			"name":	"TF_WEAPON_PISTOL_SCOUT",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"scout":	true
+				}]
+		},
+		"item":	{
+			"id":	24,
+			"name":	"TF_WEAPON_REVOLVER",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"spy":	true
+				}]
+		},
+		"item":	{
+			"id":	25,
+			"name":	"TF_WEAPON_PDA_ENGINEER_BUILD",
+			"craft_class":	"weapon",
+			"item_slot":	"pda",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"engineer":	true
+				}]
+		},
+		"item":	{
+			"id":	26,
+			"name":	"TF_WEAPON_PDA_ENGINEER_DESTROY",
+			"craft_class":	"weapon",
+			"item_slot":	"pda2",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"engineer":	true
+				}]
+		},
+		"item":	{
+			"id":	27,
+			"name":	"TF_WEAPON_PDA_SPY",
+			"craft_class":	"weapon",
+			"item_slot":	"pda",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"spy":	true
+				}]
+		},
+		"item":	{
+			"id":	28,
+			"name":	"TF_WEAPON_BUILDER",
+			"craft_class":	"weapon",
+			"item_slot":	"building",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"engineer":	true
+				}]
+		},
+		"item":	{
+			"id":	29,
+			"name":	"TF_WEAPON_MEDIGUN",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"medic":	true
+				}]
+		},
+		"item":	{
+			"id":	30,
+			"name":	"TF_WEAPON_INVIS",
+			"craft_class":	"weapon",
+			"item_slot":	"pda2",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"spy":	true
+				}]
+		},
+		"item":	{
+			"id":	31,
+			"name":	"TF_WEAPON_FLAREGUN",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"normal",
+			"used_by_classes":	[{
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	32,
+			"name":	"Level 1 Bonesaw",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"used_by_classes":	[{
+					"medic":	true
+				}]
+		},
+		"item":	{
+			"id":	33,
+			"name":	"Level 1 Syringe Gun",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"used_by_classes":	[{
+					"medic":	true
+				}]
+		},
+		"item":	{
+			"id":	34,
+			"name":	"Level 1 Medigun",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"used_by_classes":	[{
+					"medic":	true
+				}]
+		},
+		"item":	{
+			"id":	35,
+			"name":	"Unique Achievement Medigun",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"medic":	true
+				}]
+		},
+		"item":	{
+			"id":	36,
+			"name":	"Unique Achievement SyringeGun",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"medic":	true
+				}]
+		},
+		"item":	{
+			"id":	37,
+			"name":	"Unique Achievement Bonesaw",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"medic":	true
+				}]
+		},
+		"item":	{
+			"id":	38,
+			"name":	"Unique Achievement Fireaxe",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	39,
+			"name":	"Unique Achievement Flaregun",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	40,
+			"name":	"Unique Achievement Flamethrower",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	41,
+			"name":	"Unique Achievement Minigun",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"heavy":	true
+				}]
+		},
+		"item":	{
+			"id":	42,
+			"name":	"Unique Achievement Lunchbox",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"heavy":	true
+				}]
+		},
+		"item":	{
+			"id":	43,
+			"name":	"Unique Achievement Fists",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"heavy":	true
+				}]
+		},
+		"item":	{
+			"id":	44,
+			"name":	"Unique Achievement Bat",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true
+				}]
+		},
+		"item":	{
+			"id":	45,
+			"name":	"Unique Achievement Scattergun Double",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true
+				}]
+		},
+		"item":	{
+			"id":	46,
+			"name":	"Unique Achievement EnergyDrink",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true
+				}]
+		},
+		"item":	{
+			"id":	47,
+			"name":	"Demo Hat 1",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"demoman":	true
+				}]
+		},
+		"item":	{
+			"id":	48,
+			"name":	"Engineer Hat 1",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"engineer":	true
+				}]
+		},
+		"item":	{
+			"id":	49,
+			"name":	"Heavy Hat 1",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"heavy":	true
+				}]
+		},
+		"item":	{
+			"id":	50,
+			"name":	"Medic Hat 1",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"medic":	true
+				}]
+		},
+		"item":	{
+			"id":	51,
+			"name":	"Pyro Hat 1",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	52,
+			"name":	"Scout Hat 1",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true
+				}]
+		},
+		"item":	{
+			"id":	53,
+			"name":	"Sniper Hat 1",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"sniper":	true
+				}]
+		},
+		"item":	{
+			"id":	54,
+			"name":	"Soldier Hat 1",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"soldier":	true
+				}]
+		},
+		"item":	{
+			"id":	55,
+			"name":	"Spy Hat 1",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"spy":	true
+				}]
+		},
+		"item":	{
+			"id":	56,
+			"name":	"Unique Achievement Compound Bow",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"sniper":	true
+				}]
+		},
+		"item":	{
+			"id":	57,
+			"name":	"Unique Backstab Shield",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"sniper":	true
+				}]
+		},
+		"item":	{
+			"id":	58,
+			"name":	"Unique Achievement Jar",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"sniper":	true
+				}]
+		},
+		"item":	{
+			"id":	59,
+			"name":	"Unique Achievement Feign Watch",
+			"craft_class":	"weapon",
+			"item_slot":	"pda2",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"spy":	true
+				}]
+		},
+		"item":	{
+			"id":	60,
+			"name":	"Unique Achievement Cloak Watch",
+			"craft_class":	"weapon",
+			"item_slot":	"pda2",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"spy":	true
+				}]
+		},
+		"item":	{
+			"id":	61,
+			"name":	"Unique Achievement Revolver",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"spy":	true
+				}]
+		},
+		"item":	{
+			"id":	94,
+			"name":	"Engineer Cowboy Hat",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"engineer":	true
+				}]
+		},
+		"item":	{
+			"id":	95,
+			"name":	"Engineer Train Hat",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"engineer":	true
+				}]
+		},
+		"item":	{
+			"id":	96,
+			"name":	"Heavy Ushanka Hat",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"heavy":	true
+				}]
+		},
+		"item":	{
+			"id":	97,
+			"name":	"Heavy Stocking Cap",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"heavy":	true
+				}]
+		},
+		"item":	{
+			"id":	98,
+			"name":	"Soldier Pot Hat",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"soldier":	true
+				}]
+		},
+		"item":	{
+			"id":	99,
+			"name":	"Soldier Viking Hat",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"soldier":	true
+				}]
+		},
+		"item":	{
+			"id":	100,
+			"name":	"Demo Scott Hat",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"demoman":	true
+				}]
+		},
+		"item":	{
+			"id":	101,
+			"name":	"Medic Tyrolean Hat",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"medic":	true
+				}]
+		},
+		"item":	{
+			"id":	102,
+			"name":	"Pyro Chicken Hat",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	103,
+			"name":	"Spy Camera Beard",
+			"craft_class":	"weapon",
+			"item_slot":	"misc",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"spy":	true
+				}]
+		},
+		"item":	{
+			"id":	104,
+			"name":	"Medic Mirror Hat",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"medic":	true
+				}]
+		},
+		"item":	{
+			"id":	105,
+			"name":	"Pyro Fireman Helmet",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	106,
+			"name":	"Scout Bonk Helmet",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true
+				}]
+		},
+		"item":	{
+			"id":	107,
+			"name":	"Scout Newsboy Cap",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true
+				}]
+		},
+		"item":	{
+			"id":	108,
+			"name":	"Spy Derby Hat",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"spy":	true
+				}]
+		},
+		"item":	{
+			"id":	109,
+			"name":	"Sniper Straw Hat",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"sniper":	true
+				}]
+		},
+		"item":	{
+			"id":	110,
+			"name":	"Sniper Jarate Headband",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"sniper":	true
+				}]
+		},
+		"item":	{
+			"id":	111,
+			"name":	"Hatless - Scout",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true
+				}]
+		},
+		"item":	{
+			"id":	115,
+			"name":	"Halloween Hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true,
+					"sniper":	true,
+					"soldier":	true,
+					"demoman":	true,
+					"medic":	true,
+					"heavy":	true,
+					"spy":	true,
+					"engineer":	true,
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	116,
+			"name":	"Domination Hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true,
+					"sniper":	true,
+					"soldier":	true,
+					"demoman":	true,
+					"medic":	true,
+					"heavy":	true,
+					"spy":	true,
+					"engineer":	true,
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	117,
+			"name":	"Hatless - Sniper",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"sniper":	true
+				}]
+		},
+		"item":	{
+			"id":	118,
+			"name":	"Hatless - Engineer",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"engineer":	true
+				}]
+		},
+		"item":	{
+			"id":	120,
+			"name":	"Demo Top Hat",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"demoman":	true
+				}]
+		},
+		"item":	{
+			"id":	121,
+			"name":	"Web Easteregg Medal",
+			"item_slot":	"misc",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"soldier":	true
+				}]
+		},
+		"item":	{
+			"id":	122,
+			"name":	"CheatDetectedMinor",
+			"item_slot":	"misc",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true,
+					"sniper":	true,
+					"soldier":	true,
+					"demoman":	true,
+					"medic":	true,
+					"heavy":	true,
+					"spy":	true,
+					"engineer":	true,
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	123,
+			"name":	"CheatDetectedMajor",
+			"item_slot":	"misc",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true,
+					"sniper":	true,
+					"soldier":	true,
+					"demoman":	true,
+					"medic":	true,
+					"heavy":	true,
+					"spy":	true,
+					"engineer":	true,
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	124,
+			"name":	"CheatDetectedHonesty",
+			"item_slot":	"misc",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true,
+					"sniper":	true,
+					"soldier":	true,
+					"demoman":	true,
+					"medic":	true,
+					"heavy":	true,
+					"spy":	true,
+					"engineer":	true,
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	125,
+			"name":	"Honest Halo",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true,
+					"sniper":	true,
+					"soldier":	true,
+					"demoman":	true,
+					"medic":	true,
+					"heavy":	true,
+					"spy":	true,
+					"engineer":	true,
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	126,
+			"name":	"L4D Hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true,
+					"sniper":	true,
+					"soldier":	true,
+					"demoman":	true,
+					"medic":	true,
+					"heavy":	true,
+					"spy":	true,
+					"engineer":	true,
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	127,
+			"name":	"Unique Achievement Rocket Launcher",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"soldier":	true
+				}]
+		},
+		"item":	{
+			"id":	128,
+			"name":	"Unique Achievement Pickaxe",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"soldier":	true
+				}]
+		},
+		"item":	{
+			"id":	129,
+			"name":	"Unique Achievement Soldier Buff",
+			"craft_class":	"weapon",
+			"item_slot":	"secondary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"soldier":	true
+				}]
+		},
+		"item":	{
+			"id":	130,
+			"name":	"Unique Achievement Sticky Launcher",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"demoman":	true
+				}]
+		},
+		"item":	{
+			"id":	131,
+			"name":	"Unique Achievement Shield",
+			"craft_class":	"weapon",
+			"item_slot":	"primary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"demoman":	true
+				}]
+		},
+		"item":	{
+			"id":	132,
+			"name":	"Unique Achievement Sword",
+			"craft_class":	"weapon",
+			"item_slot":	"melee",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"demoman":	true
+				}]
+		},
+		"item":	{
+			"id":	133,
+			"name":	"The Gunboats",
+			"craft_class":	"boots",
+			"item_slot":	"secondary",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"soldier":	true
+				}]
+		},
+		"item":	{
+			"id":	134,
+			"name":	"Propaganda Contest First Place",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true,
+					"sniper":	true,
+					"soldier":	true,
+					"demoman":	true,
+					"medic":	true,
+					"heavy":	true,
+					"spy":	true,
+					"engineer":	true,
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	135,
+			"name":	"Towering Pillar of Hats",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true,
+					"sniper":	true,
+					"soldier":	true,
+					"demoman":	true,
+					"medic":	true,
+					"heavy":	true,
+					"spy":	true,
+					"engineer":	true,
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	136,
+			"name":	"Propaganda Contest Second Place",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true,
+					"sniper":	true,
+					"soldier":	true,
+					"demoman":	true,
+					"medic":	true,
+					"heavy":	true,
+					"spy":	true,
+					"engineer":	true,
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	137,
+			"name":	"Noble Amassment of Hats",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true,
+					"sniper":	true,
+					"soldier":	true,
+					"demoman":	true,
+					"medic":	true,
+					"heavy":	true,
+					"spy":	true,
+					"engineer":	true,
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	138,
+			"name":	"Propaganda Contest Third Place",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true,
+					"sniper":	true,
+					"soldier":	true,
+					"demoman":	true,
+					"medic":	true,
+					"heavy":	true,
+					"spy":	true,
+					"engineer":	true,
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	139,
+			"name":	"Modest Pile of Hat",
+			"craft_class":	"hat",
+			"item_slot":	"head",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true,
+					"sniper":	true,
+					"soldier":	true,
+					"demoman":	true,
+					"medic":	true,
+					"heavy":	true,
+					"spy":	true,
+					"engineer":	true,
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	5000,
+			"name":	"Craft Bar Level 1",
+			"craft_class":	"craft_bar",
+			"item_quality":	"unique"
+		},
+		"item":	{
+			"id":	5001,
+			"name":	"Craft Bar Level 2",
+			"craft_class":	"craft_bar",
+			"item_quality":	"unique"
+		},
+		"item":	{
+			"id":	5002,
+			"name":	"Craft Bar Level 3",
+			"craft_class":	"craft_bar",
+			"item_quality":	"unique"
+		},
+		"item":	{
+			"id":	5003,
+			"name":	"Scout Class Token",
+			"craft_class":	"craft_token",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"scout":	true
+				}]
+		},
+		"item":	{
+			"id":	5004,
+			"name":	"Sniper Class Token",
+			"craft_class":	"craft_token",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"sniper":	true
+				}]
+		},
+		"item":	{
+			"id":	5005,
+			"name":	"Soldier Class Token",
+			"craft_class":	"craft_token",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"soldier":	true
+				}]
+		},
+		"item":	{
+			"id":	5006,
+			"name":	"Demoman Class Token",
+			"craft_class":	"craft_token",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"demoman":	true
+				}]
+		},
+		"item":	{
+			"id":	5007,
+			"name":	"Heavy Class Token",
+			"craft_class":	"craft_token",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"heavy":	true
+				}]
+		},
+		"item":	{
+			"id":	5008,
+			"name":	"Medic Class Token",
+			"craft_class":	"craft_token",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"medic":	true
+				}]
+		},
+		"item":	{
+			"id":	5009,
+			"name":	"Pyro Class Token",
+			"craft_class":	"craft_token",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"pyro":	true
+				}]
+		},
+		"item":	{
+			"id":	5010,
+			"name":	"Spy Class Token",
+			"craft_class":	"craft_token",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"spy":	true
+				}]
+		},
+		"item":	{
+			"id":	5011,
+			"name":	"Engineer Class Token",
+			"craft_class":	"craft_token",
+			"item_quality":	"unique",
+			"used_by_classes":	[{
+					"engineer":	true
+				}]
+		},
+		"item":	{
+			"id":	5012,
+			"name":	"Slot Token - Primary",
+			"craft_class":	"craft_token",
+			"item_slot":	"primary",
+			"item_quality":	"unique"
+		},
+		"item":	{
+			"id":	5013,
+			"name":	"Slot Token - Secondary",
+			"craft_class":	"craft_token",
+			"item_slot":	"secondary",
+			"item_quality":	"unique"
+		},
+		"item":	{
+			"id":	5014,
+			"name":	"Slot Token - Melee",
+			"craft_class":	"craft_token",
+			"item_slot":	"melee",
+			"item_quality":	"unique"
+		},
+		"item":	{
+			"id":	5015,
+			"name":	"Slot Token - Grenade",
+			"craft_class":	"craft_token",
+			"item_slot":	"grenade",
+			"item_quality":	"unique"
+		},
+		"item":	{
+			"id":	5016,
+			"name":	"Slot Token - Building",
+			"craft_class":	"craft_token",
+			"item_slot":	"building",
+			"item_quality":	"unique"
+		},
+		"item":	{
+			"id":	5017,
+			"name":	"Slot Token - PDA",
+			"craft_class":	"craft_token",
+			"item_slot":	"pda",
+			"item_quality":	"unique"
+		},
+		"item":	{
+			"id":	5018,
+			"name":	"Slot Token - PDA2",
+			"craft_class":	"craft_token",
+			"item_slot":	"pda2",
+			"item_quality":	"unique"
+		},
+		"item":	{
+			"id":	5019,
+			"name":	"Slot Token - Head",
+			"craft_class":	"craft_token",
+			"item_slot":	"head",
+			"item_quality":	"unique"
+		}
+	}
+}
