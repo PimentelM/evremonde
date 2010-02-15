@@ -1,0 +1,998 @@
+{
+    "items":
+    {
+        "0":
+        {
+            "name":    "Bat",
+            "type":    "Weapon",
+            "slot":    "Melee",
+            "quality": "Normal",
+            "class":   "Scout"
+        },
+        "1":
+        {
+            "name":    "Bottle",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Melee",
+            "class":   "Demoman"
+        },
+        "2":
+        {
+            "name":    "Fire Axe",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Melee",
+            "class":   "Pyro"
+        },
+        "3":
+        {
+            "name":    "Kukri",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Melee",
+            "class":   "Sniper"
+        },
+        "4":
+        {
+            "name":    "Knife",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Melee",
+            "class":   "Spy"
+        },
+        "5":
+        {
+            "name":    "Fists",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Melee",
+            "class":   "Heavy"
+        },
+        "6":
+        {
+            "name":    "Shovel",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Melee",
+            "class":   "Soldier"
+        },
+        "7":
+        {
+            "name":    "Wrench",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Melee",
+            "class":   "Engineer"
+        },
+        "8":
+        {
+            "name":    "Bonesaw",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Melee",
+            "class":   "Medic"
+        },
+        "9":
+        {
+            "name":    "Shotgun",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Secondary",
+            "class":   "Engineer"
+        },
+        "10":
+        {
+            "name":    "Shotgun",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Secondary",
+            "class":   "Soldier"
+        },
+        "11":
+        {
+            "name":    "Shotgun",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Secondary",
+            "class":   "Heavy"
+        },
+        "12":
+        {
+            "name":    "Shotgun",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Secondary",
+            "class":   "Pyro"
+        },
+        "13":
+        {
+            "name":    "Scattergun",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Primary",
+            "class":   "Scout"
+        },
+        "14":
+        {
+            "name":    "Sniper Rifle",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Primary",
+            "class":   "Sniper"
+        },
+        "15":
+        {
+            "name":    "Minigun",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Primary",
+            "class":   "Heavy"
+        },
+        "16":
+        {
+            "name":    "SMG",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Secondary",
+            "class":   "Sniper"
+        },
+        "17":
+        {
+            "name":    "Syringe Gun",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Primary",
+            "class":   "Medic"
+        },
+        "18":
+        {
+            "name":    "Rocket Launcher",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Primary",
+            "class":   "Soldier"
+        },
+        "19":
+        {
+            "name":    "Grenade Launcher",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Secondary",
+            "class":   "Demoman"
+        },
+        "20":
+        {
+            "name":    "Stickybomb Launcher",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Primary",
+            "class":   "Demoman"
+        },
+        "21":
+        {
+            "name":    "Flamethrower",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Primary",
+            "class":   "Pyro"
+        },
+        "22":
+        {
+            "name":    "Pistol",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Secondary",
+            "class":   "Engineer"
+        },
+        "23":
+        {
+            "name":    "Pistol",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Secondary",
+            "class":   "Scout"
+        },
+        "24":
+        {
+            "name":    "Revolver",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Primary",
+            "class":   "Spy"
+        },
+        "25":
+        {
+            "name":    "Engineer Build PDA",
+            "type":    "Utility",
+            "quality": "Normal",
+            "slot":    "PDA",
+            "class":   "Engineer"
+        },
+        "26":
+        {
+            "name":    "Engineer Destroy PDA",
+            "type":    "Utility",
+            "quality": "Normal",
+            "slot":    "PDA",
+            "class":   "Engineer"
+        },
+        "27":
+        {
+            "name":    "Spy Disguise PDA",
+            "type":    "Utility",
+            "quality": "Normal",
+            "slot":    "PDA",
+            "class":   "Spy"
+        },
+        "28":
+        {
+            "name":    "Engineer Builder",
+            "type":    "Utility",
+            "quality": "Normal",
+            "slot":    "PDA",
+            "class":   "Engineer"
+        },
+        "29":
+        {
+            "name":    "Medi Gun",
+            "type":    "Utility",
+            "quality": "Normal",
+            "slot":    "Secondary",
+            "class":   "Medic"
+        },
+        "30":
+        {
+            "name":    "Invis Watch",
+            "type":    "Utility",
+            "quality": "Normal",
+            "slot":    "PDA",
+            "class":   "Spy"
+        },
+        "31":
+        {
+            "name":    "The Flare Gun",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Secondary",
+            "class":   "Pyro"
+        },
+        "32":
+        {
+            "name":    "Bonesaw",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Melee",
+            "class":   "Medic"
+        },
+        "33":
+        {
+            "name":    "Syringe Gun",
+            "type":    "Weapon",
+            "quality": "Normal",
+            "slot":    "Primary",
+            "class":   "Medic"
+        },
+        "34":
+        {
+            "name":    "Medi Gun",
+            "type":    "Utility",
+            "quality": "Normal",
+            "slot":    "Secondary",
+            "class":   "Medic"
+        },
+        "35":
+        {
+            "name":    "The Kritzkrieg",
+            "type":    "Utility",
+            "quality": "Unique",
+            "slot":    "Secondary",
+            "class":   "Medic"
+        },
+        "36":
+        {
+            "name":    "The Blutsauger",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Primary",
+            "class":   "Medic"
+        },
+        "37":
+        {
+            "name":    "The Ubersaw",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Melee",
+            "class":   "Medic"
+        },
+        "38":
+        {
+            "name":    "The Axetinguisher",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Melee",
+            "class":   "Pyro"
+        },
+        "39":
+        {
+            "name":    "The Flare Gun",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Secondary",
+            "class":   "Pyro"
+        },
+        "40":
+        {
+            "name":    "The Backburner",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Primary",
+            "class":   "Pyro"
+        },
+        "41":
+        {
+            "name":    "Natascha",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Primary",
+            "class":   "Heavy"
+        },
+        "42":
+        {
+            "name":    "The Sandvich",
+            "type":    "Utility",
+            "quality": "Unique",
+            "slot":    "Secondary",
+            "class":   "Heavy"
+        },
+        "43":
+        {
+            "name":    "The Killing Gloves of Boxing",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Melee",
+            "class":   "Heavy"
+        },
+        "44":
+        {
+            "name":    "The Sandman",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Melee",
+            "class":   "Scout"
+        },
+        "45":
+        {
+            "name":    "The Force-A-Nature",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Primary",
+            "class":   "Scout"
+        },
+        "46":
+        {
+            "name":    "Bonk! Atomic Punch",
+            "type":    "Utility",
+            "quality": "Unique",
+            "slot":    "Secondary",
+            "class":   "Scout"
+        },
+        "47":
+        {
+            "name":    "Demoman's Fro",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Demoman"
+        },
+        "48":
+        {
+            "name":    "Mining Light",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Engineer"
+        },
+        "49":
+        {
+            "name":    "Football Helmet",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Heavy"
+        },
+        "50":
+        {
+            "name":    "Prussian Pickelhaube",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Medic"
+        },
+        "51":
+        {
+            "name":    "Pyros Beanie",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Pyro"
+        },
+        "52":
+        {
+            "name":    "Batter's Helmet",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Scout"
+        },
+        "53":
+        {
+            "name":    "Trophy Belt",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Sniper"
+        },
+        "54":
+        {
+            "name":    "Soldier's Stash",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Soldier"
+        },
+        "55":
+        {
+            "name":    "Fancy Fedora",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Spy"
+        },
+        "56":
+        {
+            "name":    "The Huntsman",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Primary",
+            "class":   "Sniper"
+        },
+        "57":
+        {
+            "name":    "The Razorback",
+            "type":    "Utility",
+            "quality": "Unique",
+            "slot":    "Secondary",
+            "class":   "Sniper"
+        },
+        "58":
+        {
+            "name":    "Jarate",
+            "type":    "Utility",
+            "quality": "Unique",
+            "slot":    "Secondary",
+            "class":   "Sniper"
+        },
+        "59":
+        {
+            "name":    "The Dead Ringer",
+            "type":    "Utility",
+            "quality": "Unique",
+            "slot":    "PDA",
+            "class":   "Spy"
+        },
+        "60":
+        {
+            "name":    "The Cloak and Dagger",
+            "type":    "Utility",
+            "quality": "Unique",
+            "slot":    "PDA",
+            "class":   "Spy"
+        },
+        "61":
+        {
+            "name":    "The Ambassador",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Primary",
+            "class":   "Spy"
+        },
+        "94":
+        {
+            "name":    "Texas Ten Gallon",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Engineer"
+        },
+        "95":
+        {
+            "name":    "Engineer's Cap",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Engineer"
+        },
+        "96":
+        {
+            "name":    "Officer's Ushanka",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Heavy"
+        },
+        "97":
+        {
+            "name":    "Tough Guy's Toque",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Heavy"
+        },
+        "98":
+        {
+            "name":    "Stainless Pot",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Soldier"
+        },
+        "99":
+        {
+            "name":    "Tyrant's Helm",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Soldier"
+        },
+        "100":
+        {
+            "name":    "Glengarry Bonnet",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Demoman"
+        },
+        "101":
+        {
+            "name":    "Vintage Tyrolean",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Medic"
+        },
+        "102":
+        {
+            "name":    "Respectless Rubber Glove",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Pyro"
+        },
+        "103":
+        {
+            "name":    "Camera Beard",
+            "type":    "None",
+            "quality": "Unique",
+            "slot":    "Misc",
+            "class":   "Spy"
+        },
+        "104":
+        {
+            "name":    "Otolaryngologist's Mirror",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Medic"
+        },
+        "105":
+        {
+            "name":    "Brigade Helm",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Pyro"
+        },
+        "106":
+        {
+            "name":    "Bonk Helm",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Scout"
+        },
+        "107":
+        {
+            "name":    "Ye Olde Baker Boy",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Scout"
+        },
+        "108":
+        {
+            "name":    "Backbiter's Billycock",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Spy"
+        },
+        "109":
+        {
+            "name":    "Professional's Panama",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Sniper"
+        },
+        "110":
+        {
+            "name":    "Master's Yellow Belt",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Sniper"
+        },
+        "111":
+        {
+            "name":    "Baseball Bill's Sports Shine",
+            "type":    "Hatless",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Scout"
+        },
+        "115":
+        {
+            "name":    "Mildly Disturbing Halloween Mask",
+            "type":    "Hat",
+            "quality": "Special",
+            "holiday": "Halloween",
+            "slot":    "Head",
+            "class":   "All"
+        },
+        "116":
+        {
+            "name":    "Ghastly Ghibus",
+            "type":    "Hat",
+            "quality": "Special",
+            "slot":    "Head",
+            "class":   "All"
+        },
+        "117":
+        {
+            "name":    "Ritzy Rick's Hair Fixative",
+            "type":    "Hatless",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Sniper"
+        },
+        "118":
+        {
+            "name":    "Texas Slim's Dome Shine",
+            "type":    "Hatless",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Engineer"
+        },
+        "120":
+        {
+            "name":    "Scotsman's Stove Pipe",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "Demoman"
+        },
+        "121":
+        {
+            "name":    "Gentle Manne's Service Medal",
+            "type":    "None",
+            "quality": "Special",
+            "slot":    "Misc",
+            "class":   "Soldier"
+        },
+        "122":
+        {
+            "name":    "Cheat Detected Minor",
+            "type":    "None",
+            "quality": "Special",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "123":
+        {
+            "name":    "Cheat Detected Major",
+            "type":    "None",
+            "quality": "Special",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "124":
+        {
+            "name":    "Cheat Detected Honesty",
+            "type":    "None",
+            "quality": "Special",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "125":
+        {
+            "name":    "Cheater's Lament",
+            "type":    "Hat",
+            "quality": "Special",
+            "slot":    "Head",
+            "class":   "All"
+        },
+        "126":
+        {
+            "name":    "Bill's Hat",
+            "type":    "Hat",
+            "quality": "Special",
+            "slot":    "Head",
+            "class":   "All"
+        },
+        "127":
+        {
+            "name":    "The Direct Hit",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Primary",
+            "class":   "Soldier"
+        },
+        "128":
+        {
+            "name":    "The Equalizer",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Melee",
+            "class":   "Soldier"
+        },
+        "129":
+        {
+            "name":    "The Buff Banner",
+            "type":    "Utility",
+            "quality": "Unique",
+            "slot":    "Secondary",
+            "class":   "Soldier"
+        },
+        "130":
+        {
+            "name":    "The Scottish Resistance",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Primary",
+            "class":   "Demoman"
+        },
+        "131":
+        {
+            "name":    "The Chargin' Targe",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Primary",
+            "class":   "Demoman"
+        },
+        "132":
+        {
+            "name":    "The Eyelander",
+            "type":    "Weapon",
+            "quality": "Unique",
+            "slot":    "Melee",
+            "class":   "Demoman"
+        },
+        "133":
+        {
+            "name":    "The Gunboats",
+            "type":    "Utility",
+            "quality": "Unique",
+            "slot":    "Secondary",
+            "class":   "Soldier"
+        },
+        "134":
+        {
+            "name":    "Towering Pillar of Hats (Propaganda Contest First Place)",
+            "type":    "Hat",
+            "quality": "Special",
+            "slot":    "Head",
+            "class":   "All"
+        },
+        "135":
+        {
+            "name":    "Towering Pillar of Hats",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "All"
+        },
+        "136":
+        {
+            "name":    "Noble Amassment of Hats (Propaganda Contest Second Place)",
+            "type":    "Hat",
+            "quality": "Special",
+            "slot":    "Head",
+            "class":   "All"
+        },
+        "137":
+        {
+            "name":    "Noble Amassment of Hats",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "All"
+        },
+        "138":
+        {
+            "name":    "Modest Pile of Hat (Propaganda Contest Third Place)",
+            "type":    "Hay",
+            "quality": "Special",
+            "slot":    "Head",
+            "class":   "All"
+        },
+        "139":
+        {
+            "name":    "Modest Pile of Hat",
+            "type":    "Hat",
+            "quality": "Unique",
+            "slot":    "Head",
+            "class":   "All"
+        },
+        "5000":
+        {
+            "name":    "Scrap Metal",
+            "type":    "Metal",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        " 5001":
+        {
+            "name":    "Reclaimed Metal",
+            "type":    "Metal",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5002":
+        {
+            "name":    "Refined Metal",
+            "type":    "Metal",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5003":
+        {
+            "name":    "Class Token - Scout",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5004":
+        {
+            "name":    "Class Token - Sniper",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5005":
+        {
+            "name":    "Class Token - Soldier",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5006":
+        {
+            "name":    "Class Token - Demoman",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5007":
+        {
+            "name":    "Class Token - Heavy",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5008":
+        {
+            "name":    "Class Token - Medic",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5009":
+        {
+            "name":    "Class Token - Pyro",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5010":
+        {
+            "name":    "Class Token - Spy",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5011":
+        {
+            "name":    "Class Token - Engineer",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5012":
+        {
+            "name":    "Slot Token - Primary",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5013":
+        {
+            "name":    "Slot Token - Secondary",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5014":
+        {
+            "name":    "Slot Token - Melee",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5015":
+        {
+            "name":    "Slot Token - Grenade",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5016":
+        {
+            "name":    "Slot Token - Building",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5017":
+        {
+            "name":    "Slot Token - PDA",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5018":
+        {
+            "name":    "Slot Token - PDA2",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        },
+        "5019":
+        {
+            "name":    "Slot Token - Head",
+            "type":    "Token",
+            "quality": "Unique",
+            "slot":    "None",
+            "class":   "None"
+        }
+    }
+}
