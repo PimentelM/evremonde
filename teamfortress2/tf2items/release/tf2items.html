@@ -1,0 +1,413 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="styles/tf2items.css" />
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/querystring.js"></script>
+
+    <script type="text/javascript">
+        function profileCheckEnter(event)
+        {
+            if (event.keyCode == 13)
+            {
+                profileSubmit();
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        function profileSubmit()
+        {
+            var newUrl = "tf2items.html?profile=";
+
+            var profileName = document.getElementById("id_profile_submit_text_profile").value;
+            newUrl = newUrl + profileName;
+
+            var sortType = document.getElementById("id_profile_submit_select_sort").value;
+            newUrl = newUrl + "&sort=" + sortType;
+
+            if (document.getElementById("id_profile_submit_checkbox_images").checked == true)
+                newUrl = newUrl + "&images=1";
+            else
+                newUrl = newUrl + "&images=0";
+
+            window.location.replace(newUrl);
+        }
+    </script>
+
+    <title>tf2items</title>
+</head>
+
+<body>
+    <h1>tf2items</h1>
+
+    <div id="id_profile_submit">
+        <table>
+            <tr>
+                <td><b>Profile:</b></td>
+                <td>
+                    <input type="text" id="id_profile_submit_text_profile" onKeyPress="profileCheckEnter(event)" />
+                </td>
+                <td>
+                    <input type="button" id="id_profile_submit_button_ok" value="OK" onClick="profileSubmit()" />
+                </td>
+            </tr>
+            <tr>
+                <td><b>Sort by:</b></td>
+                <td>
+                    <select id="id_profile_submit_select_sort">
+                        <option value="default" selected="selected">default</option>
+                        <option value="id">id</option>
+                        <option value="name">name</option>
+                        <option value="type">type</option>
+                        <option value="quality">quality</option>
+                        <option value="slot">slot</option>
+                        <option value="class">class</option>
+                        <option value="level">level</option>
+                        <option value="inventory">inventory</option>
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Images:</b></td>
+                <td>
+                    <input type="checkbox" id="id_profile_submit_checkbox_images" checked />
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <p />
+
+    <hr>
+    
+    <h2>Profile</h2>
+
+    <p />
+
+    <div id="id_profile_summary"></div>
+        <table>
+            <tr>
+                <td><b>Name:</b></td>
+                <td id="id_profile_summary_name"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Date:</b></td>
+                <td id="id_profile_summary_date"></td>
+            </tr>
+            <tr>
+                <td><b>Time:</b></td>
+                <td id="id_profile_summary_time"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Steam Community URL:</b></td>
+                <td id="id_profile_summary_url_steam_community"></td>
+            </tr>
+            <tr>
+                <td><b>tf2items URL:</b></td>
+                <td id="id_profile_summary_url_tf2items"></td>
+            </tr>
+        </table>
+    <p />
+
+    <hr>
+
+    <h2>Backpack</h2>
+
+    <div id="id_items"></div>
+
+    <p />
+
+    <div id="id_items_summary">
+        <table>
+            <tr>
+                <td><b>Items:</b></td>
+                <td id="id_items_summary_n_items"></td>
+            </tr>
+            <tr>
+                <td><b>Hats:</b></td>
+                <td id="id_items_summary_n_hats"></td>
+            </tr>
+            <tr>
+                <td><b>Metals:</b></td>
+                <td id="id_items_summary_n_metals"></td>
+            </tr>
+            <tr>
+                <td><b>Tokens:</b></td>
+                <td id="id_items_summary_n_tokens"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Total:</b></td>
+                <td id="id_items_summary_n_total"></td>
+            </tr>
+        </table>
+    </div>
+
+    <p />
+
+    <hr>
+
+    <h2>Items Found</h2>
+
+    <div id="id_items_found"></div>
+
+    <p />
+
+    <div id="id_items_found_summary">
+        <table>
+            <tr>
+                <td><b>Items Found:</b></td>
+                <td id="id_items_found_summary_n_items_found"></td>
+            </tr>
+            <tr>
+                <td><b>Hats Found:</b></td>
+                <td id="id_items_found_summary_n_hats_found"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Total Found:</b></td>
+                <td id="id_items_found_summary_n_total_found"></td>
+            </tr>
+        </table>
+    </div>
+
+    <p />
+
+    <div id="id_items_null"></div>
+
+    <p />
+
+    <script type="text/javascript">
+        var queryString = new Querystring();
+
+        var queryProfile = queryString.get("profile", "");
+
+        document.getElementById("id_profile_submit_text_profile").value = queryProfile;
+
+        var queryImages = queryString.get("images", "1");
+
+        if (queryImages == "1")
+            document.getElementById("id_profile_submit_checkbox_images").checked = true;
+        else
+            document.getElementById("id_profile_submit_checkbox_images").checked = false;
+
+        var querySort = queryString.get("sort", "");
+
+        document.getElementById("id_profile_submit_select_sort").value = querySort;
+
+        $("#id_profile_summary_name").text(queryProfile);
+
+        var profilePath = "profiles/" + queryProfile + ".json";
+
+        $.getJSON
+        (
+            profilePath,
+            function(root)
+            {
+                $("#id_profile_summary_date").text(root.date);
+                $("#id_profile_summary_time").text(root.time);
+
+                $("#id_profile_summary_url_steam_community").append("<a href=\"" + root.url_steam_community + "\">" + root.url_steam_community + "</a>");
+                $("#id_profile_summary_url_tf2items").append("<a href=\"" + root.url_tf2items + "\">" + root.url_tf2items + "</a>");
+
+                $("#id_items_summary_n_items").text(root.n_items);
+                $("#id_items_summary_n_hats").text(root.n_hats);
+                $("#id_items_summary_n_metals").text(root.n_metals + " metal(s)" + " worth " + root.n_metals_worth + " item(s)" + " or " + Math.floor(root.n_metals_worth / 81) + " random hat(s)" + " or " + Math.floor(root.n_metals_worth / 108) + " class-specific hat(s)");
+                $("#id_items_summary_n_tokens").text(root.n_tokens);
+                $("#id_items_summary_n_total").text((root.n_items + root.n_hats + root.n_metals + root.n_tokens) + " / 100");
+
+                $("#id_items_found_summary_n_items_found").text(root.n_items_found);
+                $("#id_items_found_summary_n_hats_found").text(root.n_hats_found);
+                $("#id_items_found_summary_n_total_found").text((root.n_items_found + root.n_hats_found));
+
+                function sortById(a, b)
+                {
+                    return b.id - a.id;
+                }
+
+                function sortByName(a, b)
+                {
+                    return ((a.name == b.name) ? 0 :
+                           ((a.name >  b.name) ? 1 : -1));
+                }
+
+                function sortByType(a, b)
+                {
+                    return ((a.type == b.type) ? 0 :
+                           ((a.type >  b.type) ? 1 : -1));
+                }
+
+                function sortByQuality(a, b)
+                {
+                    return ((a.quality == b.quality) ? 0 :
+                           ((a.quality >  b.quality) ? 1 : -1));
+                }
+
+                function sortBySlot(a, b)
+                {
+                    return ((a.slot == b.slot) ? 0 :
+                           ((a.slot >  b.slot) ? 1 : -1));
+                }
+
+                function sortByClass(a, b)
+                {
+                    return ((a.class == b.class) ? 0 :
+                           ((a.class >  b.class) ? 1 : -1));
+                }
+
+                function sortByLevel(a, b)
+                {
+                    return b.level - a.level;
+                }
+
+                function sortByInventory(a, b)
+                {
+                    return b.inventory - a.inventory;
+                }
+
+                if (querySort == "id")
+                {
+                    root.items.sort(sortById);
+                }
+                else if (querySort == "name")
+                {
+                    root.items.sort(sortByName);
+                }
+                else if (querySort == "type")
+                {
+                    root.items.sort(sortById);
+                    root.items.sort(sortByType);
+                }
+                else if (querySort == "quality")
+                {
+                    root.items.sort(sortById);
+                    root.items.sort(sortByType);
+                    root.items.sort(sortByQuality);
+                }
+                else if (querySort == "slot")
+                {
+                    root.items.sort(sortById);
+                    root.items.sort(sortBySlot);
+                }
+                else if (querySort == "class")
+                {
+                    root.items.sort(sortById);
+                    root.items.sort(sortByClass);
+                }
+                else if (querySort == "level")
+                {
+                    root.items.sort(sortById);
+                    root.items.sort(sortByType);
+                    root.items.sort(sortByLevel);
+                }
+                else if (querySort == "inventory")
+                {
+                    root.items.sort(sortByInventory);
+                }
+
+                $.each
+                (
+                    root.items,
+                    function(index, item)
+                    {
+                        var inventoryId = "#id_items_null";
+
+                        if (item.inventory == 0)
+                        {
+                            inventoryId = "#id_items_found";
+                        }
+                        else
+                        {
+                            inventoryId = "#id_items";
+                        }
+
+                        /*
+                            if (index > 0 && index % 10 == 0)
+                            {
+                                $(inventoryId).append("<br />");
+                            }
+                        */
+
+                        if (queryImages == "1")
+                        {
+                            var imagePath = "images/" + item.image + ".png";
+                            $("<img />")
+                                .attr("id", "id_item_" + index)
+                                .attr("src", imagePath)
+                                .attr("title", item.name)
+                                //.attr("alt", item.name)
+                                .appendTo(inventoryId);
+
+                            /*
+                                var imagePathLarge = "images/" + item.image + "_large.png";
+                                $("#id_item_" + index).attr("onClick", "window.open('" + imagePathLarge + "')");
+                            */
+
+                            var itemName = item.name.replace("'", "\\'");
+                            var itemDescription =
+                                "id: \\t\\t\\t"   + item.id      + "\\n" +
+                                "name: \\t\\t"    + itemName     + "\\n" +
+                                "type: \\t\\t"    + item.type    + "\\n" +
+                                "quality: \\t\\t" + item.quality + "\\n" +
+                                "slot: \\t\\t"    + item.slot    + "\\n" +
+                                "class: \\t\\t"   + item.class   + "\\n" +
+                                "level: \\t\\t"   + item.level   + "\\n" +
+                                "inventory: \\t"  + item.inventory;
+                            $("#id_item_" + index).attr("onClick", "alert('" + itemDescription + "')");
+
+                            if (item.inventory == 0)
+                            {
+                                if (item.type == "Hat" || item.type == "Hatless")
+                                {
+                                    var itemHatBorderColor = "white";
+
+                                    if (item.type == "Hat")
+                                    {
+                                        itemHatBorderColor = "green";
+                                    }
+                                    else if (item.type == "Hatless")
+                                    {
+                                        itemHatBorderColor = "red";
+                                    }
+
+                                    $("#id_item_" + index).css("border", "solid 1px " + itemHatBorderColor);
+                                }
+                            }
+                        }
+                        else
+                        {
+                            $(inventoryId).append(item.name + "<br />");
+                        }
+                    }
+                );
+            }
+        );
+    </script>
+</body>
+
+</html>
