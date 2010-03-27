@@ -1,0 +1,679 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="styles/tf2items.css" />
+
+    <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" />
+
+    <script type="text/javascript" src="scripts/querystring.js"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready
+        (
+            function()
+            {
+                $("#id_profile_submit_text_profile").autocomplete
+                (
+                    {
+                        source: ["kevinlroberts", "robinwalker", "df", "dispensergum"]
+                    }
+                );
+            }
+        );
+    </script>
+
+    <script type="text/javascript">
+        function profileCheckEnter(event)
+        {
+            if (event.keyCode == 13)
+            {
+                profileSubmit();
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        function profileSubmit()
+        {
+            var newUrl = "tf2items.html?profile=";
+
+            var profileName = document.getElementById("id_profile_submit_text_profile").value;
+            newUrl = newUrl + profileName;
+
+            var sortType = document.getElementById("id_profile_submit_select_sort").value;
+            newUrl = newUrl + "&sort=" + sortType;
+
+            window.location.replace(newUrl);
+        }
+    </script>
+
+    <title>tf2items</title>
+</head>
+
+<body>
+    <h1>tf2items</h1>
+
+    <div id="id_profile_submit">
+        <table>
+            <tr>
+                <td><b>Profile:</b></td>
+                <td>
+                    <input type="text" id="id_profile_submit_text_profile" onKeyPress="profileCheckEnter(event)" />
+                </td>
+                <td>
+                    <input type="button" id="id_profile_submit_button_submit" value="Submit" onClick="profileSubmit()" />
+                </td>
+            </tr>
+            <tr>
+                <td><b>Sort by:</b></td>
+                <td>
+                    <select id="id_profile_submit_select_sort">
+                        <option value="default" selected="selected">default</option>
+                        <option value="id">id</option>
+                        <option value="name">name</option>
+                        <option value="type">type</option>
+                        <option value="quality">quality</option>
+                        <option value="slot">slot</option>
+                        <option value="class">class</option>
+                        <option value="level">level</option>
+                        <option value="position">position</option>
+                        <option value="equipped">equipped</option>
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <p>
+
+    <hr>
+    
+    <h2>Profile</h2>
+
+    <p>
+
+    <div id="id_profile_summary">
+        <table>
+            <tr>
+                <td><b>Name:</b></td>
+                <td id="id_profile_summary_name"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Date:</b></td>
+                <td id="id_profile_summary_date"></td>
+
+                <td><b>Steam Community URL:</b></td>
+                <td id="id_profile_summary_url_steam_community"></td>
+            </tr>
+            <tr>
+                <td><b>Time:</b></td>
+                <td id="id_profile_summary_time"></td>
+
+                <td><b>TF2 Backpack Examiner URL:</b></td>
+                <td id="id_profile_summary_url_tf2items"></td>
+            </tr>
+        </table>
+    </div>
+
+    <p>
+
+    <hr>
+
+    <h2>Backpack</h2>
+
+    <div id="id_items_summary">
+        <table>
+            <tr>
+                <td><b>Items:</b></td>
+                <td id="id_items_summary_n_items"></td>
+            </tr>
+            <tr>
+                <td><b>Hats:</b></td>
+                <td id="id_items_summary_n_hats"></td>
+            </tr>
+            <tr>
+                <td><b>Metals:</b></td>
+                <td id="id_items_summary_n_metals"></td>
+            </tr>
+            <tr>
+                <td><b>Tokens:</b></td>
+                <td id="id_items_summary_n_tokens"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Total:</b></td>
+                <td id="id_items_summary_n_total"></td>
+            </tr>
+        </table>
+    </div>
+
+    <p>
+
+    <div id="id_items"></div>
+
+    <p>
+
+    <hr>
+
+    <h2>Items Found</h2>
+
+    <div id="id_items_found_summary">
+        <table>
+            <tr>
+                <td><b>Items Found:</b></td>
+                <td id="id_items_found_summary_n_items_found"></td>
+            </tr>
+            <tr>
+                <td><b>Hats Found:</b></td>
+                <td id="id_items_found_summary_n_hats_found"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Total Found:</b></td>
+                <td id="id_items_found_summary_n_total_found"></td>
+            </tr>
+        </table>
+    </div>
+
+    <p>
+
+    <div id="id_items_found"></div>
+
+    <p>
+
+    <hr>
+
+    <h2>Craft</h2>
+
+    <div id="id_items_craft_summary">
+        <table>
+            <tr>
+                <td><b>Items:</b></td>
+                <td id="id_items_craft_n_items"></td>
+            </tr>
+            <tr>
+                <td><b>Metals:</b></td>
+                <td id="id_items_craft_n_metals"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Refined Metals:</b></td>
+                <td id="id_items_craft_n_refined_metals"></td>
+            </tr>
+            <tr>
+                <td><b>Reclaimed Metals:</b></td>
+                <td id="id_items_craft_n_reclaimed_metals"></td>
+            </tr>
+            <tr>
+                <td><b>Scrap Metals:</b></td>
+                <td id="id_items_craft_n_scrap_metals"></td>
+            </tr>
+        </table>
+    </div>
+
+    <p>
+
+    <div id="id_items_craft"></div>
+
+    <p>
+
+    <script type="text/javascript">
+        var queryString = new Querystring();
+
+        var queryProfile = queryString.get("profile", "");
+
+        document.getElementById("id_profile_submit_text_profile").value = queryProfile;
+
+        var querySort = queryString.get("sort", "");
+
+        document.getElementById("id_profile_submit_select_sort").value = querySort;
+
+        $("#id_profile_summary_name").text(queryProfile);
+
+        if (querySort == "position")
+        {
+            $("#id_items").css("width", "1064px");
+            $("#id_items_found").css("width", "1064px");
+            $("#id_items_craft").css("width", "1064px");
+            $("hr")
+                .css("width", "1064px")
+                .css("margin-left", "0");
+
+            $("#id_items").append('<div id="id_items_page_1"></div>');
+            $("#id_items").append('<div id="id_items_page_2"></div>');
+
+            $("#id_items_page_1").append("<p>");
+            $("<img />")
+                .attr("src", "images/page_1_of_2.png")
+                .css("vertical-align", "middle")
+                .appendTo("#id_items_page_1");
+            $("#id_items_page_1").append("<p>");
+
+            $("#id_items_page_2").append("<p>");
+            $("<img />")
+                .attr("src", "images/page_2_of_2.png")
+                .css("vertical-align", "middle")
+                .appendTo("#id_items_page_2");
+            $("#id_items_page_2").append("<p>");
+
+            for (var i = 1; i < 101; i++)
+            {
+                var backpackPage = "#id_items_page_1";
+                if (i > 50)
+                    backpackPage = "#id_items_page_2";
+
+                $("<img />")
+                    .attr("id", "id_item_" + i)
+                    .attr("class", "class_item")
+                    .attr("src", "images/blank.png")
+                    .appendTo(backpackPage);
+            }
+        }
+
+        var profilePath = "profiles/" + queryProfile + ".txt";
+
+        $.getJSON
+        (
+            profilePath,
+            function(root)
+            {
+                $("#id_profile_summary_date").text(root.date);
+                $("#id_profile_summary_time").text(root.time);
+
+                $("#id_profile_summary_url_steam_community").append("<a href=\"" + root.url_steam_community + "\">" + root.url_steam_community + "</a>");
+                $("#id_profile_summary_url_tf2items").append("<a href=\"" + root.url_tf2items + "\">" + root.url_tf2items + "</a>");
+
+                $("#id_items_summary_n_items").text(root.n_items);
+                $("#id_items_summary_n_hats").text(root.n_hats);
+                $("#id_items_summary_n_metals").text(root.n_metals + " metal(s)" + " worth " + root.n_metals_worth + " item(s)" + " or " + Math.floor(root.n_metals_worth / 81) + " random hat(s)" + " or " + Math.floor(root.n_metals_worth / 108) + " class-specific hat(s)");
+                $("#id_items_summary_n_tokens").text(root.n_tokens);
+                $("#id_items_summary_n_total").text((root.n_items + root.n_hats + root.n_metals + root.n_tokens) + " / 100");
+
+                $("#id_items_found_summary_n_items_found").text(root.n_items_found);
+                $("#id_items_found_summary_n_hats_found").text(root.n_hats_found);
+                $("#id_items_found_summary_n_total_found").text((root.n_items_found + root.n_hats_found));
+
+                function sortByKey(a, b)
+                {
+                    return a.key - b.key;
+                }
+
+                function sortById(a, b)
+                {
+                    return b.id - a.id;
+                }
+
+                function sortByName(a, b)
+                {
+                    return ((a.name == b.name) ? 0 :
+                           ((a.name >  b.name) ? 1 : -1));
+                }
+
+                function sortByType(a, b)
+                {
+                    return ((a.type == b.type) ? 0 :
+                           ((a.type >  b.type) ? 1 : -1));
+                }
+
+                function sortByQuality(a, b)
+                {
+                    return ((a.quality == b.quality) ? 0 :
+                           ((a.quality >  b.quality) ? 1 : -1));
+                }
+
+                function sortBySlot(a, b)
+                {
+                    return ((a.slot == b.slot) ? 0 :
+                           ((a.slot >  b.slot) ? 1 : -1));
+                }
+
+                function sortByClass(a, b)
+                {
+                    return ((a.class == b.class) ? 0 :
+                           ((a.class >  b.class) ? 1 : -1));
+                }
+
+                function sortByLevel(a, b)
+                {
+                    return b.level - a.level;
+                }
+
+                function sortByPosition(a, b)
+                {
+                    return a.position - b.position;
+                }
+
+                function sortByEquipped(a, b)
+                {
+                    return b.equipped - a.equipped;
+                }
+
+                if (querySort == "default")
+                {
+                    root.items.sort(sortByKey);
+                }
+                else if (querySort == "id")
+                {
+                    root.items.sort(sortById);
+                }
+                else if (querySort == "name")
+                {
+                    root.items.sort(sortByName);
+                }
+                else if (querySort == "type")
+                {
+                    root.items.sort(sortById);
+                    root.items.sort(sortByType);
+                }
+                else if (querySort == "quality")
+                {
+                    root.items.sort(sortById);
+                    root.items.sort(sortByType);
+                    root.items.sort(sortByQuality);
+                }
+                else if (querySort == "slot")
+                {
+                    root.items.sort(sortById);
+                    root.items.sort(sortBySlot);
+                }
+                else if (querySort == "class")
+                {
+                    root.items.sort(sortById);
+                    root.items.sort(sortByClass);
+                }
+                else if (querySort == "level")
+                {
+                    root.items.sort(sortById);
+                    root.items.sort(sortByType);
+                    root.items.sort(sortByLevel);
+                }
+                else if (querySort == "position")
+                {
+                    root.items.sort(sortByKey);
+                    root.items.sort(sortByPosition);
+                }
+                else if (querySort == "equipped")
+                {
+                    root.items.sort(sortByEquipped);
+                }
+
+                $.each
+                (
+                    root.items,
+                    function(index, item)
+                    {
+                        var positionType = "#id_items_null";
+
+                        if (item.position == 0)
+                        {
+                            positionType = "#id_items_found";
+                        }
+                        else
+                        {
+                            positionType = "#id_items";
+                        }
+
+                        var uniqueId = index;
+
+                        if (item.position == 0)
+                            uniqueId = uniqueId - (uniqueId * 2);
+
+                        var imagePath = "images/" + item.image + ".png";
+
+                        if (querySort == "position" && item.position > 0)
+                        {
+                            $("#id_item_" + item.position)
+                                .attr("src", imagePath)
+                                .attr("title", item.name)
+                                .attr("alt", item.name);
+                        }
+                        else
+                        {
+                            $("<img />")
+                                .attr("id", "id_item_" + uniqueId)
+                                .attr("class", "class_item")
+                                .attr("src", imagePath)
+                                .attr("title", item.name)
+                                .attr("alt", item.name)
+                                .appendTo(positionType);
+                        }
+
+                        var itemName = item.name.replace("'", "\\'");
+                        var itemDescription =
+                            "uid: \\t\\t\\t"  + uniqueId      + "\\n" +
+                            "key: \\t\\t"     + item.key      + "\\n" +
+                            "id: \\t\\t\\t"   + item.id       + "\\n" +
+                            "name: \\t\\t"    + itemName      + "\\n" +
+                            "type: \\t\\t"    + item.type     + "\\n" +
+                            "quality: \\t\\t" + item.quality  + "\\n" +
+                            "slot: \\t\\t"    + item.slot     + "\\n" +
+                            "class: \\t\\t"   + item.class    + "\\n" +
+                            "level: \\t\\t"   + item.level    + "\\n" +
+                            "position: \\t"   + item.position + "\\n" +
+                            "equipped: \\t0x" + item.equipped.toString(16);
+
+                        if (querySort == "position" && item.position > 0)
+                        {
+                            $("#id_item_" + item.position).attr("onClick", "alert('" + itemDescription + "')");
+                        }
+                        else
+                        {
+                            $("#id_item_" + uniqueId).attr("onClick", "alert('" + itemDescription + "')");
+                        }
+
+                        if (item.position == 0)
+                        {
+                            var itemIsHatBorderColor = "white";
+
+                            if (item.type == "Hat")
+                            {
+                                if (item.name == "Hat")
+                                {
+                                    itemIsHatBorderColor = "red";
+                                }
+                                else
+                                {
+                                    itemIsHatBorderColor = "green";
+                                }
+
+                                $("#id_item_" + index).css("border", "2px solid " + itemIsHatBorderColor);
+                            }
+                        }
+                    }
+                );
+
+                function appendCraft(a)
+                {
+                    var i, j, k, m;
+
+                    a.sort(sortById);
+
+                    var n = a.length;
+
+                    var nItems = 0;
+
+                    var imagePath;
+
+                    o:for (i = 0; i < n; i++)
+                    {
+                        for (j = i + 1; j < n; j++)
+                        {
+                            if (a[i].class == a[j].class && a[i].type != "Hat" && a[j].type != "Hat" && a[i] != 0 && a[j] != 0)
+                            {
+                                for (k = j + 1; k < n; k++)
+                                {
+                                    if (a[i].class == a[k].class  && a[i].type != "Hat" && a[k].type != "Hat" && a[i] != 0 && a[k] != 0)
+                                    {
+                                        if (a[i].type == "Hat" || a[i].type == "Metal" || a[i].type == "Token" || a[i].quality == "Normal" || a[i].quality == "Special")
+                                            continue o;
+
+                                        if (a[j].type == "Hat" || a[j].type == "Metal" || a[j].type == "Token" || a[j].quality == "Normal" || a[j].quality == "Special")
+                                            continue o;
+
+                                        if (a[k].type == "Hat" || a[k].type == "Metal" || a[k].type == "Token" || a[k].quality == "Normal" || a[k].quality == "Special")
+                                            continue o;
+
+                                        nItems += 3;
+
+                                        imagePath = "images/" + a[i].image + ".png";
+
+                                        $("<img />")
+                                            .attr("class", "class_item")
+                                            .attr("src", imagePath)
+                                            .attr("title", a[i].name)
+                                            .attr("alt", a[i].name)
+                                            .appendTo("#id_items_craft");
+
+                                        $("#id_items_craft").append(" + ");
+
+                                        imagePath = "images/" + a[j].image + ".png";
+
+                                        $("<img />")
+                                            .attr("class", "class_item")
+                                            .attr("src", imagePath)
+                                            .attr("title", a[j].name)
+                                            .attr("alt", a[j].name)
+                                            .appendTo("#id_items_craft");
+
+                                        $("#id_items_craft").append(" + ");
+
+                                        imagePath = "images/" + a[k].image + ".png";
+
+                                        $("<img />")
+                                            .attr("class", "class_item")
+                                            .attr("src", imagePath)
+                                            .attr("title", a[k].name)
+                                            .attr("alt", a[k].name)
+                                            .appendTo("#id_items_craft");
+
+                                        $("#id_items_craft").append(" = ");
+
+                                        imagePath = "images/backpack/crafting/pile_of_junk.png";
+
+                                        $("<img />")
+                                            .attr("class", "class_item")
+                                            .attr("src", imagePath)
+                                            .attr("title", "Scrap Metal")
+                                            .attr("alt", "Scrap Metal")
+                                            .appendTo("#id_items_craft");
+
+                                        $("#id_items_craft").append("<br />");
+
+                                        a[i] = 0;
+                                        a[j] = 0;
+                                        a[k] = 0;
+
+                                        continue o;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    var nRefinedMetals = Math.floor(nItems / 27);
+
+                    var rRefinedMetals = nItems % 27;
+
+                    var nReclaimedMetals = Math.floor(rRefinedMetals / 9);
+
+                    var rReclaimedMetals = rRefinedMetals % 9;
+
+                    var nScrapMetals = Math.floor(rReclaimedMetals / 3);
+
+                    var rScrapMetals = rReclaimedMetals % 3;
+
+                    $("#id_items_craft_n_items").text(nItems);
+                    $("#id_items_craft_n_metals").text(nRefinedMetals + nReclaimedMetals + nScrapMetals + " metal(s)" + " worth " + Math.floor(nRefinedMetals / 3) + " random hat(s)" + " or " + Math.floor(nRefinedMetals / 4) + " class-specific hat(s)");
+
+                    $("#id_items_craft_n_refined_metals").text(nRefinedMetals);
+                    $("#id_items_craft_n_reclaimed_metals").text(nReclaimedMetals);
+                    $("#id_items_craft_n_scrap_metals").text(nScrapMetals);
+
+                    if (nRefinedMetals > 0 || nReclaimedMetals > 0 || nScrapMetals > 0)
+                        $("#id_items_craft").append(" = ");
+
+                    $("#id_items_craft").append("<br />");
+
+                    if (nRefinedMetals > 0)
+                    {
+                        for (m = 0; m < nRefinedMetals; m++)
+                        {
+                            imagePath = "images/backpack/crafting/pile_of_junk3.png";
+
+                            $("<img />")
+                                .attr("class", "class_item")
+                                .attr("src", imagePath)
+                                .attr("title", "Refined Metal")
+                                .attr("alt", "Refined Metal")
+                                .appendTo("#id_items_craft");
+                        }
+                    }
+
+                    if (nRefinedMetals > 0 && (nReclaimedMetals > 0 || nScrapMetals > 0))
+                        $("#id_items_craft").append(" + ");
+
+                    if (nReclaimedMetals > 0)
+                    {
+                        for (m = 0; m < nReclaimedMetals; m++)
+                        {
+                            imagePath = "images/backpack/crafting/pile_of_junk2.png";
+
+                            $("<img />")
+                                .attr("class", "class_item")
+                                .attr("src", imagePath)
+                                .attr("title", "Reclaimed Metal")
+                                .attr("alt", "Reclaimed Metal")
+                                .appendTo("#id_items_craft");
+                        }
+                    }
+
+                    if (nReclaimedMetals > 0 && nScrapMetals > 0)
+                        $("#id_items_craft").append(" + ");
+
+                    if (nScrapMetals > 0)
+                    {
+                        for (m = 0; m < nScrapMetals; m++)
+                        {
+                            imagePath = "images/backpack/crafting/pile_of_junk.png";
+
+                            $("<img />")
+                                .attr("class", "class_item")
+                                .attr("src", imagePath)
+                                .attr("title", "Scrap Metal")
+                                .attr("alt", "Scrap Metal")
+                                .appendTo("#id_items_craft");
+                        }
+                    }
+                }
+
+                appendCraft(root.items);
+            }
+        );
+    </script>
+</body>
+
+</html>
