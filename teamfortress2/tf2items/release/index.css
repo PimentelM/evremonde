@@ -1,0 +1,253 @@
+body
+{
+    font-family: Arial, Verdana, Geneva, Helvetica, Sans-Serif;
+    font-size: 0.75em;
+    background-color: #2A2725;
+    color: #EBE2CA;
+}
+
+a
+{
+    text-decoration: underline;
+    color: #EBE2CA;
+}
+
+hr
+{
+    clear: both;
+}
+
+#id_page_content
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr, #id_page_content, #id_items, #id_items_found, #id_items_craft
+{
+    width: 1064px;
+}
+
+#id_avatar
+{
+    border: 4px solid #666666;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+#id_items img
+{
+    background-image: url(images/cell.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+#id_items img:hover
+{
+    background-position: 0 -96px;
+}
+
+#id_items_buttons
+{
+    float: right;
+}
+
+#id_items_buttons img
+{
+    vertical-align: middle;
+}
+
+#id_items_craft
+{
+    font-size: 2.0em;
+    font-weight: normal;
+}
+
+.class_tooltip
+{
+    z-index: 9001;
+    display: none;
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-width: 240px;
+    font-size: 1.0em;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 8px;
+    -moz-box-shadow: 4px 4px 8px black;
+    -webkit-box-shadow: 4px 4px 8px black;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.class_popup
+{
+    z-index: 9002;
+    display: none;
+    position: absolute;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    min-width: 160px;
+    color: white;
+    background-color: black;
+    padding: 8px;
+    -moz-box-shadow: 4px 4px 8px black;
+    -webkit-box-shadow: 4px 4px 8px black;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.class_popup_close
+{
+    float: right;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.class_popup_item_key
+{
+    color: #FFFF33;
+    font-weight: bold;
+}
+
+.class_popup_item_value
+{
+    color: #999999;
+}
+
+.class_slot
+{
+    position: relative;
+    float: left;
+
+    overflow: visible;
+    margin: 0px;
+}
+
+img.class_item
+{
+    vertical-align: middle;
+    width: 96px;
+    height: 96px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.class_item_dialog
+{
+    display: none;
+}
+
+.class_item_level
+{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 10px;
+    left: 10px;
+    font-size: 1.0em;
+    text-align: center;
+    color: #6699FF;
+    background-color: black;
+    padding: 2px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.class_item_equipped
+{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 77px;
+    left: 25px;
+    font-size: 1.0em;
+    text-align: center;
+    color: #FF3333;
+    background-color: black;
+    padding: 2px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.class_tooltip_item_name_default
+{
+    color: #FFFF33;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.class_tooltip_item_name_community
+{
+    color: #33FF33;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.class_tooltip_item_name_valve
+{
+    color: #FF33FF;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.class_tooltip_item_name_self_made
+{
+    color: #6699FF;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.class_tooltip_item_equipped
+{
+    color: #999999;
+    font-weight: normal;
+}
+
+.class_tooltip_item_duplicate
+{
+    color: #999999;
+    font-weight: normal;
+}
+
+.class_tooltip_item_level
+{
+    color: #999999;
+}
+
+.class_tooltip_item_holiday
+{
+    color: #FFFFFF;
+}
+
+.class_tooltip_item_property_type_positive
+{
+    color: #6699FF;
+}
+
+.class_tooltip_item_property_type_negative
+{
+    color: #FF3333;
+}
+
+.class_tooltip_item_property_type_neutral
+{
+    color: #FFFFFF;
+}
+
+.class_tooltip_item_description
+{
+    color: #FFFFFF;
+}
+
+.class_tooltip_item_attributes
+{
+    color: #FFFFFF;
+}

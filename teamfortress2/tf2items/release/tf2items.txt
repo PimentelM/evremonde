@@ -1,0 +1,1697 @@
+{
+   "qualities":[
+      {
+         "id":0,
+         "name":"Normal"
+      },
+      {
+         "id":1,
+         "name":"Common"
+      },
+      {
+         "id":2,
+         "name":"Rare"
+      },
+      {
+         "id":3,
+         "name":"Unique"
+      },
+      {
+         "id":7,
+         "name":"Community"
+      },
+      {
+         "id":8,
+         "name":"Developer"
+      },
+      {
+         "id":9,
+         "name":"Self-Made"
+      }
+   ],
+   "items":[
+      {
+         "id":0,
+         "name":"Bat",
+         "type":"Weapon",
+         "subtype":"Bat",
+         "slot":"Melee",
+         "quality":"Normal",
+         "classes":"Scout",
+         "image":"backpack/weapons/c_models/c_bat"
+      },
+      {
+         "id":1,
+         "name":"Bottle",
+         "type":"Weapon",
+         "subtype":"Bottle",
+         "quality":"Normal",
+         "slot":"Melee",
+         "classes":"Demoman",
+         "image":"backpack/weapons/w_models/w_bottle"
+      },
+      {
+         "id":2,
+         "name":"Fire Axe",
+         "type":"Weapon",
+         "subtype":"Fire Axe",
+         "quality":"Normal",
+         "slot":"Melee",
+         "classes":"Pyro",
+         "image":"backpack/weapons/c_models/c_fireaxe_pyro/c_fireaxe_pyro"
+      },
+      {
+         "id":3,
+         "name":"Kukri",
+         "type":"Weapon",
+         "subtype":"Kukri",
+         "quality":"Normal",
+         "slot":"Melee",
+         "classes":"Sniper",
+         "image":"backpack/weapons/w_models/w_machete"
+      },
+      {
+         "id":4,
+         "name":"Knife",
+         "type":"Weapon",
+         "subtype":"Knife",
+         "quality":"Normal",
+         "slot":"Melee",
+         "classes":"Spy",
+         "image":"backpack/weapons/w_models/w_knife"
+      },
+      {
+         "id":5,
+         "name":"Fists",
+         "type":"Weapon",
+         "subtype":"Fists",
+         "quality":"Normal",
+         "slot":"Melee",
+         "classes":"Heavy",
+         "image":"backpack/weapons/v_models/v_fist_heavy"
+      },
+      {
+         "id":6,
+         "name":"Shovel",
+         "type":"Weapon",
+         "subtype":"Shovel",
+         "quality":"Normal",
+         "slot":"Melee",
+         "classes":"Soldier",
+         "image":"backpack/weapons/w_models/w_shovel"
+      },
+      {
+         "id":7,
+         "name":"Wrench",
+         "type":"Weapon",
+         "subtype":"Wrench",
+         "quality":"Normal",
+         "slot":"Melee",
+         "classes":"Engineer",
+         "image":"backpack/weapons/w_models/w_wrench"
+      },
+      {
+         "id":8,
+         "name":"Bonesaw",
+         "type":"Weapon",
+         "subtype":"Bonesaw",
+         "quality":"Normal",
+         "slot":"Melee",
+         "classes":"Medic",
+         "image":"backpack/weapons/c_models/c_bonesaw/c_bonesaw"
+      },
+      {
+         "id":9,
+         "name":"Shotgun",
+         "type":"Weapon",
+         "subtype":"Shotgun",
+         "quality":"Normal",
+         "slot":"Secondary",
+         "classes":"Engineer",
+         "image":"backpack/weapons/w_models/w_shotgun"
+      },
+      {
+         "id":10,
+         "name":"Shotgun",
+         "type":"Weapon",
+         "subtype":"Shotgun",
+         "quality":"Normal",
+         "slot":"Secondary",
+         "classes":"Soldier",
+         "image":"backpack/weapons/w_models/w_shotgun"
+      },
+      {
+         "id":11,
+         "name":"Shotgun",
+         "type":"Weapon",
+         "subtype":"Shotgun",
+         "quality":"Normal",
+         "slot":"Secondary",
+         "classes":"Heavy",
+         "image":"backpack/weapons/w_models/w_shotgun"
+      },
+      {
+         "id":12,
+         "name":"Shotgun",
+         "type":"Weapon",
+         "subtype":"Shotgun",
+         "quality":"Normal",
+         "slot":"Secondary",
+         "classes":"Pyro",
+         "image":"backpack/weapons/w_models/w_shotgun"
+      },
+      {
+         "id":13,
+         "name":"Scattergun",
+         "type":"Weapon",
+         "subtype":"Scattergun",
+         "quality":"Normal",
+         "slot":"Primary",
+         "classes":"Scout",
+         "image":"backpack/weapons/c_models/c_scattergun"
+      },
+      {
+         "id":14,
+         "name":"Sniper Rifle",
+         "type":"Weapon",
+         "subtype":"Sniper Rifle",
+         "quality":"Normal",
+         "slot":"Primary",
+         "classes":"Sniper",
+         "image":"backpack/weapons/w_models/w_sniperrifle"
+      },
+      {
+         "id":15,
+         "name":"Minigun",
+         "type":"Weapon",
+         "subtype":"Minigun",
+         "quality":"Normal",
+         "slot":"Primary",
+         "classes":"Heavy",
+         "image":"backpack/weapons/w_models/w_minigun"
+      },
+      {
+         "id":16,
+         "name":"SMG",
+         "type":"Weapon",
+         "subtype":"SMG",
+         "quality":"Normal",
+         "slot":"Secondary",
+         "classes":"Sniper",
+         "image":"backpack/weapons/w_models/w_smg"
+      },
+      {
+         "id":17,
+         "name":"Syringe Gun",
+         "type":"Weapon",
+         "subtype":"Syringe Gun",
+         "quality":"Normal",
+         "slot":"Primary",
+         "classes":"Medic",
+         "image":"backpack/weapons/w_models/w_syringegun"
+      },
+      {
+         "id":18,
+         "name":"Rocket Launcher",
+         "type":"Weapon",
+         "subtype":"Rocket Launcher",
+         "quality":"Normal",
+         "slot":"Primary",
+         "classes":"Soldier",
+         "image":"backpack/weapons/w_models/w_rocketlauncher"
+      },
+      {
+         "id":19,
+         "name":"Grenade Launcher",
+         "type":"Weapon",
+         "subtype":"Grenade Launcher",
+         "quality":"Normal",
+         "slot":"Secondary",
+         "classes":"Demoman",
+         "image":"backpack/weapons/w_models/w_grenadelauncher"
+      },
+      {
+         "id":20,
+         "name":"Stickybomb Launcher",
+         "type":"Weapon",
+         "subtype":"Stickybomb Launcher",
+         "quality":"Normal",
+         "slot":"Primary",
+         "classes":"Demoman",
+         "image":"backpack/weapons/w_models/w_stickybomb_launcher"
+      },
+      {
+         "id":21,
+         "name":"Flame Thrower",
+         "type":"Weapon",
+         "subtype":"Flame Thrower",
+         "quality":"Normal",
+         "slot":"Primary",
+         "classes":"Pyro",
+         "image":"backpack/weapons/c_models/c_flamethrower/c_flamethrower"
+      },
+      {
+         "id":22,
+         "name":"Pistol",
+         "type":"Weapon",
+         "subtype":"Pistol",
+         "quality":"Normal",
+         "slot":"Secondary",
+         "classes":"Engineer",
+         "image":"backpack/weapons/c_models/c_pistol"
+      },
+      {
+         "id":23,
+         "name":"Pistol",
+         "type":"Weapon",
+         "subtype":"Pistol",
+         "quality":"Normal",
+         "slot":"Secondary",
+         "classes":"Scout",
+         "image":"backpack/weapons/c_models/c_pistol"
+      },
+      {
+         "id":24,
+         "name":"Revolver",
+         "type":"Weapon",
+         "subtype":"Revolver",
+         "quality":"Normal",
+         "slot":"Primary",
+         "classes":"Spy",
+         "image":"backpack/weapons/w_models/w_revolver"
+      },
+      {
+         "id":25,
+         "name":"Engineer Build PDA",
+         "type":"Utility",
+         "subtype":"PDA",
+         "quality":"Normal",
+         "slot":"PDA",
+         "classes":"Engineer",
+         "image":"backpack/weapons/w_models/w_builder"
+      },
+      {
+         "id":26,
+         "name":"Engineer Destroy PDA",
+         "type":"Utility",
+         "subtype":"PDA",
+         "quality":"Normal",
+         "slot":"PDA",
+         "classes":"Engineer",
+         "image":"backpack/weapons/w_models/w_pda_engineer"
+      },
+      {
+         "id":27,
+         "name":"Spy Disguise PDA",
+         "type":"Utility",
+         "subtype":"PDA",
+         "quality":"Normal",
+         "slot":"PDA",
+         "classes":"Spy",
+         "image":"backpack/weapons/w_models/w_cigarette_case"
+      },
+      {
+         "id":28,
+         "name":"Engineer Weapon Builder",
+         "type":"Utility",
+         "subtype":"PDA",
+         "quality":"Normal",
+         "slot":"PDA",
+         "classes":"Engineer",
+         "image":"backpack/weapons/w_models/w_pda_engineer"
+      },
+      {
+         "id":29,
+         "name":"Medi Gun",
+         "type":"Utility",
+         "subtype":"Medi Gun",
+         "quality":"Normal",
+         "slot":"Secondary",
+         "classes":"Medic",
+         "image":"backpack/weapons/c_models/c_medigun/c_medigun"
+      },
+      {
+         "id":30,
+         "name":"Invis Watch",
+         "type":"Utility",
+         "subtype":"Invis Watch",
+         "quality":"Normal",
+         "slot":"PDA",
+         "classes":"Spy",
+         "image":"backpack/weapons/c_models/c_spy_watch/parts/c_spy_watch"
+      },
+      {
+         "id":31,
+         "name":"The Flare Gun",
+         "type":"Weapon",
+         "subtype":"Flare Gun",
+         "quality":"Normal",
+         "slot":"Secondary",
+         "classes":"Pyro",
+         "image":"backpack/weapons/c_models/c_flaregun_pyro/c_flaregun_pyro"
+      },
+      {
+         "id":32,
+         "name":"Level 1 Bonesaw",
+         "type":"Weapon",
+         "subtype":"Bonesaw",
+         "quality":"Normal",
+         "slot":"Melee",
+         "classes":"Medic",
+         "image":"backpack/weapons/c_models/c_ubersaw/c_ubersaw"
+      },
+      {
+         "id":33,
+         "name":"Level 1 Syringe Gun",
+         "type":"Weapon",
+         "subtype":"Syringe Gun",
+         "quality":"Normal",
+         "slot":"Primary",
+         "classes":"Medic",
+         "image":"backpack/weapons/c_models/c_syringegun/c_syringegun"
+      },
+      {
+         "id":34,
+         "name":"Level 1 Medi Gun",
+         "type":"Utility",
+         "subtype":"Medi Gun",
+         "quality":"Normal",
+         "slot":"Secondary",
+         "classes":"Medic",
+         "image":"backpack/weapons/c_models/c_medigun/c_medigun"
+      },
+      {
+         "id":35,
+         "name":"The Kritzkrieg",
+         "type":"Utility",
+         "subtype":"Medi Gun",
+         "quality":"Unique",
+         "slot":"Secondary",
+         "classes":"Medic",
+         "image":"backpack/weapons/c_models/c_overhealer/c_overhealer",
+         "properties":
+         [
+            {
+                "text": "UberCharge grants 100% critical chance",
+                "type": "Neutral"
+            },
+            {
+                "text": "+25% UberCharge rate",
+                "type": "Positive"
+            }
+         ]
+      },
+      {
+         "id":36,
+         "name":"The Blutsauger",
+         "type":"Weapon",
+         "subtype":"Syringe Gun",
+         "quality":"Unique",
+         "slot":"Primary",
+         "classes":"Medic",
+         "image":"backpack/weapons/c_models/c_leechgun/c_leechgun",
+         "properties":
+         [
+            {
+                "text": "On Hit: +3 health",
+                "type": "Positive"
+            },
+            {
+                "text": "-2 health drained per second on wearer",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":37,
+         "name":"The Ubersaw",
+         "type":"Weapon",
+         "subtype":"Bonesaw",
+         "quality":"Unique",
+         "slot":"Melee",
+         "classes":"Medic",
+         "image":"backpack/weapons/c_models/c_ubersaw/c_ubersaw",
+         "properties":
+         [
+            {
+                "text": "On Hit: 25% UberCharge added",
+                "type": "Positive"
+            },
+            {
+                "text": "-20% slower firing speed",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":38,
+         "name":"The Axetinguisher",
+         "type":"Weapon",
+         "subtype":"Fire Axe",
+         "quality":"Unique",
+         "slot":"Melee",
+         "classes":"Pyro",
+         "image":"backpack/weapons/c_models/c_axtinguisher/c_axtinguisher_pyro",
+         "properties":
+         [
+            {
+                "text": "100% critical hit vs burning players",
+                "type": "Positive"
+            },
+            {
+                "text": "-50% damage vs non-burning players",
+                "type": "Negative"
+            },
+            {
+                "text": "No critical hits vs non-burning players",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":39,
+         "name":"The Flare Gun",
+         "type":"Weapon",
+         "subtype":"Flare Gun",
+         "quality":"Unique",
+         "slot":"Secondary",
+         "classes":"Pyro",
+         "image":"backpack/weapons/c_models/c_flaregun_pyro/c_flaregun_pyro"
+      },
+      {
+         "id":40,
+         "name":"The Backburner",
+         "type":"Weapon",
+         "subtype":"Flame Thrower",
+         "quality":"Unique",
+         "slot":"Primary",
+         "classes":"Pyro",
+         "image":"backpack/weapons/c_models/c_backburner/c_backburner",
+         "properties":
+         [
+            {
+                "text": "No compression blast",
+                "type": "Negative"
+            },
+            {
+                "text": "100% critical hits from behind",
+                "type": "Positive"
+            }
+         ]
+      },
+      {
+         "id":41,
+         "name":"Natascha",
+         "type":"Weapon",
+         "subtype":"Minigun",
+         "quality":"Unique",
+         "slot":"Primary",
+         "classes":"Heavy",
+         "image":"backpack/weapons/c_models/c_w_ludmila/c_w_ludmila",
+         "properties":
+         [
+            {
+                "text": "On Hit: 100% chance to slow target",
+                "type": "Positive"
+            },
+            {
+                "text": "-25% damage done",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":42,
+         "name":"The Sandvich",
+         "type":"Utility",
+         "subtype":"Lunch Box",
+         "quality":"Unique",
+         "slot":"Secondary",
+         "classes":"Heavy",
+         "image":"backpack/weapons/c_models/c_sandwich/c_sandwich"
+      },
+      {
+         "id":43,
+         "name":"The Killing Gloves of Boxing",
+         "type":"Weapon",
+         "subtype":"Fists",
+         "quality":"Unique",
+         "slot":"Melee",
+         "classes":"Heavy",
+         "image":"backpack/weapons/c_models/c_boxing_gloves/c_boxing_gloves",
+         "properties":
+         [
+            {
+                "text": "On Kill: 5 seconds of 100% critical chance",
+                "type": "Positive"
+            },
+            {
+                "text": "-20% slower firing speed",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":44,
+         "name":"The Sandman",
+         "type":"Weapon",
+         "subtype":"Bat",
+         "quality":"Unique",
+         "slot":"Melee",
+         "classes":"Scout",
+         "image":"backpack/weapons/c_models/c_wooden_bat/c_wooden_bat",
+         "properties":
+         [
+            {
+                "text": "This bat knocks out a mean stun ball",
+                "type": "Positive"
+            },
+            {
+                "text": "-15 max health on wearer",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":45,
+         "name":"The Force-A-Nature",
+         "type":"Weapon",
+         "subtype":"Scattergun",
+         "quality":"Unique",
+         "slot":"Primary",
+         "classes":"Scout",
+         "image":"backpack/weapons/c_models/c_double_barrel",
+         "properties":
+         [
+            {
+                "text": "Knockback on the target and shooter",
+                "type": "Positive"
+            },
+            {
+                "text": "+50% faster firing speed",
+                "type": "Positive"
+            },            {
+                "text": "+20% bullets per shot",
+                "type": "Positive"
+            },
+            {
+                "text": "-10% damage done",
+                "type": "Negative"
+            },
+            {
+                "text": "-60% clip size",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":46,
+         "name":"Bonk! Atomic Punch",
+         "type":"Utility",
+         "subtype":"Lunch Box",
+         "quality":"Unique",
+         "slot":"Secondary",
+         "classes":"Scout",
+         "image":"backpack/weapons/c_models/c_energy_drink/c_energy_drink"
+      },
+      {
+         "id":47,
+         "name":"Demoman's Fro",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Demoman",
+         "image":"backpack/player/items/demo/demo_afro"
+      },
+      {
+         "id":48,
+         "name":"Mining Light",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Engineer",
+         "image":"backpack/player/items/engineer/mining_hat"
+      },
+      {
+         "id":49,
+         "name":"Football Helmet",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Heavy",
+         "image":"backpack/player/items/heavy/football_helmet"
+      },
+      {
+         "id":50,
+         "name":"Prussian Pickelhaube",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Medic",
+         "image":"backpack/player/items/medic/medic_helmet"
+      },
+      {
+         "id":51,
+         "name":"Pyro's Beanie",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Pyro",
+         "image":"backpack/player/items/pyro/pyro_hat"
+      },
+      {
+         "id":52,
+         "name":"Batter's Helmet",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Scout",
+         "image":"backpack/player/items/scout/batter_helmet"
+      },
+      {
+         "id":53,
+         "name":"Trophy Belt",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Sniper",
+         "image":"backpack/player/items/sniper/tooth_hat"
+      },
+      {
+         "id":54,
+         "name":"Soldier's Stash",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Soldier",
+         "image":"backpack/player/items/soldier/soldier_hat"
+      },
+      {
+         "id":55,
+         "name":"Fancy Fedora",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Spy",
+         "image":"backpack/player/items/spy/spy_hat"
+      },
+      {
+         "id":56,
+         "name":"The Huntsman",
+         "type":"Weapon",
+         "subtype":"Bow",
+         "quality":"Unique",
+         "slot":"Primary",
+         "classes":"Sniper",
+         "image":"backpack/weapons/c_models/c_bow/c_bow"
+      },
+      {
+         "id":57,
+         "name":"The Razorback",
+         "type":"Utility",
+         "subtype":"Shield",
+         "quality":"Unique",
+         "slot":"Secondary",
+         "classes":"Sniper",
+         "image":"backpack/player/items/sniper/knife_shield",
+         "properties":
+         [
+            {
+                "text": "Blocks a single backstab attempt",
+                "type": "Positive"
+            }
+         ]
+      },
+      {
+         "id":58,
+         "name":"Jarate",
+         "type":"Utility",
+         "subtype":"Jar Based Karate",
+         "quality":"Unique",
+         "slot":"Secondary",
+         "classes":"Sniper",
+         "image":"backpack/weapons/c_models/urinejar",
+         "properties":
+         [
+            {
+                "text": "Coated enemies take mini-crits",
+                "type": "Neutral"
+            },
+            {
+                "text": "Also handy for putting out a fire",
+                "type": "Neutral"
+            }
+         ]
+      },
+      {
+         "id":59,
+         "name":"The Dead Ringer",
+         "type":"Utility",
+         "subtype":"Invis Watch",
+         "quality":"Unique",
+         "slot":"PDA",
+         "classes":"Spy",
+         "image":"backpack/weapons/c_models/c_pocket_watch/parts/c_pocket_watch",
+         "properties":
+         [
+            {
+                "text": "Cloak Type: Feign Death",
+                "type": "Neutral"
+            },
+            {
+                "text": "+60% cloak drain rate",
+                "type": "Negative"
+            },
+            {
+                "text": "+80% cloak regen rate",
+                "type": "Positive"
+            }
+         ]
+      },
+      {
+         "id":60,
+         "name":"The Cloak and Dagger",
+         "type":"Utility",
+         "subtype":"Invis Watch",
+         "quality":"Unique",
+         "slot":"PDA",
+         "classes":"Spy",
+         "image":"backpack/weapons/c_models/c_leather_watch/parts/c_leather_watch",
+         "properties":
+         [
+            {
+                "text": "Cloak Type: Motion Sensitive",
+                "type": "Neutral"
+            },
+            {
+                "text": "+100% cloak regen rate",
+                "type": "Positive"
+            }
+         ]
+      },
+      {
+         "id":61,
+         "name":"The Ambassador",
+         "type":"Weapon",
+         "subtype":"Revolver",
+         "quality":"Unique",
+         "slot":"Primary",
+         "classes":"Spy",
+         "image":"backpack/weapons/c_models/c_ambassador/parts/c_ambassador_opt",
+         "properties":
+         [
+            {
+                "text": "Crits on an accurate headshot",
+                "type": "Positive"
+            },
+            {
+                "text": "-15% damage done",
+                "type": "Negative"
+            },
+            {
+                "text": "-20% slower firing speed",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":94,
+         "name":"Texas Ten Gallon",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Engineer",
+         "image":"backpack/player/items/engineer/engineer_cowboy_hat"
+      },
+      {
+         "id":95,
+         "name":"Engineer's Cap",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Engineer",
+         "image":"backpack/player/items/engineer/engineer_train_hat"
+      },
+      {
+         "id":96,
+         "name":"Officer's Ushanka",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Heavy",
+         "image":"backpack/player/items/heavy/heavy_ushanka"
+      },
+      {
+         "id":97,
+         "name":"Tough Guy's Toque",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Heavy",
+         "image":"backpack/player/items/heavy/heavy_stocking_cap"
+      },
+      {
+         "id":98,
+         "name":"Stainless Pot",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Soldier",
+         "image":"backpack/player/items/soldier/soldier_pot"
+      },
+      {
+         "id":99,
+         "name":"Tyrant's Helm",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Soldier",
+         "image":"backpack/player/items/soldier/soldier_viking"
+      },
+      {
+         "id":100,
+         "name":"Glengarry Bonnet",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Demoman",
+         "image":"backpack/player/items/demo/demo_scott"
+      },
+      {
+         "id":101,
+         "name":"Vintage Tyrolean",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Medic",
+         "image":"backpack/player/items/medic/medic_tyrolean"
+      },
+      {
+         "id":102,
+         "name":"Respectless Rubber Glove",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Pyro",
+         "image":"backpack/player/items/pyro/pyro_chicken"
+      },
+      {
+         "id":103,
+         "name":"Camera Beard",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Misc",
+         "classes":"Spy",
+         "image":"backpack/player/items/spy/spy_camera_beard"
+      },
+      {
+         "id":104,
+         "name":"Otolaryngologist's Mirror",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Medic",
+         "image":"backpack/player/items/medic/medic_mirror"
+      },
+      {
+         "id":105,
+         "name":"Brigade Helm",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Pyro",
+         "image":"backpack/player/items/pyro/fireman_helmet"
+      },
+      {
+         "id":106,
+         "name":"Bonk Helm",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Scout",
+         "image":"backpack/player/items/scout/bonk_helmet"
+      },
+      {
+         "id":107,
+         "name":"Ye Olde Baker Boy",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Scout",
+         "image":"backpack/player/items/scout/newsboy_cap"
+      },
+      {
+         "id":108,
+         "name":"Backbiter's Billycock",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Spy",
+         "image":"backpack/player/items/spy/derby_hat"
+      },
+      {
+         "id":109,
+         "name":"Professional's Panama",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Sniper",
+         "image":"backpack/player/items/sniper/straw_hat"
+      },
+      {
+         "id":110,
+         "name":"Master's Yellow Belt",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Sniper",
+         "image":"backpack/player/items/sniper/jarate_headband"
+      },
+      {
+         "id":111,
+         "name":"Baseball Bill's Sports Shine",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Scout",
+         "image":"backpack/player/items/scout/scout_nohat",
+         "properties":
+         [
+            {
+                "text": "100% poor and Irish on wearer",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":115,
+         "name":"Mildly Disturbing Halloween Mask",
+         "type":"Hat",
+         "subtype":"Holiday Hat",
+         "quality":"Special",
+         "slot":"Head",
+         "classes":"All",
+         "image":"backpack/player/items/all_class/all_halloween",
+         "holiday":"Halloween"
+      },
+      {
+         "id":116,
+         "name":"Ghastly Ghibus",
+         "description":"Embroidered initials say 'Z.M.'",
+         "type":"Hat",
+         "quality":"Special",
+         "slot":"Head",
+         "classes":"All",
+         "image":"backpack/player/items/all_class/all_domination"
+      },
+      {
+         "id":117,
+         "name":"Ritzy Rick's Hair Fixative",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Sniper",
+         "image":"backpack/player/items/sniper/sniper_nohat",
+         "properties":
+         [
+            {
+                "text": "100% poor and Irish on wearer",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":118,
+         "name":"Texas Slim's Dome Shine",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Engineer",
+         "image":"backpack/player/items/engineer/engineer_nohat",
+         "properties":
+         [
+            {
+                "text": "100% poor and Irish on wearer",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":120,
+         "name":"Scotsman's Stove Pipe",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Demoman",
+         "image":"backpack/player/items/demo/top_hat"
+      },
+      {
+         "id":121,
+         "name":"Gentle Manne's Service Medal",
+         "type":"Wearable",
+         "subtype":"Medal",
+         "quality":"Special",
+         "slot":"Misc",
+         "classes":"Soldier",
+         "image":"backpack/player/items/soldier/medal"
+      },
+      {
+         "id":122,
+         "name":"Cheat Detected Minor",
+         "type":"None",
+         "quality":"Special",
+         "slot":"None",
+         "classes":"None",
+         "image":"unknown"
+      },
+      {
+         "id":123,
+         "name":"Cheat Detected Major",
+         "type":"None",
+         "quality":"Special",
+         "slot":"None",
+         "classes":"None",
+         "image":"unknown"
+      },
+      {
+         "id":124,
+         "name":"Cheat Detected Honesty",
+         "type":"None",
+         "quality":"Special",
+         "slot":"None",
+         "classes":"None",
+         "image":"unknown"
+      },
+      {
+         "id":125,
+         "name":"Cheater's Lament",
+         "type":"Hat",
+         "subtype":"Aura of Incorruptibility",
+         "quality":"Special",
+         "slot":"Head",
+         "classes":"All",
+         "image":"backpack/player/items/all_class/all_halo"
+      },
+      {
+         "id":126,
+         "name":"Bill's Hat",
+         "type":"Hat",
+         "subtype":"Veteran's Beret",
+         "quality":"Special",
+         "slot":"Head",
+         "classes":"All",
+         "image":"backpack/player/items/demo/demo_bill"
+      },
+      {
+         "id":127,
+         "name":"The Direct Hit",
+         "type":"Weapon",
+         "subtype":"Rocket Launcher",
+         "quality":"Unique",
+         "slot":"Primary",
+         "classes":"Soldier",
+         "image":"backpack/weapons/c_models/c_directhit/c_directhit",
+         "properties":
+         [
+            {
+                "text": "-70% explosion radius",
+                "type": "Negative"
+            },
+            {
+                "text": "+80% projectile speed",
+                "type": "Positive"
+            },
+            {
+                "text": "+25% damage done",
+                "type": "Positive"
+            },
+            {
+                "text": "Mini-crits airborne targets",
+                "type": "Positive"
+            }
+         ]
+      },
+      {
+         "id":128,
+         "name":"The Equalizer",
+         "type":"Weapon",
+         "subtype":"Pickaxe",
+         "quality":"Unique",
+         "slot":"Melee",
+         "classes":"Soldier",
+         "image":"backpack/weapons/c_models/c_pickaxe/c_pickaxe",
+         "properties":
+         [
+            {
+                "text": "Damage and move speed increase as the user becomes injured",
+                "type": "Positive"
+            }
+         ]
+      },
+      {
+         "id":129,
+         "name":"The Buff Banner",
+         "type":"Utility",
+         "subtype":"Battle Banner",
+         "quality":"Unique",
+         "slot":"Secondary",
+         "classes":"Soldier",
+         "image":"backpack/weapons/c_models/c_buffpack/c_buffpack"
+      },
+      {
+         "id":130,
+         "name":"The Scottish Resistance",
+         "type":"Weapon",
+         "subtype":"Stickybomb Launcher",
+         "quality":"Unique",
+         "slot":"Primary",
+         "classes":"Demoman",
+         "image":"backpack/weapons/w_models/w_stickybomb_defender",
+         "properties":
+         [
+            {
+                "text": "Detonates stickybombs near the crosshair",
+                "type": "Positive"
+            },
+            {
+                "text": "Able to destroy enemy stickybombs",
+                "type": "Positive"
+            },
+            {
+                "text": "+50% max secondary ammo on wearer",
+                "type": "Positive"
+            },
+            {
+                "text": "+6 max pipebombs out",
+                "type": "Positive"
+            },
+            {
+                "text": "0.4 sec slower bomb arm time",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":131,
+         "name":"The Chargin' Targe",
+         "type":"Weapon",
+         "subtype":"Shield",
+         "quality":"Unique",
+         "slot":"Primary",
+         "classes":"Demoman",
+         "image":"backpack/weapons/c_models/c_targe/c_targe",
+         "properties":
+         [
+            {
+                "text": "Alt-Fire: Gain increased attack power by charging toward your enemies.",
+                "type": "Neutral"
+            },
+            {
+                "text": "+50% fire damage resistance on wearer",
+                "type": "Positive"
+            },
+            {
+                "text": "+50% explosive damage resistance on wearer",
+                "type": "Positive"
+            }
+         ]
+      },
+      {
+         "id":132,
+         "name":"The Eyelander",
+         "type":"Weapon",
+         "subtype":"Sword",
+         "quality":"Unique",
+         "slot":"Melee",
+         "classes":"Demoman",
+         "image":"backpack/weapons/c_models/c_claymore/c_claymore",
+         "properties":
+         [
+            {
+                "text": "This weapon has a large melee range.",
+                "type": "Neutral"
+            },
+            {
+                "text": "Gives increased speed and health with every head you take.",
+                "type": "Neutral"
+            },
+            {
+                "text": "No random critical hits",
+                "type": "Negative"
+            },
+            {
+                "text": "-25 max health on wearer",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":133,
+         "name":"The Gunboats",
+         "type":"Utility",
+         "subtype":"Boots",
+         "quality":"Unique",
+         "slot":"Secondary",
+         "classes":"Soldier",
+         "image":"backpack/weapons/c_models/c_rocketboots_soldier",
+         "properties":
+         [
+            {
+                "text": "-75% blast damage from rocket jumps",
+                "type": "Positive"
+            }
+         ]
+      },
+      {
+         "id":134,
+         "name":"J.Axer's Dapper Topper",
+         "description":"First Place Winner, Propaganda Contest",
+         "type":"Hat",
+         "quality":"Special",
+         "slot":"Head",
+         "classes":"All",
+         "image":"backpack/player/items/demo/hat_first"
+      },
+      {
+         "id":135,
+         "name":"Towering Pillar of Hats",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"All",
+         "image":"backpack/player/items/demo/hat_first_nr"
+      },
+      {
+         "id":136,
+         "name":"Amber's Rad As All Hell Hat",
+         "description":"First Runner-Up, Propaganda Contest",
+         "type":"Hat",
+         "quality":"Special",
+         "slot":"Head",
+         "classes":"All",
+         "image":"backpack/player/items/demo/hat_second"
+      },
+      {
+         "id":137,
+         "name":"Noble Amassment of Hats",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"All",
+         "image":"backpack/player/items/demo/hat_second_nr"
+      },
+      {
+         "id":138,
+         "name":"Uncle Sam",
+         "description":"Second Runner-Up, Propaganda Contest",
+         "type":"Hat",
+         "quality":"Special",
+         "slot":"Head",
+         "classes":"All",
+         "image":"backpack/player/items/demo/hat_third"
+      },
+      {
+         "id":139,
+         "name":"Modest Pile of Hat",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"All",
+         "image":"backpack/player/items/demo/hat_third_nr"
+      },
+      {
+         "id":144,
+         "name":"Physician's Procedure Mask",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Misc",
+         "classes":"Medic",
+         "image":"backpack/player/items/medic/medic_mask"
+      },
+      {
+         "id":145,
+         "name":"The Hound Dog",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Heavy",
+         "image":"backpack/player/items/heavy/hounddog"
+      },
+      {
+         "id":146,
+         "name":"Hustler's Hallmark",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Demoman",
+         "image":"backpack/player/items/demo/hallmark"
+      },
+      {
+         "id":147,
+         "name":"Magistrate's Mullet",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Spy",
+         "image":"backpack/player/items/spy/noblehair"
+      },
+      {
+         "id":148,
+         "name":"Hotrod",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Engineer",
+         "image":"backpack/player/items/engineer/weldingmask"
+      },
+      {
+         "id":150,
+         "name":"Troublemaker's Tossle Cap",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Scout",
+         "image":"backpack/player/items/scout/beanie"
+      },
+      {
+         "id":151,
+         "name":"Triboniophorus Tyrannus",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Pyro",
+         "image":"backpack/player/items/pyro/pyro_brainsucker"
+      },
+      {
+         "id":152,
+         "name":"Killer's Kabuto",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Soldier",
+         "image":"backpack/player/items/soldier/soldier_samurai"
+      },
+      {
+         "id":153,
+         "name":"The Homewrecker",
+         "type":"Weapon",
+         "subtype":"Sledgehammer",
+         "quality":"Unique",
+         "slot":"Melee",
+         "classes":"Pyro",
+         "image":"backpack/weapons/c_models/c_sledgehammer/c_sledgehammer",
+         "properties":
+         [
+            {
+                "text": "100% damage vs buildings",
+                "type": "Positive"
+            },
+            {
+                "text": "-25% damage vs players",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":154,
+         "name":"The Pain Train",
+         "type":"Weapon",
+         "subtype":"Makeshift Club",
+         "quality":"Unique",
+         "slot":"Melee",
+         "classes":"Soldier and Demoman",
+         "image":"backpack/weapons/c_models/c_paintrain/c_paintrain",
+         "properties":
+         [
+            {
+                "text": "+1 capture rate on wearer",
+                "type": "Positive"
+            },
+            {
+                "text": "10% bullet damage vulnerability on wearer",
+                "type": "Negative"
+            }
+         ]
+      },
+      {
+         "id":158,
+         "name":"Shooter's Sola Topi",
+         "type":"Hat",
+         "quality":"Unique",
+         "slot":"Head",
+         "classes":"Sniper",
+         "image":"backpack/player/items/sniper/pith_helmet"
+      },
+      {
+         "id":159,
+         "name":"The Dalokohs Bar",
+         "type":"Utility",
+         "subtype":"Lunch Box",
+         "quality":"Unique",
+         "slot":"Secondary",
+         "classes":"Heavy",
+         "image":"backpack/weapons/c_models/c_chocolate/c_chocolate",
+         "properties":
+         [
+            {
+                "text": "Adds +50 max health for 30 seconds",
+                "type": "Positive"
+            }
+         ]
+      },
+      {
+         "id":5000,
+         "name":"Scrap Metal",
+         "type":"Metal",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/pile_of_junk"
+      },
+      {
+         "id":5001,
+         "name":"Reclaimed Metal",
+         "type":"Metal",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/pile_of_junk2"
+      },
+      {
+         "id":5002,
+         "name":"Refined Metal",
+         "type":"Metal",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/pile_of_junk3"
+      },
+      {
+         "id":5003,
+         "name":"Class Token - Scout",
+         "description":"Used to specify a class in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_scout"
+      },
+      {
+         "id":5004,
+         "name":"Class Token - Sniper",
+         "description":"Used to specify a class in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_sniper"
+      },
+      {
+         "id":5005,
+         "name":"Class Token - Soldier",
+         "description":"Used to specify a class in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_soldier"
+      },
+      {
+         "id":5006,
+         "name":"Class Token - Demoman",
+         "description":"Used to specify a class in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_demo"
+      },
+      {
+         "id":5007,
+         "name":"Class Token - Heavy",
+         "description":"Used to specify a class in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_heavy"
+      },
+      {
+         "id":5008,
+         "name":"Class Token - Medic",
+         "description":"Used to specify a class in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_medic"
+      },
+      {
+         "id":5009,
+         "name":"Class Token - Pyro",
+         "description":"Used to specify a class in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_pyro"
+      },
+      {
+         "id":5010,
+         "name":"Class Token - Spy",
+         "description":"Used to specify a class in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_spy"
+      },
+      {
+         "id":5011,
+         "name":"Class Token - Engineer",
+         "description":"Used to specify a class in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_engineer"
+      },
+      {
+         "id":5012,
+         "name":"Slot Token - Primary",
+         "description":"Used to specify a loadout slot in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_primary"
+      },
+      {
+         "id":5013,
+         "name":"Slot Token - Secondary",
+         "description":"Used to specify a loadout slot in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_secondary"
+      },
+      {
+         "id":5014,
+         "name":"Slot Token - Melee",
+         "description":"Used to specify a loadout slot in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_melee"
+      },
+      {
+         "id":5015,
+         "name":"Slot Token - Grenade",
+         "description":"Used to specify a loadout slot in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/weapons/w_models/w_bottle"
+      },
+      {
+         "id":5016,
+         "name":"Slot Token - Building",
+         "description":"Used to specify a loadout slot in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/weapons/w_models/w_bottle"
+      },
+      {
+         "id":5017,
+         "name":"Slot Token - PDA",
+         "description":"Used to specify a loadout slot in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_pda"
+      },
+      {
+         "id":5018,
+         "name":"Slot Token - PDA2",
+         "description":"Used to specify a loadout slot in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/crafting/token_pda"
+      },
+      {
+         "id":5019,
+         "name":"Slot Token - Head",
+         "description":"Used to specify a loadout slot in blueprints",
+         "type":"Token",
+         "subtype":"Craft Item",
+         "quality":"Unique",
+         "slot":"None",
+         "classes":"None",
+         "image":"backpack/weapons/w_models/w_bottle"
+      }
+   ],
+   "attributes":[
+      {
+         "id":132,
+         "name":"Community Contributor Item",
+         "description":"Given to valuable Community Contributors"
+      },
+      {
+         "id":133,
+         "name":"Soldier Medal",
+         "description":"Medal no."
+      },
+      {
+         "id":141,
+         "name":"Self Made Item",
+         "description":"I made this!"
+      }
+   ]
+}
