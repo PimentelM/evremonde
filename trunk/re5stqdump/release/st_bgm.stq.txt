@@ -1,0 +1,1200 @@
+st_bgm.stq
+Number of files: 57
+
+1:
+Filename:   sound\bgm\oto\bgm\b_bgm\b_bgm001
+
+Offset:     68 dec
+            44 hex
+Duration:   4210688 dec
+            00404000 hex
+            00404000 rev hex
+
+Offset:     76 dec
+            4C hex
+Loop Start: 569088 dec
+            0008AF00 hex
+            00AF0800 rev hex
+
+Offset:     80 dec
+            50 hex
+Loop End:   4113792 dec
+            003EC580 hex
+            80C53E00 rev hex
+
+2:
+Filename:   sound\bgm\oto\bgm\b_bgm\b_bgm002
+
+Offset:     92 dec
+            5C hex
+Duration:   3120128 dec
+            002F9C00 hex
+            009C2F00 rev hex
+
+Offset:     100 dec
+            64 hex
+Loop Start: 221696 dec
+            00036200 hex
+            00620300 rev hex
+
+Offset:     104 dec
+            68 hex
+Loop End:   3023744 dec
+            002E2380 hex
+            80232E00 rev hex
+
+3:
+Filename:   sound\bgm\oto\bgm\b_bgm\b_bgm003
+
+Offset:     116 dec
+            74 hex
+Duration:   2606080 dec
+            0027C400 hex
+            00C42700 rev hex
+
+Offset:     124 dec
+            7C hex
+Loop Start: 205824 dec
+            00032400 hex
+            00240300 rev hex
+
+Offset:     128 dec
+            80 hex
+Loop End:   2509824 dec
+            00264C00 hex
+            004C2600 rev hex
+
+4:
+Filename:   sound\bgm\oto\bgm\b_bgm\b_bgm004
+
+Offset:     140 dec
+            8C hex
+Duration:   1939456 dec
+            001D9800 hex
+            00981D00 rev hex
+
+Offset:     148 dec
+            94 hex
+Loop Start: 368651 dec
+            0005A00B hex
+            0BA00500 rev hex
+
+Offset:     152 dec
+            98 hex
+Loop End:   1843088 dec
+            001C1F90 hex
+            901F1C00 rev hex
+
+5:
+Filename:   sound\bgm\oto\bgm\b_bgm\b_bgm005
+
+Offset:     164 dec
+            A4 hex
+Duration:   3593216 dec
+            0036D400 hex
+            00D43600 rev hex
+
+Offset:     172 dec
+            AC hex
+Loop Start: 617109 dec
+            00096A95 hex
+            956A0900 rev hex
+
+Offset:     176 dec
+            B0 hex
+Loop End:   3497106 dec
+            00355C92 hex
+            925C3500 rev hex
+
+6:
+Filename:   sound\bgm\oto\bgm\b_bgm\b_bgm006
+
+Offset:     188 dec
+            BC hex
+Duration:   3542016 dec
+            00360C00 hex
+            000C3600 rev hex
+
+Offset:     196 dec
+            C4 hex
+Loop Start: 542434 dec
+            000846E2 hex
+            E2460800 rev hex
+
+Offset:     200 dec
+            C8 hex
+Loop End:   3445171 dec
+            003491B3 hex
+            B3913400 rev hex
+
+7:
+Filename:   sound\bgm\oto\bgm\b_bgm\b_bgm007
+
+Offset:     212 dec
+            D4 hex
+Duration:   3879936 dec
+            003B3400 hex
+            00343B00 rev hex
+
+Offset:     220 dec
+            DC hex
+Loop Start: 711325 dec
+            000ADA9D hex
+            9DDA0A00 rev hex
+
+Offset:     224 dec
+            E0 hex
+Loop End:   3783324 dec
+            0039BA9C hex
+            9CBA3900 rev hex
+
+8:
+Filename:   sound\bgm\oto\bgm\b_bgm\b_bgm008
+
+Offset:     236 dec
+            EC hex
+Duration:   4020224 dec
+            003D5800 hex
+            00583D00 rev hex
+
+Offset:     244 dec
+            F4 hex
+Loop Start: 237568 dec
+            0003A000 hex
+            00A00300 rev hex
+
+Offset:     248 dec
+            F8 hex
+Loop End:   3923968 dec
+            003BE000 hex
+            00E03B00 rev hex
+
+9:
+Filename:   sound\bgm\oto\bgm\b_bgm\b_bgm009
+
+Offset:     260 dec
+            104 hex
+Duration:   5005312 dec
+            004C6000 hex
+            00604C00 rev hex
+
+Offset:     268 dec
+            10C hex
+Loop Start: 152254 dec
+            000252BE hex
+            BE520200 rev hex
+
+Offset:     272 dec
+            110 hex
+Loop End:   4908899 dec
+            004AE763 hex
+            63E74A00 rev hex
+
+10:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm001
+
+Offset:     284 dec
+            11C hex
+Duration:   4286464 dec
+            00416800 hex
+            00684100 rev hex
+
+Offset:     292 dec
+            124 hex
+Loop Start: 1037184 dec
+            000FD380 hex
+            80D30F00 rev hex
+
+Offset:     296 dec
+            128 hex
+Loop End:   4190080 dec
+            003FEF80 hex
+            80EF3F00 rev hex
+
+11:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm002
+
+Offset:     308 dec
+            134 hex
+Duration:   4653056 dec
+            00470000 hex
+            00004700 rev hex
+
+Offset:     316 dec
+            13C hex
+Loop Start: 716544 dec
+            000AEF00 hex
+            00EF0A00 rev hex
+
+Offset:     320 dec
+            140 hex
+Loop End:   4556416 dec
+            00458680 hex
+            80864500 rev hex
+
+12:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm003
+
+Offset:     332 dec
+            14C hex
+Duration:   3762176 dec
+            00396800 hex
+            00683900 rev hex
+
+Offset:     340 dec
+            154 hex
+Loop Start: 594779 dec
+            0009135B hex
+            5B130900 rev hex
+
+Offset:     344 dec
+            158 hex
+Loop End:   3665243 dec
+            0037ED5B hex
+            5BED3700 rev hex
+
+13:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm004
+
+Offset:     356 dec
+            164 hex
+Duration:   432128 dec
+            00069800 hex
+            00980600 rev hex
+
+Offset:     364 dec
+            16C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     368 dec
+            170 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+14:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm005
+
+Offset:     380 dec
+            17C hex
+Duration:   346112 dec
+            00054800 hex
+            00480500 rev hex
+
+Offset:     388 dec
+            184 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     392 dec
+            188 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+15:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm006
+
+Offset:     404 dec
+            194 hex
+Duration:   5386240 dec
+            00523000 hex
+            00305200 rev hex
+
+Offset:     412 dec
+            19C hex
+Loop Start: 682112 dec
+            000A6880 hex
+            80680A00 rev hex
+
+Offset:     416 dec
+            1A0 hex
+Loop End:   5290112 dec
+            0050B880 hex
+            80B85000 rev hex
+
+16:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm007
+
+Offset:     428 dec
+            1AC hex
+Duration:   260096 dec
+            0003F800 hex
+            00F80300 rev hex
+
+Offset:     436 dec
+            1B4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     440 dec
+            1B8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+17:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm008
+
+Offset:     452 dec
+            1C4 hex
+Duration:   238592 dec
+            0003A400 hex
+            00A40300 rev hex
+
+Offset:     460 dec
+            1CC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     464 dec
+            1D0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+18:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm009
+
+Offset:     476 dec
+            1DC hex
+Duration:   415744 dec
+            00065800 hex
+            00580600 rev hex
+
+Offset:     484 dec
+            1E4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     488 dec
+            1E8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+19:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm010
+
+Offset:     500 dec
+            1F4 hex
+Duration:   747520 dec
+            000B6800 hex
+            00680B00 rev hex
+
+Offset:     508 dec
+            1FC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     512 dec
+            200 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+20:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm011
+
+Offset:     524 dec
+            20C hex
+Duration:   103424 dec
+            00019400 hex
+            00940100 rev hex
+
+Offset:     532 dec
+            214 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     536 dec
+            218 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+21:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm012
+
+Offset:     548 dec
+            224 hex
+Duration:   6707200 dec
+            00665800 hex
+            00586600 rev hex
+
+Offset:     556 dec
+            22C hex
+Loop Start: 1081216 dec
+            00107F80 hex
+            807F1000 rev hex
+
+Offset:     560 dec
+            230 hex
+Loop End:   6610816 dec
+            0064DF80 hex
+            80DF6400 rev hex
+
+22:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm013
+
+Offset:     572 dec
+            23C hex
+Duration:   4764672 dec
+            0048B400 hex
+            00B44800 rev hex
+
+Offset:     580 dec
+            244 hex
+Loop Start: 1515666 dec
+            00172092 hex
+            92201700 rev hex
+
+Offset:     584 dec
+            248 hex
+Loop End:   4668190 dec
+            00473B1E hex
+            1E3B4700 rev hex
+
+23:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm014
+
+Offset:     596 dec
+            254 hex
+Duration:   252928 dec
+            0003DC00 hex
+            00DC0300 rev hex
+
+Offset:     604 dec
+            25C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     608 dec
+            260 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+24:
+Filename:   sound\bgm\oto\bgm\a_bgm\a_bgm015
+
+Offset:     620 dec
+            26C hex
+Duration:   3931136 dec
+            003BFC00 hex
+            00FC3B00 rev hex
+
+Offset:     628 dec
+            274 hex
+Loop Start: 999168 dec
+            000F3F00 hex
+            003F0F00 rev hex
+
+Offset:     632 dec
+            278 hex
+Loop End:   3834880 dec
+            003A8400 hex
+            00843A00 rev hex
+
+25:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm001
+
+Offset:     644 dec
+            284 hex
+Duration:   4089856 dec
+            003E6800 hex
+            00683E00 rev hex
+
+Offset:     652 dec
+            28C hex
+Loop Start: 460800 dec
+            00070800 hex
+            00080700 rev hex
+
+Offset:     656 dec
+            290 hex
+Loop End:   3993600 dec
+            003CF000 hex
+            00F03C00 rev hex
+
+26:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm002
+
+Offset:     668 dec
+            29C hex
+Duration:   2761728 dec
+            002A2400 hex
+            00242A00 rev hex
+
+Offset:     676 dec
+            2A4 hex
+Loop Start: 287104 dec
+            00046180 hex
+            80610400 rev hex
+
+Offset:     680 dec
+            2A8 hex
+Loop End:   2665472 dec
+            0028AC00 hex
+            00AC2800 rev hex
+
+27:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm003
+
+Offset:     692 dec
+            2B4 hex
+Duration:   3184640 dec
+            00309800 hex
+            00983000 rev hex
+
+Offset:     700 dec
+            2BC hex
+Loop Start: 323407 dec
+            0004EF4F hex
+            4FEF0400 rev hex
+
+Offset:     704 dec
+            2C0 hex
+Loop End:   3088250 dec
+            002F1F7A hex
+            7A1F2F00 rev hex
+
+28:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm004
+
+Offset:     716 dec
+            2CC hex
+Duration:   2417664 dec
+            0024E400 hex
+            00E42400 rev hex
+
+Offset:     724 dec
+            2D4 hex
+Loop Start: 181955 dec
+            0002C6C3 hex
+            C3C60200 rev hex
+
+Offset:     728 dec
+            2D8 hex
+Loop End:   2321378 dec
+            00236BE2 hex
+            E26B2300 rev hex
+
+29:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm005
+
+Offset:     740 dec
+            2E4 hex
+Duration:   2755584 dec
+            002A0C00 hex
+            000C2A00 rev hex
+
+Offset:     748 dec
+            2EC hex
+Loop Start: 715904 dec
+            000AEC80 hex
+            80EC0A00 rev hex
+
+Offset:     752 dec
+            2F0 hex
+Loop End:   2658816 dec
+            00289200 hex
+            00922800 rev hex
+
+30:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm006
+
+Offset:     764 dec
+            2FC hex
+Duration:   4111360 dec
+            003EBC00 hex
+            00BC3E00 rev hex
+
+Offset:     772 dec
+            304 hex
+Loop Start: 727535 dec
+            000B19EF hex
+            EF190B00 rev hex
+
+Offset:     776 dec
+            308 hex
+Loop End:   4014883 dec
+            003D4323 hex
+            23433D00 rev hex
+
+31:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm007
+
+Offset:     788 dec
+            314 hex
+Duration:   3453952 dec
+            0034B400 hex
+            00B43400 rev hex
+
+Offset:     796 dec
+            31C hex
+Loop Start: 131584 dec
+            00020200 hex
+            00020200 rev hex
+
+Offset:     800 dec
+            320 hex
+Loop End:   3357430 dec
+            00333AF6 hex
+            F63A3300 rev hex
+
+32:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm008
+
+Offset:     812 dec
+            32C hex
+Duration:   1982464 dec
+            001E4000 hex
+            00401E00 rev hex
+
+Offset:     820 dec
+            334 hex
+Loop Start: 157856 dec
+            000268A0 hex
+            A0680200 rev hex
+
+Offset:     824 dec
+            338 hex
+Loop End:   1885825 dec
+            001CC681 hex
+            81C61C00 rev hex
+
+33:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm009
+
+Offset:     836 dec
+            344 hex
+Duration:   5265408 dec
+            00505800 hex
+            00585000 rev hex
+
+Offset:     844 dec
+            34C hex
+Loop Start: 401811 dec
+            00062193 hex
+            93210600 rev hex
+
+Offset:     848 dec
+            350 hex
+Loop End:   5168707 dec
+            004EDE43 hex
+            43DE4E00 rev hex
+
+34:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm010
+
+Offset:     860 dec
+            35C hex
+Duration:   2712576 dec
+            00296400 hex
+            00642900 rev hex
+
+Offset:     868 dec
+            364 hex
+Loop Start: 312538 dec
+            0004C4DA hex
+            DAC40400 rev hex
+
+Offset:     872 dec
+            368 hex
+Loop End:   2616506 dec
+            0027ECBA hex
+            BAEC2700 rev hex
+
+35:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm011
+
+Offset:     884 dec
+            374 hex
+Duration:   1698816 dec
+            0019EC00 hex
+            00EC1900 rev hex
+
+Offset:     892 dec
+            37C hex
+Loop Start: 234613 dec
+            00039475 hex
+            75940300 rev hex
+
+Offset:     896 dec
+            380 hex
+Loop End:   1602565 dec
+            00187405 hex
+            05741800 rev hex
+
+36:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm012
+
+Offset:     908 dec
+            38C hex
+Duration:   3084288 dec
+            002F1000 hex
+            00102F00 rev hex
+
+Offset:     916 dec
+            394 hex
+Loop Start: 82286 dec
+            0001416E hex
+            6E410100 rev hex
+
+Offset:     920 dec
+            398 hex
+Loop End:   2987360 dec
+            002D9560 hex
+            60952D00 rev hex
+
+37:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm013
+
+Offset:     932 dec
+            3A4 hex
+Duration:   4475904 dec
+            00444C00 hex
+            004C4400 rev hex
+
+Offset:     940 dec
+            3AC hex
+Loop Start: 217354 dec
+            0003510A hex
+            0A510300 rev hex
+
+Offset:     944 dec
+            3B0 hex
+Loop End:   4379419 dec
+            0042D31B hex
+            1BD34200 rev hex
+
+38:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm014
+
+Offset:     956 dec
+            3BC hex
+Duration:   4399104 dec
+            00432000 hex
+            00204300 rev hex
+
+Offset:     964 dec
+            3C4 hex
+Loop Start: 290026 dec
+            00046CEA hex
+            EA6C0400 rev hex
+
+Offset:     968 dec
+            3C8 hex
+Loop End:   4302957 dec
+            0041A86D hex
+            6DA84100 rev hex
+
+39:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm015
+
+Offset:     980 dec
+            3D4 hex
+Duration:   5096448 dec
+            004DC400 hex
+            00C44D00 rev hex
+
+Offset:     988 dec
+            3DC hex
+Loop Start: 588472 dec
+            0008FAB8 hex
+            B8FA0800 rev hex
+
+Offset:     992 dec
+            3E0 hex
+Loop End:   5000387 dec
+            004C4CC3 hex
+            C34C4C00 rev hex
+
+40:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm016
+
+Offset:     1004 dec
+            3EC hex
+Duration:   4512768 dec
+            0044DC00 hex
+            00DC4400 rev hex
+
+Offset:     1012 dec
+            3F4 hex
+Loop Start: 576000 dec
+            0008CA00 hex
+            00CA0800 rev hex
+
+Offset:     1016 dec
+            3F8 hex
+Loop End:   4416000 dec
+            00436200 hex
+            00624300 rev hex
+
+41:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm017
+
+Offset:     1028 dec
+            404 hex
+Duration:   6729728 dec
+            0066B000 hex
+            00B06600 rev hex
+
+Offset:     1036 dec
+            40C hex
+Loop Start: 1059097 dec
+            00102919 hex
+            19291000 rev hex
+
+Offset:     1040 dec
+            410 hex
+Loop End:   6633290 dec
+            0065374A hex
+            4A376500 rev hex
+
+42:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm018
+
+Offset:     1052 dec
+            41C hex
+Duration:   5280768 dec
+            00509400 hex
+            00945000 rev hex
+
+Offset:     1060 dec
+            424 hex
+Loop Start: 576000 dec
+            0008CA00 hex
+            00CA0800 rev hex
+
+Offset:     1064 dec
+            428 hex
+Loop End:   5184000 dec
+            004F1A00 hex
+            001A4F00 rev hex
+
+43:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm019
+
+Offset:     1076 dec
+            434 hex
+Duration:   3032064 dec
+            002E4400 hex
+            00442E00 rev hex
+
+Offset:     1084 dec
+            43C hex
+Loop Start: 509940 dec
+            0007C7F4 hex
+            F4C70700 rev hex
+
+Offset:     1088 dec
+            440 hex
+Loop End:   2935204 dec
+            002CC9A4 hex
+            A4C92C00 rev hex
+
+44:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm020
+
+Offset:     1100 dec
+            44C hex
+Duration:   4590592 dec
+            00460C00 hex
+            000C4600 rev hex
+
+Offset:     1108 dec
+            454 hex
+Loop Start: 316928 dec
+            0004D600 hex
+            00D60400 rev hex
+
+Offset:     1112 dec
+            458 hex
+Loop End:   4586496 dec
+            0045FC00 hex
+            00FC4500 rev hex
+
+45:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm021
+
+Offset:     1124 dec
+            464 hex
+Duration:   6409216 dec
+            0061CC00 hex
+            00CC6100 rev hex
+
+Offset:     1132 dec
+            46C hex
+Loop Start: 2041555 dec
+            001F26D3 hex
+            D3261F00 rev hex
+
+Offset:     1136 dec
+            470 hex
+Loop End:   6313873 dec
+            00605791 hex
+            91576000 rev hex
+
+46:
+Filename:   sound\bgm\oto\bgm\s_bgm\s_bgm022
+
+Offset:     1148 dec
+            47C hex
+Duration:   4368384 dec
+            0042A800 hex
+            00A84200 rev hex
+
+Offset:     1156 dec
+            484 hex
+Loop Start: 658558 dec
+            000A0C7E hex
+            7E0C0A00 rev hex
+
+Offset:     1160 dec
+            488 hex
+Loop End:   4272135 dec
+            00413007 hex
+            07304100 rev hex
+
+47:
+Filename:   sound\bgm\oto\bgm\bgm\bgm002
+
+Offset:     1172 dec
+            494 hex
+Duration:   458752 dec
+            00070000 hex
+            00000700 rev hex
+
+Offset:     1180 dec
+            49C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1184 dec
+            4A0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+48:
+Filename:   sound\bgm\oto\bgm\bgm\bgm003
+
+Offset:     1196 dec
+            4AC hex
+Duration:   5165056 dec
+            004ED000 hex
+            00D04E00 rev hex
+
+Offset:     1204 dec
+            4B4 hex
+Loop Start: 459520 dec
+            00070300 hex
+            00030700 rev hex
+
+Offset:     1208 dec
+            4B8 hex
+Loop End:   5068672 dec
+            004D5780 hex
+            80574D00 rev hex
+
+49:
+Filename:   sound\bgm\oto\bgm\bgm\bgm004
+
+Offset:     1220 dec
+            4C4 hex
+Duration:   5266432 dec
+            00505C00 hex
+            005C5000 rev hex
+
+Offset:     1228 dec
+            4CC hex
+Loop Start: 977074 dec
+            000EE8B2 hex
+            B2E80E00 rev hex
+
+Offset:     1232 dec
+            4D0 hex
+Loop End:   4926789 dec
+            004B2D45 hex
+            452D4B00 rev hex
+
+50:
+Filename:   sound\bgm\oto\bgm\bgm\bgm005
+
+Offset:     1244 dec
+            4DC hex
+Duration:   2412544 dec
+            0024D000 hex
+            00D02400 rev hex
+
+Offset:     1252 dec
+            4E4 hex
+Loop Start: 580736 dec
+            0008DC80 hex
+            80DC0800 rev hex
+
+Offset:     1256 dec
+            4E8 hex
+Loop End:   2316032 dec
+            00235700 hex
+            00572300 rev hex
+
+51:
+Filename:   sound\bgm\oto\bgm\bgm\titlelogo_us51
+
+Offset:     1268 dec
+            4F4 hex
+Duration:   378880 dec
+            0005C800 hex
+            00C80500 rev hex
+
+Offset:     1276 dec
+            4FC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1280 dec
+            500 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+52:
+Filename:   sound\bgm\oto\bgm\bgm\titlelogo_jp51
+
+Offset:     1292 dec
+            50C hex
+Duration:   379904 dec
+            0005CC00 hex
+            00CC0500 rev hex
+
+Offset:     1300 dec
+            514 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1304 dec
+            518 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+53:
+Filename:   sound\bgm\oto\bgm\bgm\E3_comingsoon
+
+Offset:     1316 dec
+            524 hex
+Duration:   351232 dec
+            00055C00 hex
+            005C0500 rev hex
+
+Offset:     1324 dec
+            52C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1328 dec
+            530 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+54:
+Filename:   sound\bgm\oto\bgm\bgm\bgm007
+
+Offset:     1340 dec
+            53C hex
+Duration:   3994624 dec
+            003CF400 hex
+            00F43C00 rev hex
+
+Offset:     1348 dec
+            544 hex
+Loop Start: 353152 dec
+            00056380 hex
+            80630500 rev hex
+
+Offset:     1352 dec
+            548 hex
+Loop End:   3897856 dec
+            003B7A00 hex
+            007A3B00 rev hex
+
+55:
+Filename:   sound\bgm\oto\bgm\bgm\bgm008
+
+Offset:     1364 dec
+            554 hex
+Duration:   1880064 dec
+            001CB000 hex
+            00B01C00 rev hex
+
+Offset:     1372 dec
+            55C hex
+Loop Start: 631166 dec
+            0009A17E hex
+            7EA10900 rev hex
+
+Offset:     1376 dec
+            560 hex
+Loop End:   1783478 dec
+            001B36B6 hex
+            B6361B00 rev hex
+
+56:
+Filename:   sound\bgm\oto\bgm\bgm\bgm009
+
+Offset:     1388 dec
+            56C hex
+Duration:   2430976 dec
+            00251800 hex
+            00182500 rev hex
+
+Offset:     1396 dec
+            574 hex
+Loop Start: 109878 dec
+            0001AD36 hex
+            36AD0100 rev hex
+
+Offset:     1400 dec
+            578 hex
+Loop End:   2334444 dec
+            00239EEC hex
+            EC9E2300 rev hex
+
+57:
+Filename:   sound\bgm\oto\bgm\bgm\bgm010
+
+Offset:     1412 dec
+            584 hex
+Duration:   2289664 dec
+            0022F000 hex
+            00F02200 rev hex
+
+Offset:     1420 dec
+            58C hex
+Loop Start: 775714 dec
+            000BD622 hex
+            22D60B00 rev hex
+
+Offset:     1424 dec
+            590 hex
+Loop End:   2193558 dec
+            00217896 hex
+            96782100 rev hex
+

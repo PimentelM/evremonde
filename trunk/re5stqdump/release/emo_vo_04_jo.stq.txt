@@ -1,0 +1,3027 @@
+emo_vo_04_jo.stq
+Number of files: 144
+
+1:
+Filename:   sound\bgm\dlc\jo_voice\jo_11
+
+Offset:     68 dec
+            44 hex
+Duration:   23663 dec
+            00005C6F hex
+            6F5C0000 rev hex
+
+Offset:     76 dec
+            4C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     80 dec
+            50 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+2:
+Filename:   sound\bgm\dlc\jo_voice\jo_12
+
+Offset:     92 dec
+            5C hex
+Duration:   17903 dec
+            000045EF hex
+            EF450000 rev hex
+
+Offset:     100 dec
+            64 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     104 dec
+            68 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+3:
+Filename:   sound\bgm\dlc\jo_voice\jo_13
+
+Offset:     116 dec
+            74 hex
+Duration:   25967 dec
+            0000656F hex
+            6F650000 rev hex
+
+Offset:     124 dec
+            7C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     128 dec
+            80 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+4:
+Filename:   sound\bgm\dlc\jo_voice\jo_14
+
+Offset:     140 dec
+            8C hex
+Duration:   36335 dec
+            00008DEF hex
+            EF8D0000 rev hex
+
+Offset:     148 dec
+            94 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     152 dec
+            98 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+5:
+Filename:   sound\bgm\dlc\jo_voice\jo_15
+
+Offset:     164 dec
+            A4 hex
+Duration:   27119 dec
+            000069EF hex
+            EF690000 rev hex
+
+Offset:     172 dec
+            AC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     176 dec
+            B0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+6:
+Filename:   sound\bgm\dlc\jo_voice\jo_16
+
+Offset:     188 dec
+            BC hex
+Duration:   22147 dec
+            00005683 hex
+            83560000 rev hex
+
+Offset:     196 dec
+            C4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     200 dec
+            C8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+7:
+Filename:   sound\bgm\dlc\jo_voice\jo_17
+
+Offset:     212 dec
+            D4 hex
+Duration:   36335 dec
+            00008DEF hex
+            EF8D0000 rev hex
+
+Offset:     220 dec
+            DC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     224 dec
+            E0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+8:
+Filename:   sound\bgm\dlc\jo_voice\jo_18
+
+Offset:     236 dec
+            EC hex
+Duration:   31727 dec
+            00007BEF hex
+            EF7B0000 rev hex
+
+Offset:     244 dec
+            F4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     248 dec
+            F8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+9:
+Filename:   sound\bgm\dlc\jo_voice\jo_19
+
+Offset:     260 dec
+            104 hex
+Duration:   21359 dec
+            0000536F hex
+            6F530000 rev hex
+
+Offset:     268 dec
+            10C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     272 dec
+            110 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+10:
+Filename:   sound\bgm\dlc\jo_voice\jo_20
+
+Offset:     284 dec
+            11C hex
+Duration:   36335 dec
+            00008DEF hex
+            EF8D0000 rev hex
+
+Offset:     292 dec
+            124 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     296 dec
+            128 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+11:
+Filename:   sound\bgm\dlc\jo_voice\jo_21
+
+Offset:     308 dec
+            134 hex
+Duration:   31727 dec
+            00007BEF hex
+            EF7B0000 rev hex
+
+Offset:     316 dec
+            13C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     320 dec
+            140 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+12:
+Filename:   sound\bgm\dlc\jo_voice\jo_22
+
+Offset:     332 dec
+            14C hex
+Duration:   64581 dec
+            0000FC45 hex
+            45FC0000 rev hex
+
+Offset:     340 dec
+            154 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     344 dec
+            158 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+13:
+Filename:   sound\bgm\dlc\jo_voice\jo_23
+
+Offset:     356 dec
+            164 hex
+Duration:   55919 dec
+            0000DA6F hex
+            6FDA0000 rev hex
+
+Offset:     364 dec
+            16C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     368 dec
+            170 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+14:
+Filename:   sound\bgm\dlc\jo_voice\jo_24
+
+Offset:     380 dec
+            17C hex
+Duration:   62376 dec
+            0000F3A8 hex
+            A8F30000 rev hex
+
+Offset:     388 dec
+            184 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     392 dec
+            188 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+15:
+Filename:   sound\bgm\dlc\jo_voice\jo_25
+
+Offset:     404 dec
+            194 hex
+Duration:   60527 dec
+            0000EC6F hex
+            6FEC0000 rev hex
+
+Offset:     412 dec
+            19C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     416 dec
+            1A0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+16:
+Filename:   sound\bgm\dlc\jo_voice\jo_26
+
+Offset:     428 dec
+            1AC hex
+Duration:   45551 dec
+            0000B1EF hex
+            EFB10000 rev hex
+
+Offset:     436 dec
+            1B4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     440 dec
+            1B8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+17:
+Filename:   sound\bgm\dlc\jo_voice\jo_27
+
+Offset:     452 dec
+            1C4 hex
+Duration:   23663 dec
+            00005C6F hex
+            6F5C0000 rev hex
+
+Offset:     460 dec
+            1CC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     464 dec
+            1D0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+18:
+Filename:   sound\bgm\dlc\jo_voice\jo_29
+
+Offset:     476 dec
+            1DC hex
+Duration:   32268 dec
+            00007E0C hex
+            0C7E0000 rev hex
+
+Offset:     484 dec
+            1E4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     488 dec
+            1E8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+19:
+Filename:   sound\bgm\dlc\jo_voice\jo_30
+
+Offset:     500 dec
+            1F4 hex
+Duration:   37668 dec
+            00009324 hex
+            24930000 rev hex
+
+Offset:     508 dec
+            1FC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     512 dec
+            200 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+20:
+Filename:   sound\bgm\dlc\jo_voice\jo_31
+
+Offset:     524 dec
+            20C hex
+Duration:   34668 dec
+            0000876C hex
+            6C870000 rev hex
+
+Offset:     532 dec
+            214 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     536 dec
+            218 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+21:
+Filename:   sound\bgm\dlc\jo_voice\jo_32
+
+Offset:     548 dec
+            224 hex
+Duration:   26201 dec
+            00006659 hex
+            59660000 rev hex
+
+Offset:     556 dec
+            22C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     560 dec
+            230 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+22:
+Filename:   sound\bgm\dlc\jo_voice\jo_33
+
+Offset:     572 dec
+            23C hex
+Duration:   23939 dec
+            00005D83 hex
+            835D0000 rev hex
+
+Offset:     580 dec
+            244 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     584 dec
+            248 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+23:
+Filename:   sound\bgm\dlc\jo_voice\jo_38
+
+Offset:     596 dec
+            254 hex
+Duration:   31727 dec
+            00007BEF hex
+            EF7B0000 rev hex
+
+Offset:     604 dec
+            25C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     608 dec
+            260 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+24:
+Filename:   sound\bgm\dlc\jo_voice\jo_39
+
+Offset:     620 dec
+            26C hex
+Duration:   25967 dec
+            0000656F hex
+            6F650000 rev hex
+
+Offset:     628 dec
+            274 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     632 dec
+            278 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+25:
+Filename:   sound\bgm\dlc\jo_voice\jo_40
+
+Offset:     644 dec
+            284 hex
+Duration:   34031 dec
+            000084EF hex
+            EF840000 rev hex
+
+Offset:     652 dec
+            28C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     656 dec
+            290 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+26:
+Filename:   sound\bgm\dlc\jo_voice\jo_41
+
+Offset:     668 dec
+            29C hex
+Duration:   29423 dec
+            000072EF hex
+            EF720000 rev hex
+
+Offset:     676 dec
+            2A4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     680 dec
+            2A8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+27:
+Filename:   sound\bgm\dlc\jo_voice\jo_42
+
+Offset:     692 dec
+            2B4 hex
+Duration:   32203 dec
+            00007DCB hex
+            CB7D0000 rev hex
+
+Offset:     700 dec
+            2BC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     704 dec
+            2C0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+28:
+Filename:   sound\bgm\dlc\jo_voice\jo_43
+
+Offset:     716 dec
+            2CC hex
+Duration:   20580 dec
+            00005064 hex
+            64500000 rev hex
+
+Offset:     724 dec
+            2D4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     728 dec
+            2D8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+29:
+Filename:   sound\bgm\dlc\jo_voice\jo_44
+
+Offset:     740 dec
+            2E4 hex
+Duration:   32366 dec
+            00007E6E hex
+            6E7E0000 rev hex
+
+Offset:     748 dec
+            2EC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     752 dec
+            2F0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+30:
+Filename:   sound\bgm\dlc\jo_voice\jo_45
+
+Offset:     764 dec
+            2FC hex
+Duration:   49192 dec
+            0000C028 hex
+            28C00000 rev hex
+
+Offset:     772 dec
+            304 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     776 dec
+            308 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+31:
+Filename:   sound\bgm\dlc\jo_voice\jo_46
+
+Offset:     788 dec
+            314 hex
+Duration:   83218 dec
+            00014512 hex
+            12450100 rev hex
+
+Offset:     796 dec
+            31C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     800 dec
+            320 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+32:
+Filename:   sound\bgm\dlc\jo_voice\jo_47
+
+Offset:     812 dec
+            32C hex
+Duration:   37977 dec
+            00009459 hex
+            59940000 rev hex
+
+Offset:     820 dec
+            334 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     824 dec
+            338 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+33:
+Filename:   sound\bgm\dlc\jo_voice\jo_48
+
+Offset:     836 dec
+            344 hex
+Duration:   26501 dec
+            00006785 hex
+            85670000 rev hex
+
+Offset:     844 dec
+            34C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     848 dec
+            350 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+34:
+Filename:   sound\bgm\dlc\jo_voice\jo_49
+
+Offset:     860 dec
+            35C hex
+Duration:   23968 dec
+            00005DA0 hex
+            A05D0000 rev hex
+
+Offset:     868 dec
+            364 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     872 dec
+            368 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+35:
+Filename:   sound\bgm\dlc\jo_voice\jo_50
+
+Offset:     884 dec
+            374 hex
+Duration:   38631 dec
+            000096E7 hex
+            E7960000 rev hex
+
+Offset:     892 dec
+            37C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     896 dec
+            380 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+36:
+Filename:   sound\bgm\dlc\jo_voice\jo_51
+
+Offset:     908 dec
+            38C hex
+Duration:   23968 dec
+            00005DA0 hex
+            A05D0000 rev hex
+
+Offset:     916 dec
+            394 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     920 dec
+            398 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+37:
+Filename:   sound\bgm\dlc\jo_voice\jo_52
+
+Offset:     932 dec
+            3A4 hex
+Duration:   42053 dec
+            0000A445 hex
+            45A40000 rev hex
+
+Offset:     940 dec
+            3AC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     944 dec
+            3B0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+38:
+Filename:   sound\bgm\dlc\jo_voice\jo_53
+
+Offset:     956 dec
+            3BC hex
+Duration:   30980 dec
+            00007904 hex
+            04790000 rev hex
+
+Offset:     964 dec
+            3C4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     968 dec
+            3C8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+39:
+Filename:   sound\bgm\dlc\jo_voice\jo_54
+
+Offset:     980 dec
+            3D4 hex
+Duration:   50139 dec
+            0000C3DB hex
+            DBC30000 rev hex
+
+Offset:     988 dec
+            3DC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     992 dec
+            3E0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+40:
+Filename:   sound\bgm\dlc\jo_voice\jo_58
+
+Offset:     1004 dec
+            3EC hex
+Duration:   44399 dec
+            0000AD6F hex
+            6FAD0000 rev hex
+
+Offset:     1012 dec
+            3F4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1016 dec
+            3F8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+41:
+Filename:   sound\bgm\dlc\jo_voice\jo_59
+
+Offset:     1028 dec
+            404 hex
+Duration:   40943 dec
+            00009FEF hex
+            EF9F0000 rev hex
+
+Offset:     1036 dec
+            40C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1040 dec
+            410 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+42:
+Filename:   sound\bgm\dlc\jo_voice\jo_60
+
+Offset:     1052 dec
+            41C hex
+Duration:   27119 dec
+            000069EF hex
+            EF690000 rev hex
+
+Offset:     1060 dec
+            424 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1064 dec
+            428 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+43:
+Filename:   sound\bgm\dlc\jo_voice\jo_62
+
+Offset:     1076 dec
+            434 hex
+Duration:   43247 dec
+            0000A8EF hex
+            EFA80000 rev hex
+
+Offset:     1084 dec
+            43C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1088 dec
+            440 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+44:
+Filename:   sound\bgm\dlc\jo_voice\jo_63
+
+Offset:     1100 dec
+            44C hex
+Duration:   37487 dec
+            0000926F hex
+            6F920000 rev hex
+
+Offset:     1108 dec
+            454 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1112 dec
+            458 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+45:
+Filename:   sound\bgm\dlc\jo_voice\jo_64
+
+Offset:     1124 dec
+            464 hex
+Duration:   59375 dec
+            0000E7EF hex
+            EFE70000 rev hex
+
+Offset:     1132 dec
+            46C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1136 dec
+            470 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+46:
+Filename:   sound\bgm\dlc\jo_voice\jo_66
+
+Offset:     1148 dec
+            47C hex
+Duration:   28271 dec
+            00006E6F hex
+            6F6E0000 rev hex
+
+Offset:     1156 dec
+            484 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1160 dec
+            488 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+47:
+Filename:   sound\bgm\dlc\jo_voice\jo_68
+
+Offset:     1172 dec
+            494 hex
+Duration:   82415 dec
+            000141EF hex
+            EF410100 rev hex
+
+Offset:     1180 dec
+            49C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1184 dec
+            4A0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+48:
+Filename:   sound\bgm\dlc\jo_voice\jo_69
+
+Offset:     1196 dec
+            4AC hex
+Duration:   57071 dec
+            0000DEEF hex
+            EFDE0000 rev hex
+
+Offset:     1204 dec
+            4B4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1208 dec
+            4B8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+49:
+Filename:   sound\bgm\dlc\jo_voice\jo_70
+
+Offset:     1220 dec
+            4C4 hex
+Duration:   80111 dec
+            000138EF hex
+            EF380100 rev hex
+
+Offset:     1228 dec
+            4CC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1232 dec
+            4D0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+50:
+Filename:   sound\bgm\dlc\jo_voice\jo_72
+
+Offset:     1244 dec
+            4DC hex
+Duration:   29696 dec
+            00007400 hex
+            00740000 rev hex
+
+Offset:     1252 dec
+            4E4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1256 dec
+            4E8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+51:
+Filename:   sound\bgm\dlc\jo_voice\jo_73
+
+Offset:     1268 dec
+            4F4 hex
+Duration:   25600 dec
+            00006400 hex
+            00640000 rev hex
+
+Offset:     1276 dec
+            4FC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1280 dec
+            500 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+52:
+Filename:   sound\bgm\dlc\jo_voice\jo_79
+
+Offset:     1292 dec
+            50C hex
+Duration:   23663 dec
+            00005C6F hex
+            6F5C0000 rev hex
+
+Offset:     1300 dec
+            514 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1304 dec
+            518 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+53:
+Filename:   sound\bgm\dlc\jo_voice\jo_80
+
+Offset:     1316 dec
+            524 hex
+Duration:   38639 dec
+            000096EF hex
+            EF960000 rev hex
+
+Offset:     1324 dec
+            52C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1328 dec
+            530 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+54:
+Filename:   sound\bgm\dlc\jo_voice\jo_81
+
+Offset:     1340 dec
+            53C hex
+Duration:   36335 dec
+            00008DEF hex
+            EF8D0000 rev hex
+
+Offset:     1348 dec
+            544 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1352 dec
+            548 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+55:
+Filename:   sound\bgm\dlc\jo_voice\jo_82
+
+Offset:     1364 dec
+            554 hex
+Duration:   45551 dec
+            0000B1EF hex
+            EFB10000 rev hex
+
+Offset:     1372 dec
+            55C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1376 dec
+            560 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+56:
+Filename:   sound\bgm\dlc\jo_voice\jo_83
+
+Offset:     1388 dec
+            56C hex
+Duration:   43247 dec
+            0000A8EF hex
+            EFA80000 rev hex
+
+Offset:     1396 dec
+            574 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1400 dec
+            578 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+57:
+Filename:   sound\bgm\dlc\jo_voice\jo_84
+
+Offset:     1412 dec
+            584 hex
+Duration:   40943 dec
+            00009FEF hex
+            EF9F0000 rev hex
+
+Offset:     1420 dec
+            58C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1424 dec
+            590 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+58:
+Filename:   sound\bgm\dlc\jo_voice\jo_85
+
+Offset:     1436 dec
+            59C hex
+Duration:   60527 dec
+            0000EC6F hex
+            6FEC0000 rev hex
+
+Offset:     1444 dec
+            5A4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1448 dec
+            5A8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+59:
+Filename:   sound\bgm\dlc\jo_voice\jo_86
+
+Offset:     1460 dec
+            5B4 hex
+Duration:   59375 dec
+            0000E7EF hex
+            EFE70000 rev hex
+
+Offset:     1468 dec
+            5BC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1472 dec
+            5C0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+60:
+Filename:   sound\bgm\dlc\jo_voice\jo_87
+
+Offset:     1484 dec
+            5CC hex
+Duration:   40527 dec
+            00009E4F hex
+            4F9E0000 rev hex
+
+Offset:     1492 dec
+            5D4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1496 dec
+            5D8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+61:
+Filename:   sound\bgm\dlc\jo_voice\jo_88
+
+Offset:     1508 dec
+            5E4 hex
+Duration:   27878 dec
+            00006CE6 hex
+            E66C0000 rev hex
+
+Offset:     1516 dec
+            5EC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1520 dec
+            5F0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+62:
+Filename:   sound\bgm\dlc\jo_voice\jo_89
+
+Offset:     1532 dec
+            5FC hex
+Duration:   31907 dec
+            00007CA3 hex
+            A37C0000 rev hex
+
+Offset:     1540 dec
+            604 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1544 dec
+            608 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+63:
+Filename:   sound\bgm\dlc\jo_voice\jo_90
+
+Offset:     1556 dec
+            614 hex
+Duration:   78171 dec
+            0001315B hex
+            5B310100 rev hex
+
+Offset:     1564 dec
+            61C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1568 dec
+            620 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+64:
+Filename:   sound\bgm\dlc\jo_voice\jo_91
+
+Offset:     1580 dec
+            62C hex
+Duration:   60527 dec
+            0000EC6F hex
+            6FEC0000 rev hex
+
+Offset:     1588 dec
+            634 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1592 dec
+            638 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+65:
+Filename:   sound\bgm\dlc\jo_voice\jo_92
+
+Offset:     1604 dec
+            644 hex
+Duration:   61679 dec
+            0000F0EF hex
+            EFF00000 rev hex
+
+Offset:     1612 dec
+            64C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1616 dec
+            650 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+66:
+Filename:   sound\bgm\dlc\jo_voice\jo_93
+
+Offset:     1628 dec
+            65C hex
+Duration:   32879 dec
+            0000806F hex
+            6F800000 rev hex
+
+Offset:     1636 dec
+            664 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1640 dec
+            668 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+67:
+Filename:   sound\bgm\dlc\jo_voice\jo_94
+
+Offset:     1652 dec
+            674 hex
+Duration:   34477 dec
+            000086AD hex
+            AD860000 rev hex
+
+Offset:     1660 dec
+            67C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1664 dec
+            680 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+68:
+Filename:   sound\bgm\dlc\jo_voice\jo_95
+
+Offset:     1676 dec
+            68C hex
+Duration:   22651 dec
+            0000587B hex
+            7B580000 rev hex
+
+Offset:     1684 dec
+            694 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1688 dec
+            698 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+69:
+Filename:   sound\bgm\dlc\jo_voice\jo_96
+
+Offset:     1700 dec
+            6A4 hex
+Duration:   42095 dec
+            0000A46F hex
+            6FA40000 rev hex
+
+Offset:     1708 dec
+            6AC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1712 dec
+            6B0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+70:
+Filename:   sound\bgm\dlc\jo_voice\jo_97
+
+Offset:     1724 dec
+            6BC hex
+Duration:   35183 dec
+            0000896F hex
+            6F890000 rev hex
+
+Offset:     1732 dec
+            6C4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1736 dec
+            6C8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+71:
+Filename:   sound\bgm\dlc\jo_voice\jo_98
+
+Offset:     1748 dec
+            6D4 hex
+Duration:   29423 dec
+            000072EF hex
+            EF720000 rev hex
+
+Offset:     1756 dec
+            6DC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1760 dec
+            6E0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+72:
+Filename:   sound\bgm\dlc\jo_voice\jo_99
+
+Offset:     1772 dec
+            6EC hex
+Duration:   37487 dec
+            0000926F hex
+            6F920000 rev hex
+
+Offset:     1780 dec
+            6F4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1784 dec
+            6F8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+73:
+Filename:   sound\bgm\dlc\jo_voice\jo_11_r
+
+Offset:     1796 dec
+            704 hex
+Duration:   25967 dec
+            0000656F hex
+            6F650000 rev hex
+
+Offset:     1804 dec
+            70C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1808 dec
+            710 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+74:
+Filename:   sound\bgm\dlc\jo_voice\jo_12_r
+
+Offset:     1820 dec
+            71C hex
+Duration:   19055 dec
+            00004A6F hex
+            6F4A0000 rev hex
+
+Offset:     1828 dec
+            724 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1832 dec
+            728 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+75:
+Filename:   sound\bgm\dlc\jo_voice\jo_13_r
+
+Offset:     1844 dec
+            734 hex
+Duration:   27119 dec
+            000069EF hex
+            EF690000 rev hex
+
+Offset:     1852 dec
+            73C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1856 dec
+            740 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+76:
+Filename:   sound\bgm\dlc\jo_voice\jo_14_r
+
+Offset:     1868 dec
+            74C hex
+Duration:   37487 dec
+            0000926F hex
+            6F920000 rev hex
+
+Offset:     1876 dec
+            754 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1880 dec
+            758 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+77:
+Filename:   sound\bgm\dlc\jo_voice\jo_15_r
+
+Offset:     1892 dec
+            764 hex
+Duration:   29423 dec
+            000072EF hex
+            EF720000 rev hex
+
+Offset:     1900 dec
+            76C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1904 dec
+            770 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+78:
+Filename:   sound\bgm\dlc\jo_voice\jo_16_r
+
+Offset:     1916 dec
+            77C hex
+Duration:   24815 dec
+            000060EF hex
+            EF600000 rev hex
+
+Offset:     1924 dec
+            784 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1928 dec
+            788 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+79:
+Filename:   sound\bgm\dlc\jo_voice\jo_17_r
+
+Offset:     1940 dec
+            794 hex
+Duration:   37487 dec
+            0000926F hex
+            6F920000 rev hex
+
+Offset:     1948 dec
+            79C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1952 dec
+            7A0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+80:
+Filename:   sound\bgm\dlc\jo_voice\jo_18_r
+
+Offset:     1964 dec
+            7AC hex
+Duration:   34031 dec
+            000084EF hex
+            EF840000 rev hex
+
+Offset:     1972 dec
+            7B4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     1976 dec
+            7B8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+81:
+Filename:   sound\bgm\dlc\jo_voice\jo_19_r
+
+Offset:     1988 dec
+            7C4 hex
+Duration:   23663 dec
+            00005C6F hex
+            6F5C0000 rev hex
+
+Offset:     1996 dec
+            7CC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2000 dec
+            7D0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+82:
+Filename:   sound\bgm\dlc\jo_voice\jo_20_r
+
+Offset:     2012 dec
+            7DC hex
+Duration:   37487 dec
+            0000926F hex
+            6F920000 rev hex
+
+Offset:     2020 dec
+            7E4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2024 dec
+            7E8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+83:
+Filename:   sound\bgm\dlc\jo_voice\jo_21_r
+
+Offset:     2036 dec
+            7F4 hex
+Duration:   34031 dec
+            000084EF hex
+            EF840000 rev hex
+
+Offset:     2044 dec
+            7FC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2048 dec
+            800 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+84:
+Filename:   sound\bgm\dlc\jo_voice\jo_22_r
+
+Offset:     2060 dec
+            80C hex
+Duration:   72047 dec
+            0001196F hex
+            6F190100 rev hex
+
+Offset:     2068 dec
+            814 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2072 dec
+            818 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+85:
+Filename:   sound\bgm\dlc\jo_voice\jo_23_r
+
+Offset:     2084 dec
+            824 hex
+Duration:   58223 dec
+            0000E36F hex
+            6FE30000 rev hex
+
+Offset:     2092 dec
+            82C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2096 dec
+            830 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+86:
+Filename:   sound\bgm\dlc\jo_voice\jo_24_r
+
+Offset:     2108 dec
+            83C hex
+Duration:   66287 dec
+            000102EF hex
+            EF020100 rev hex
+
+Offset:     2116 dec
+            844 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2120 dec
+            848 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+87:
+Filename:   sound\bgm\dlc\jo_voice\jo_25_r
+
+Offset:     2132 dec
+            854 hex
+Duration:   61679 dec
+            0000F0EF hex
+            EFF00000 rev hex
+
+Offset:     2140 dec
+            85C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2144 dec
+            860 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+88:
+Filename:   sound\bgm\dlc\jo_voice\jo_26_r
+
+Offset:     2156 dec
+            86C hex
+Duration:   47855 dec
+            0000BAEF hex
+            EFBA0000 rev hex
+
+Offset:     2164 dec
+            874 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2168 dec
+            878 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+89:
+Filename:   sound\bgm\dlc\jo_voice\jo_27_r
+
+Offset:     2180 dec
+            884 hex
+Duration:   24815 dec
+            000060EF hex
+            EF600000 rev hex
+
+Offset:     2188 dec
+            88C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2192 dec
+            890 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+90:
+Filename:   sound\bgm\dlc\jo_voice\jo_29_r
+
+Offset:     2204 dec
+            89C hex
+Duration:   33837 dec
+            0000842D hex
+            2D840000 rev hex
+
+Offset:     2212 dec
+            8A4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2216 dec
+            8A8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+91:
+Filename:   sound\bgm\dlc\jo_voice\jo_30_r
+
+Offset:     2228 dec
+            8B4 hex
+Duration:   40943 dec
+            00009FEF hex
+            EF9F0000 rev hex
+
+Offset:     2236 dec
+            8BC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2240 dec
+            8C0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+92:
+Filename:   sound\bgm\dlc\jo_voice\jo_31_r
+
+Offset:     2252 dec
+            8CC hex
+Duration:   38639 dec
+            000096EF hex
+            EF960000 rev hex
+
+Offset:     2260 dec
+            8D4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2264 dec
+            8D8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+93:
+Filename:   sound\bgm\dlc\jo_voice\jo_32_r
+
+Offset:     2276 dec
+            8E4 hex
+Duration:   30575 dec
+            0000776F hex
+            6F770000 rev hex
+
+Offset:     2284 dec
+            8EC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2288 dec
+            8F0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+94:
+Filename:   sound\bgm\dlc\jo_voice\jo_33_r
+
+Offset:     2300 dec
+            8FC hex
+Duration:   27119 dec
+            000069EF hex
+            EF690000 rev hex
+
+Offset:     2308 dec
+            904 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2312 dec
+            908 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+95:
+Filename:   sound\bgm\dlc\jo_voice\jo_38_r
+
+Offset:     2324 dec
+            914 hex
+Duration:   32879 dec
+            0000806F hex
+            6F800000 rev hex
+
+Offset:     2332 dec
+            91C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2336 dec
+            920 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+96:
+Filename:   sound\bgm\dlc\jo_voice\jo_39_r
+
+Offset:     2348 dec
+            92C hex
+Duration:   27119 dec
+            000069EF hex
+            EF690000 rev hex
+
+Offset:     2356 dec
+            934 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2360 dec
+            938 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+97:
+Filename:   sound\bgm\dlc\jo_voice\jo_40_r
+
+Offset:     2372 dec
+            944 hex
+Duration:   35183 dec
+            0000896F hex
+            6F890000 rev hex
+
+Offset:     2380 dec
+            94C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2384 dec
+            950 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+98:
+Filename:   sound\bgm\dlc\jo_voice\jo_41_r
+
+Offset:     2396 dec
+            95C hex
+Duration:   30575 dec
+            0000776F hex
+            6F770000 rev hex
+
+Offset:     2404 dec
+            964 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2408 dec
+            968 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+99:
+Filename:   sound\bgm\dlc\jo_voice\jo_42_r
+
+Offset:     2420 dec
+            974 hex
+Duration:   35183 dec
+            0000896F hex
+            6F890000 rev hex
+
+Offset:     2428 dec
+            97C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2432 dec
+            980 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+100:
+Filename:   sound\bgm\dlc\jo_voice\jo_43_r
+
+Offset:     2444 dec
+            98C hex
+Duration:   24815 dec
+            000060EF hex
+            EF600000 rev hex
+
+Offset:     2452 dec
+            994 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2456 dec
+            998 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+101:
+Filename:   sound\bgm\dlc\jo_voice\jo_44_r
+
+Offset:     2468 dec
+            9A4 hex
+Duration:   40943 dec
+            00009FEF hex
+            EF9F0000 rev hex
+
+Offset:     2476 dec
+            9AC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2480 dec
+            9B0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+102:
+Filename:   sound\bgm\dlc\jo_voice\jo_45_r
+
+Offset:     2492 dec
+            9BC hex
+Duration:   54767 dec
+            0000D5EF hex
+            EFD50000 rev hex
+
+Offset:     2500 dec
+            9C4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2504 dec
+            9C8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+103:
+Filename:   sound\bgm\dlc\jo_voice\jo_46_r
+
+Offset:     2516 dec
+            9D4 hex
+Duration:   88175 dec
+            0001586F hex
+            6F580100 rev hex
+
+Offset:     2524 dec
+            9DC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2528 dec
+            9E0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+104:
+Filename:   sound\bgm\dlc\jo_voice\jo_47_r
+
+Offset:     2540 dec
+            9EC hex
+Duration:   44399 dec
+            0000AD6F hex
+            6FAD0000 rev hex
+
+Offset:     2548 dec
+            9F4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2552 dec
+            9F8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+105:
+Filename:   sound\bgm\dlc\jo_voice\jo_48_r
+
+Offset:     2564 dec
+            A04 hex
+Duration:   32879 dec
+            0000806F hex
+            6F800000 rev hex
+
+Offset:     2572 dec
+            A0C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2576 dec
+            A10 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+106:
+Filename:   sound\bgm\dlc\jo_voice\jo_49_r
+
+Offset:     2588 dec
+            A1C hex
+Duration:   28271 dec
+            00006E6F hex
+            6F6E0000 rev hex
+
+Offset:     2596 dec
+            A24 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2600 dec
+            A28 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+107:
+Filename:   sound\bgm\dlc\jo_voice\jo_50_r
+
+Offset:     2612 dec
+            A34 hex
+Duration:   43247 dec
+            0000A8EF hex
+            EFA80000 rev hex
+
+Offset:     2620 dec
+            A3C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2624 dec
+            A40 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+108:
+Filename:   sound\bgm\dlc\jo_voice\jo_51_r
+
+Offset:     2636 dec
+            A4C hex
+Duration:   61679 dec
+            0000F0EF hex
+            EFF00000 rev hex
+
+Offset:     2644 dec
+            A54 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2648 dec
+            A58 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+109:
+Filename:   sound\bgm\dlc\jo_voice\jo_52_r
+
+Offset:     2660 dec
+            A64 hex
+Duration:   47855 dec
+            0000BAEF hex
+            EFBA0000 rev hex
+
+Offset:     2668 dec
+            A6C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2672 dec
+            A70 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+110:
+Filename:   sound\bgm\dlc\jo_voice\jo_53_r
+
+Offset:     2684 dec
+            A7C hex
+Duration:   36335 dec
+            00008DEF hex
+            EF8D0000 rev hex
+
+Offset:     2692 dec
+            A84 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2696 dec
+            A88 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+111:
+Filename:   sound\bgm\dlc\jo_voice\jo_54_r
+
+Offset:     2708 dec
+            A94 hex
+Duration:   58223 dec
+            0000E36F hex
+            6FE30000 rev hex
+
+Offset:     2716 dec
+            A9C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2720 dec
+            AA0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+112:
+Filename:   sound\bgm\dlc\jo_voice\jo_58_r
+
+Offset:     2732 dec
+            AAC hex
+Duration:   45551 dec
+            0000B1EF hex
+            EFB10000 rev hex
+
+Offset:     2740 dec
+            AB4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2744 dec
+            AB8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+113:
+Filename:   sound\bgm\dlc\jo_voice\jo_59_r
+
+Offset:     2756 dec
+            AC4 hex
+Duration:   42095 dec
+            0000A46F hex
+            6FA40000 rev hex
+
+Offset:     2764 dec
+            ACC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2768 dec
+            AD0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+114:
+Filename:   sound\bgm\dlc\jo_voice\jo_60_r
+
+Offset:     2780 dec
+            ADC hex
+Duration:   28271 dec
+            00006E6F hex
+            6F6E0000 rev hex
+
+Offset:     2788 dec
+            AE4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2792 dec
+            AE8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+115:
+Filename:   sound\bgm\dlc\jo_voice\jo_62_r
+
+Offset:     2804 dec
+            AF4 hex
+Duration:   45551 dec
+            0000B1EF hex
+            EFB10000 rev hex
+
+Offset:     2812 dec
+            AFC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2816 dec
+            B00 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+116:
+Filename:   sound\bgm\dlc\jo_voice\jo_63_r
+
+Offset:     2828 dec
+            B0C hex
+Duration:   38639 dec
+            000096EF hex
+            EF960000 rev hex
+
+Offset:     2836 dec
+            B14 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2840 dec
+            B18 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+117:
+Filename:   sound\bgm\dlc\jo_voice\jo_64_r
+
+Offset:     2852 dec
+            B24 hex
+Duration:   60527 dec
+            0000EC6F hex
+            6FEC0000 rev hex
+
+Offset:     2860 dec
+            B2C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2864 dec
+            B30 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+118:
+Filename:   sound\bgm\dlc\jo_voice\jo_66_r
+
+Offset:     2876 dec
+            B3C hex
+Duration:   29423 dec
+            000072EF hex
+            EF720000 rev hex
+
+Offset:     2884 dec
+            B44 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2888 dec
+            B48 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+119:
+Filename:   sound\bgm\dlc\jo_voice\jo_68_r
+
+Offset:     2900 dec
+            B54 hex
+Duration:   83567 dec
+            0001466F hex
+            6F460100 rev hex
+
+Offset:     2908 dec
+            B5C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2912 dec
+            B60 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+120:
+Filename:   sound\bgm\dlc\jo_voice\jo_69_r
+
+Offset:     2924 dec
+            B6C hex
+Duration:   58223 dec
+            0000E36F hex
+            6FE30000 rev hex
+
+Offset:     2932 dec
+            B74 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2936 dec
+            B78 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+121:
+Filename:   sound\bgm\dlc\jo_voice\jo_70_r
+
+Offset:     2948 dec
+            B84 hex
+Duration:   81263 dec
+            00013D6F hex
+            6F3D0100 rev hex
+
+Offset:     2956 dec
+            B8C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2960 dec
+            B90 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+122:
+Filename:   sound\bgm\dlc\jo_voice\jo_72_r
+
+Offset:     2972 dec
+            B9C hex
+Duration:   31744 dec
+            00007C00 hex
+            007C0000 rev hex
+
+Offset:     2980 dec
+            BA4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     2984 dec
+            BA8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+123:
+Filename:   sound\bgm\dlc\jo_voice\jo_73_r
+
+Offset:     2996 dec
+            BB4 hex
+Duration:   26624 dec
+            00006800 hex
+            00680000 rev hex
+
+Offset:     3004 dec
+            BBC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3008 dec
+            BC0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+124:
+Filename:   sound\bgm\dlc\jo_voice\jo_79_r
+
+Offset:     3020 dec
+            BCC hex
+Duration:   24815 dec
+            000060EF hex
+            EF600000 rev hex
+
+Offset:     3028 dec
+            BD4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3032 dec
+            BD8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+125:
+Filename:   sound\bgm\dlc\jo_voice\jo_80_r
+
+Offset:     3044 dec
+            BE4 hex
+Duration:   40943 dec
+            00009FEF hex
+            EF9F0000 rev hex
+
+Offset:     3052 dec
+            BEC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3056 dec
+            BF0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+126:
+Filename:   sound\bgm\dlc\jo_voice\jo_81_r
+
+Offset:     3068 dec
+            BFC hex
+Duration:   38639 dec
+            000096EF hex
+            EF960000 rev hex
+
+Offset:     3076 dec
+            C04 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3080 dec
+            C08 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+127:
+Filename:   sound\bgm\dlc\jo_voice\jo_82_r
+
+Offset:     3092 dec
+            C14 hex
+Duration:   46703 dec
+            0000B66F hex
+            6FB60000 rev hex
+
+Offset:     3100 dec
+            C1C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3104 dec
+            C20 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+128:
+Filename:   sound\bgm\dlc\jo_voice\jo_83_r
+
+Offset:     3116 dec
+            C2C hex
+Duration:   45551 dec
+            0000B1EF hex
+            EFB10000 rev hex
+
+Offset:     3124 dec
+            C34 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3128 dec
+            C38 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+129:
+Filename:   sound\bgm\dlc\jo_voice\jo_84_r
+
+Offset:     3140 dec
+            C44 hex
+Duration:   42095 dec
+            0000A46F hex
+            6FA40000 rev hex
+
+Offset:     3148 dec
+            C4C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3152 dec
+            C50 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+130:
+Filename:   sound\bgm\dlc\jo_voice\jo_85_r
+
+Offset:     3164 dec
+            C5C hex
+Duration:   61679 dec
+            0000F0EF hex
+            EFF00000 rev hex
+
+Offset:     3172 dec
+            C64 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3176 dec
+            C68 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+131:
+Filename:   sound\bgm\dlc\jo_voice\jo_86_r
+
+Offset:     3188 dec
+            C74 hex
+Duration:   61679 dec
+            0000F0EF hex
+            EFF00000 rev hex
+
+Offset:     3196 dec
+            C7C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3200 dec
+            C80 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+132:
+Filename:   sound\bgm\dlc\jo_voice\jo_87_r
+
+Offset:     3212 dec
+            C8C hex
+Duration:   44399 dec
+            0000AD6F hex
+            6FAD0000 rev hex
+
+Offset:     3220 dec
+            C94 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3224 dec
+            C98 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+133:
+Filename:   sound\bgm\dlc\jo_voice\jo_88_r
+
+Offset:     3236 dec
+            CA4 hex
+Duration:   34031 dec
+            000084EF hex
+            EF840000 rev hex
+
+Offset:     3244 dec
+            CAC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3248 dec
+            CB0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+134:
+Filename:   sound\bgm\dlc\jo_voice\jo_89_r
+
+Offset:     3260 dec
+            CBC hex
+Duration:   36335 dec
+            00008DEF hex
+            EF8D0000 rev hex
+
+Offset:     3268 dec
+            CC4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3272 dec
+            CC8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+135:
+Filename:   sound\bgm\dlc\jo_voice\jo_90_r
+
+Offset:     3284 dec
+            CD4 hex
+Duration:   84719 dec
+            00014AEF hex
+            EF4A0100 rev hex
+
+Offset:     3292 dec
+            CDC hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3296 dec
+            CE0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+136:
+Filename:   sound\bgm\dlc\jo_voice\jo_91_r
+
+Offset:     3308 dec
+            CEC hex
+Duration:   62831 dec
+            0000F56F hex
+            6FF50000 rev hex
+
+Offset:     3316 dec
+            CF4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3320 dec
+            CF8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+137:
+Filename:   sound\bgm\dlc\jo_voice\jo_92_r
+
+Offset:     3332 dec
+            D04 hex
+Duration:   63983 dec
+            0000F9EF hex
+            EFF90000 rev hex
+
+Offset:     3340 dec
+            D0C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3344 dec
+            D10 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+138:
+Filename:   sound\bgm\dlc\jo_voice\jo_93_r
+
+Offset:     3356 dec
+            D1C hex
+Duration:   34031 dec
+            000084EF hex
+            EF840000 rev hex
+
+Offset:     3364 dec
+            D24 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3368 dec
+            D28 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+139:
+Filename:   sound\bgm\dlc\jo_voice\jo_94_r
+
+Offset:     3380 dec
+            D34 hex
+Duration:   44399 dec
+            0000AD6F hex
+            6FAD0000 rev hex
+
+Offset:     3388 dec
+            D3C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3392 dec
+            D40 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+140:
+Filename:   sound\bgm\dlc\jo_voice\jo_95_r
+
+Offset:     3404 dec
+            D4C hex
+Duration:   30575 dec
+            0000776F hex
+            6F770000 rev hex
+
+Offset:     3412 dec
+            D54 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3416 dec
+            D58 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+141:
+Filename:   sound\bgm\dlc\jo_voice\jo_96_r
+
+Offset:     3428 dec
+            D64 hex
+Duration:   44399 dec
+            0000AD6F hex
+            6FAD0000 rev hex
+
+Offset:     3436 dec
+            D6C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3440 dec
+            D70 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+142:
+Filename:   sound\bgm\dlc\jo_voice\jo_97_r
+
+Offset:     3452 dec
+            D7C hex
+Duration:   36335 dec
+            00008DEF hex
+            EF8D0000 rev hex
+
+Offset:     3460 dec
+            D84 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3464 dec
+            D88 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+143:
+Filename:   sound\bgm\dlc\jo_voice\jo_98_r
+
+Offset:     3476 dec
+            D94 hex
+Duration:   30575 dec
+            0000776F hex
+            6F770000 rev hex
+
+Offset:     3484 dec
+            D9C hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3488 dec
+            DA0 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+144:
+Filename:   sound\bgm\dlc\jo_voice\jo_99_r
+
+Offset:     3500 dec
+            DAC hex
+Duration:   38639 dec
+            000096EF hex
+            EF960000 rev hex
+
+Offset:     3508 dec
+            DB4 hex
+Loop Start: 4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
+Offset:     3512 dec
+            DB8 hex
+Loop End:   4294967295 dec
+            FFFFFFFF hex
+            FFFFFFFF rev hex
+
