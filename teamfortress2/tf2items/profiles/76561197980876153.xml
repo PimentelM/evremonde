@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><profile>
+	<steamID64>76561197980876153</steamID64>
+	<steamID><![CDATA[P4inT]]></steamID>
+	<onlineState>offline</onlineState>
+	<stateMessage><![CDATA[Last Online: 1 hrs, 7 mins ago]]></stateMessage>
+	<privacyState>public</privacyState>
+	<visibilityState>3</visibilityState>
+	<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/cd/cd4596da49f660713a6c19e2d2329bffed04f2b4.jpg]]></avatarIcon>
+	<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/cd/cd4596da49f660713a6c19e2d2329bffed04f2b4_medium.jpg]]></avatarMedium>
+	<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/cd/cd4596da49f660713a6c19e2d2329bffed04f2b4_full.jpg]]></avatarFull>
+	<vacBanned>0</vacBanned>
+	<isLimitedAccount>0</isLimitedAccount>
+	<customURL><![CDATA[paint]]></customURL>
+	<memberSince>February 10, 2006</memberSince>
+	<steamRating>7.8</steamRating>
+	<hoursPlayed2Wk>25</hoursPlayed2Wk>
+	<headline><![CDATA[]]></headline>
+	<location><![CDATA[Pensacola, Florida, United States]]></location>
+	<realname><![CDATA[Sam Castaneda]]></realname>
+	<summary><![CDATA[No information given.]]></summary>
+ 	<mostPlayedGames>
+		<mostPlayedGame>
+			<gameName><![CDATA[Source SDK Base 2007]]></gameName>
+			<gameLink><![CDATA[http://store.steampowered.com/app/218]]></gameLink>
+			<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/06/061818254b2c99ac49e6626adb128ed1282a392f.jpg]]></gameIcon>
+			<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/33/338200c5d6c4d9bdcf6632642a2aeb591fb8a5c2.gif]]></gameLogo>
+			<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/33/338200c5d6c4d9bdcf6632642a2aeb591fb8a5c2.gif]]></gameLogoSmall>
+			<hoursPlayed>19.5</hoursPlayed>
+			<hoursOnRecord>114.4</hoursOnRecord>
+		</mostPlayedGame>
+		<mostPlayedGame>
+			<gameName><![CDATA[Counter-Strike]]></gameName>
+			<gameLink><![CDATA[http://store.steampowered.com/app/10]]></gameLink>
+			<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/10/6b0312cda02f5f777efa2f3318c307ff9acafbb5.jpg]]></gameIcon>
+			<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/10/af890f848dd606ac2fd4415de3c3f5e7a66fcb9f.jpg]]></gameLogo>
+			<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/10/dc97d7c8ae3a417cbb09fed1dcfb3204b7a2766b.jpg]]></gameLogoSmall>
+			<hoursPlayed>5.5</hoursPlayed>
+			<hoursOnRecord>117.7</hoursOnRecord>
+		</mostPlayedGame>
+	</mostPlayedGames>
+
+	<friends>
+		<friend>
+			<steamID64>76561197974789468</steamID64>
+			<steamID><![CDATA[=[BSID]= SGT harryhoot1]]></steamID>
+			<customURL><![CDATA[harryhoot1]]></customURL>
+			<onlineState>in-game</onlineState>
+			<stateMessage><![CDATA[In-Game<br />Source SDK Base 2007 - <a href="steam://connect/99.198.97.162:27102">Join</a>]]></stateMessage>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/05/05b834768c18b5d34755746f416b4c2f7ee8db80.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/05/05b834768c18b5d34755746f416b4c2f7ee8db80_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/05/05b834768c18b5d34755746f416b4c2f7ee8db80_full.jpg]]></avatarFull>
+			<friendsSince><![CDATA[1283576710]]></friendsSince>
+		</friend>
+		<friend>
+			<steamID64>76561197967977877</steamID64>
+			<steamID><![CDATA[dkp[c]]]></steamID>
+			<customURL><![CDATA[lunabros]]></customURL>
+			<onlineState>in-game</onlineState>
+			<stateMessage><![CDATA[In-Game<br />Counter-Strike - <a href="steam://connect/216.246.109.130:27015">Join</a>]]></stateMessage>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/b2/b2c8d00d4ec1091a86dafba277a48612063f2afd.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/b2/b2c8d00d4ec1091a86dafba277a48612063f2afd_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/b2/b2c8d00d4ec1091a86dafba277a48612063f2afd_full.jpg]]></avatarFull>
+			<friendsSince><![CDATA[0]]></friendsSince>
+		</friend>
+		<friend>
+			<steamID64>76561197970809482</steamID64>
+			<steamID><![CDATA[SAND0]]></steamID>
+			<customURL><![CDATA[SAND0]]></customURL>
+			<onlineState>in-game</onlineState>
+			<stateMessage><![CDATA[In-Game<br />Team Fortress 2 - <a href="steam://connect/69.147.225.41:27015">Join</a>]]></stateMessage>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/38/388734084bf06a8439e0d96d1803bc5c77bed067.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/38/388734084bf06a8439e0d96d1803bc5c77bed067_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/38/388734084bf06a8439e0d96d1803bc5c77bed067_full.jpg]]></avatarFull>
+			<friendsSince><![CDATA[0]]></friendsSince>
+		</friend>
+		<friend>
+			<steamID64>76561197968797092</steamID64>
+			<steamID><![CDATA[.:R!d34:. ^Nomak]]></steamID>
+			<customURL><![CDATA[]]></customURL>
+			<onlineState>online</onlineState>
+			<stateMessage><![CDATA[Online]]></stateMessage>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/2a/2a6992405973cb15eb1c50f4ef646ea4bd295402.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/2a/2a6992405973cb15eb1c50f4ef646ea4bd295402_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/2a/2a6992405973cb15eb1c50f4ef646ea4bd295402_full.jpg]]></avatarFull>
+			<friendsSince><![CDATA[0]]></friendsSince>
+		</friend>
+		<friend>
+			<steamID64>76561197977846362</steamID64>
+			<steamID><![CDATA[=[BSID]= CPT Cpatton]]></steamID>
+			<customURL><![CDATA[cpatton]]></customURL>
+			<onlineState>online</onlineState>
+			<stateMessage><![CDATA[Online]]></stateMessage>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/64/64b7c0ba0bed12f58ea892f2bb827bbc458606ef.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/64/64b7c0ba0bed12f58ea892f2bb827bbc458606ef_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/64/64b7c0ba0bed12f58ea892f2bb827bbc458606ef_full.jpg]]></avatarFull>
+			<friendsSince><![CDATA[1283653910]]></friendsSince>
+		</friend>
+		<friend>
+			<steamID64>76561197963656481</steamID64>
+			<steamID><![CDATA[Chedca]]></steamID>
+			<customURL><![CDATA[chedca]]></customURL>
+			<onlineState>online</onlineState>
+			<stateMessage><![CDATA[Online]]></stateMessage>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/c1/c1d0f23d838490dadfb9baa1d21c44911b194b5f.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/c1/c1d0f23d838490dadfb9baa1d21c44911b194b5f_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/c1/c1d0f23d838490dadfb9baa1d21c44911b194b5f_full.jpg]]></avatarFull>
+			<friendsSince><![CDATA[1239609711]]></friendsSince>
+		</friend>
+	</friends>
+
+	<weblinks>
+	</weblinks>
+
+	<groups>
+		<group isPrimary="0">
+			<groupID64>103582791429603857</groupID64>
+			<groupName><![CDATA[Highstakescs]]></groupName>
+			<groupURL><![CDATA[highstakescs]]></groupURL>
+			<headline><![CDATA[]]></headline>
+			<summary><![CDATA[No information given.]]></summary>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/1f/1f11a7c2d24d4836fdc390996455fc2a66dcdfa4.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/1f/1f11a7c2d24d4836fdc390996455fc2a66dcdfa4_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/1f/1f11a7c2d24d4836fdc390996455fc2a66dcdfa4_full.jpg]]></avatarFull>
+			<memberCount>35</memberCount>
+			<membersInChat>0</membersInChat>
+			<membersInGame>0</membersInGame>
+			<membersOnline>6</membersOnline>
+		</group>
+		<group isPrimary="0">
+			<groupID64>103582791429824727</groupID64>
+			<groupName><![CDATA[The Melon Pit]]></groupName>
+			<groupURL><![CDATA[melonpit]]></groupURL>
+			<headline><![CDATA[There's no melon like an uber melon!]]></headline>
+			<summary><![CDATA[Welcome to the Melon Pit! This group is dedicated to the regulars of the Melon Pit and members of our community. Have fun and play nice! If you have any issues look for uberMelons °. uM members are part of the Uber Melons clan. If you are wanting to be a part of UM you must visit our web site and submit an application. <br /><br />THANKS FOR PLAYING IN THE PIT!<br /><br />Our Pub is at 69.147.225.41:27015]]></summary>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/39/39c03dadebfa85189524f0efac012ddd14f6f132.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/39/39c03dadebfa85189524f0efac012ddd14f6f132_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/39/39c03dadebfa85189524f0efac012ddd14f6f132_full.jpg]]></avatarFull>
+			<memberCount>377</memberCount>
+			<membersInChat>0</membersInChat>
+			<membersInGame>29</membersInGame>
+			<membersOnline>141</membersOnline>
+		</group>
+		<group isPrimary="0">
+			<groupID64>103582791429972642</groupID64>
+			<groupName><![CDATA[Completely Fucking RanD0M]]></groupName>
+			<groupURL><![CDATA[cFR_]]></groupURL>
+			<headline><![CDATA[WE R RANDOM]]></headline>
+			<summary><![CDATA[=cFR; is random<br /><br />WE ARE RONDOM IN CAL-O<br /><br />Current Record : 2-2-1 (1 forfit win)]]></summary>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/17/17a20455551a2116bd36360726023a3e6f129b21.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/17/17a20455551a2116bd36360726023a3e6f129b21_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/17/17a20455551a2116bd36360726023a3e6f129b21_full.jpg]]></avatarFull>
+			<memberCount>11</memberCount>
+			<membersInChat>0</membersInChat>
+			<membersInGame>0</membersInGame>
+			<membersOnline>2</membersOnline>
+		</group>
+		<group isPrimary="1">
+			<groupID64>103582791430304960</groupID64>
+			<groupName><![CDATA[ItZa Gaming]]></groupName>
+			<groupURL><![CDATA[itzagaming]]></groupURL>
+			<headline><![CDATA[]]></headline>
+			<summary><![CDATA[No information given.]]></summary>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg]]></avatarFull>
+			<memberCount>6</memberCount>
+			<membersInChat>0</membersInChat>
+			<membersInGame>0</membersInGame>
+			<membersOnline>1</membersOnline>
+		</group>
+		<group isPrimary="0">
+			<groupID64>103582791430472608</groupID64>
+			<groupName><![CDATA[GamingDevotion]]></groupName>
+			<groupURL><![CDATA[GamingDevotion]]></groupURL>
+			<headline><![CDATA[We live for this moment. #GDEV]]></headline>
+			<summary><![CDATA[Stay tuned for Updates.<br /><br />We live for this moment! What about you?]]></summary>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/16/166ff4fae97ea242048c7ca00279d224f4167ea1.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/16/166ff4fae97ea242048c7ca00279d224f4167ea1_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/16/166ff4fae97ea242048c7ca00279d224f4167ea1_full.jpg]]></avatarFull>
+			<memberCount>1887</memberCount>
+			<membersInChat>0</membersInChat>
+			<membersInGame>135</membersInGame>
+			<membersOnline>483</membersOnline>
+		</group>
+		<group isPrimary="0">
+			<groupID64>103582791430633833</groupID64>
+			<groupName><![CDATA[[=ξXξ=]]]></groupName>
+			<groupURL><![CDATA[theexe]]></groupURL>
+			<headline><![CDATA[DELETE YOUR FACE]]></headline>
+			<summary><![CDATA["In Soviet Russia, files execute you"<br /><br /><br /><br />"I'm so fucking awesome, and you can too!!!"<br /><br />"ALLAHAKBAR.EXE"<br /><br /><br /><br /><br /><br />DANGER: we are known to stack to rape noobs because its fun and totally awesome. we are awesome duh.<br />This is an Empires /Call of Duty guild. to join this clan ask me, Delete.<br />We don't put up with your bullshit you put up with our bullshit end of story, period, story is over.<br />When you are an EXE guild member you are better then everyone who is....<br />1: Not in a clan <br />2: better then all other clans put together <br />3: just shut the fuck up and get on my dick.<br />4: numb401<br />5: OMEN<br />6: Anyone who is in BSID (Mainly FN)<br />ALL CLAN MEMBERS MUST REFER TO THEM SELF AS GOD/JESUS/KING DEE DEE DEE,<br />Also when you kill someone you must also say wikiwkiwiki fahtang.<br />We are better then everyone.<br />We are better then you and worse then no one and so can you!<br />JOIN US TODAY!!!11<br />Go fuck yourself.<br /><br /><br />(Planning to become an official empires clan. scrimming and forums and such coming soon.)]]></summary>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/2a/2a6145811f05e772ff01bc01710894f001de0065.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/2a/2a6145811f05e772ff01bc01710894f001de0065_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/2a/2a6145811f05e772ff01bc01710894f001de0065_full.jpg]]></avatarFull>
+			<memberCount>59</memberCount>
+			<membersInChat>0</membersInChat>
+			<membersInGame>10</membersInGame>
+			<membersOnline>28</membersOnline>
+		</group>
+		<group isPrimary="0">
+			<groupID64>103582791431325343</groupID64>
+			<groupName><![CDATA[Elite Penis Insertion Corps]]></groupName>
+			<groupURL><![CDATA[elitepenisinsertioncorps]]></groupURL>
+			<headline><![CDATA[]]></headline>
+			<summary><![CDATA[Fucking Awesome.]]></summary>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/cf/cf7a77c7f2fc88c0d71f4f094ee0a3a51c2e9342.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/cf/cf7a77c7f2fc88c0d71f4f094ee0a3a51c2e9342_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/cf/cf7a77c7f2fc88c0d71f4f094ee0a3a51c2e9342_full.jpg]]></avatarFull>
+			<memberCount>23</memberCount>
+			<membersInChat>0</membersInChat>
+			<membersInGame>3</membersInGame>
+			<membersOnline>12</membersOnline>
+		</group>
+	</groups>
+</profile>

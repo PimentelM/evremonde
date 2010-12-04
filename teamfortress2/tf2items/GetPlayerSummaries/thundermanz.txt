@@ -1,0 +1,29 @@
+{
+	"response": {
+		"players": {
+			"player": [
+				{
+					"steamid": 76561198006963815,
+					"communityvisibilitystate": 3,
+					"profilestate": 1,
+					"personaname": "The Drunk Demoman",
+					"lastlogoff": 1291461258,
+					"commentpermission": 1,
+					"profileurl": "http:\/\/steamcommunity.com\/id\/Thundermanz\/",
+					"avatar": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/f4\/f4cc9559b1ae7e2a8d6b2ad65817c030cfdfd6de.jpg",
+					"avatarmedium": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/f4\/f4cc9559b1ae7e2a8d6b2ad65817c030cfdfd6de_medium.jpg",
+					"avatarfull": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/f4\/f4cc9559b1ae7e2a8d6b2ad65817c030cfdfd6de_full.jpg",
+					"personastate": 1,
+					"realname": " ",
+					"primaryclanid": 103582791430596570,
+					"timecreated": 1235748859,
+					"gameserverip": "94.23.158.232:27017",
+					"gameextrainfo": "Team Fortress 2",
+					"gameid": 440,
+					"gameserversteamid": 90082781650300934,
+					"loccountrycode": "YU"
+				}
+			]
+		}
+	}
+}

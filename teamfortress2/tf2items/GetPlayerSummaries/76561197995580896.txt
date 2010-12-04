@@ -1,0 +1,26 @@
+{
+	"response": {
+		"players": {
+			"player": [
+				{
+					"steamid": 76561197995580896,
+					"communityvisibilitystate": 3,
+					"profilestate": 1,
+					"personaname": "Barack Obama",
+					"lastlogoff": 1290876527,
+					"profileurl": "http:\/\/steamcommunity.com\/profiles\/76561197995580896\/",
+					"avatar": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/69\/694cbc8f9a7484b5596a7067629179f2cb750b01.jpg",
+					"avatarmedium": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/69\/694cbc8f9a7484b5596a7067629179f2cb750b01_medium.jpg",
+					"avatarfull": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/69\/694cbc8f9a7484b5596a7067629179f2cb750b01_full.jpg",
+					"personastate": 1,
+					"primaryclanid": 103582791430684314,
+					"timecreated": 1199545273,
+					"gameextrainfo": "Team Fortress 2",
+					"gameid": 440,
+					"loccountrycode": "US",
+					"locstatecode": "WA"
+				}
+			]
+		}
+	}
+}
