@@ -1,0 +1,25 @@
+{
+	"response": {
+		"players": {
+			"player": [
+				{
+					"steamid": 76561198009288616,
+					"communityvisibilitystate": 3,
+					"profilestate": 1,
+					"personaname": "gNatFreak",
+					"lastlogoff": 1290919298,
+					"commentpermission": 1,
+					"profileurl": "http:\/\/steamcommunity.com\/id\/gNatFreak\/",
+					"avatar": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/02\/0276fce8745951ab5b22825deedbb5ae847835fa.jpg",
+					"avatarmedium": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/02\/0276fce8745951ab5b22825deedbb5ae847835fa_medium.jpg",
+					"avatarfull": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/02\/0276fce8745951ab5b22825deedbb5ae847835fa_full.jpg",
+					"personastate": 0,
+					"realname": "Falafelraptorz r aftur meh!",
+					"primaryclanid": 103582791430566417,
+					"timecreated": 1240450264,
+					"loccountrycode": "US"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"response": {
+		"players": {
+			"player": [
+				{
+					"steamid": 76561197972481083,
+					"communityvisibilitystate": 3,
+					"profilestate": 1,
+					"personaname": "[CcC] NeoDement",
+					"lastlogoff": 1291483083,
+					"profileurl": "http:\/\/steamcommunity.com\/id\/neodement\/",
+					"avatar": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/60\/609233fbd32396f93959331211f223f6bb89894c.jpg",
+					"avatarmedium": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/60\/609233fbd32396f93959331211f223f6bb89894c_medium.jpg",
+					"avatarfull": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/60\/609233fbd32396f93959331211f223f6bb89894c_full.jpg",
+					"personastate": 0,
+					"realname": "kirsty crawcour",
+					"primaryclanid": 103582791430175830,
+					"timecreated": 1104151998,
+					"loccountrycode": "GB"
+				}
+			]
+		}
+	}
+}

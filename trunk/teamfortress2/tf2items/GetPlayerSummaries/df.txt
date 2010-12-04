@@ -1,0 +1,27 @@
+{
+	"response": {
+		"players": {
+			"player": [
+				{
+					"steamid": 76561197961366266,
+					"communityvisibilitystate": 3,
+					"profilestate": 1,
+					"personaname": "Drunken F00l",
+					"lastlogoff": 1289358913,
+					"commentpermission": 1,
+					"profileurl": "http:\/\/steamcommunity.com\/id\/df\/",
+					"avatar": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/16\/16ac198c980792a5ffdb7ee0359fb11c15569c23.jpg",
+					"avatarmedium": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/16\/16ac198c980792a5ffdb7ee0359fb11c15569c23_medium.jpg",
+					"avatarfull": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/16\/16ac198c980792a5ffdb7ee0359fb11c15569c23_full.jpg",
+					"personastate": 0,
+					"realname": "Tony Paloma",
+					"primaryclanid": 103582791429529715,
+					"timecreated": 1064455912,
+					"loccountrycode": "US",
+					"locstatecode": "WA",
+					"loccityid": 4024
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,126 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+    <title>test</title>
+
+</head>
+
+<body>
+
+    <div id="id_page_content">
+
+        <h1>test</h1>
+
+        <div id="id_test"></div>
+
+    </div>
+
+    <script type="text/javascript">
+
+        $.getJSON
+        (
+            'GetSchema/tf_items_schema.txt',
+            function(GetSchema)
+            {
+
+                $.each
+                (
+                    GetSchema.result.items.item,
+                    function(GetSchema_item_index, GetSchema_item)
+                    {
+                        $.getJSON
+                        (
+                            'GetPlayerItems/76561197984116184.txt',
+                            function(GetPlayerItems)
+                            {
+                                $.each
+                                (
+                                    GetPlayerItems.result.items.item,
+                                    function(GetPlayerItems_item_index, GetPlayerItems_item)
+                                    {
+                                        if (GetPlayerItems_item.defindex == GetSchema_item.defindex)
+                                        {
+                                            $('#id_test').append('<p>');
+
+                                            $('#id_test').append('<b>GetSchema_item.name: ' + GetSchema_item.name + '</b>');
+                                            $('#id_test').append('<br />');
+
+                                            $('#id_test').append('</p>');
+
+                                             $('#id_test').append('<p>');
+
+                                            $('#id_test').append('GetSchema_item.defindex: ' + GetSchema_item.defindex);
+                                            $('#id_test').append('<br />');
+
+                                            $('#id_test').append('GetPlayerItems_item.defindex: ' + GetPlayerItems_item.defindex);
+                                            $('#id_test').append('<br />');
+
+                                            $('#id_test').append('</p>');
+
+                                            if (GetPlayerItems_item.attributes)
+                                            {
+                                                $.each
+                                                (
+                                                    GetPlayerItems_item.attributes.attribute,
+                                                    function(GetPlayerItems_item_attr_index, GetPlayerItems_item_attr)
+                                                    {
+                                                        $('#id_test').append('<p>');
+
+                                                        $('#id_test').append('GetPlayerItems_item_attr.defindex: ' + GetPlayerItems_item_attr.defindex);
+                                                        $('#id_test').append('<br />');
+
+                                                        $('#id_test').append('GetPlayerItems_item_attr.value: ' + GetPlayerItems_item_attr.value);
+                                                        $('#id_test').append('<br />');
+
+                                                        $('#id_test').append('GetPlayerItems_item_attr.float_value: ' + GetPlayerItems_item_attr.float_value);
+                                                        $('#id_test').append('<br />');
+
+                                                        $('#id_test').append('</p>');
+                                                    }
+                                                )
+                                            }
+
+                                            if (GetSchema_item.attributes)
+                                            {
+                                                $.each
+                                                (
+                                                    GetSchema_item.attributes.attribute,
+                                                    function(GetSchema_item_attr_index, GetSchema_item_attr)
+                                                    {
+                                                        $('#id_test').append('<p>');
+
+                                                        $('#id_test').append('GetSchema_item_attr.name: ' + GetSchema_item_attr.name);
+                                                        $('#id_test').append('<br />');
+
+                                                        $('#id_test').append('GetSchema_item_attr.class: ' + GetSchema_item_attr.class);
+                                                        $('#id_test').append('<br />');
+
+                                                        $('#id_test').append('GetSchema_item_attr.value: ' + GetSchema_item_attr.value);
+                                                        $('#id_test').append('<br />');
+
+                                                        $('#id_test').append('</p>');
+                                                    }
+                                                );
+                                            }
+                                        }
+                                    }
+                                );
+                            }
+                        );
+                    }
+                );
+            }
+        );
+
+    </script>
+
+</body>
+
+</html>

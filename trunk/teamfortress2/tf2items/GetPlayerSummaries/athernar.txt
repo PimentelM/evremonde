@@ -1,0 +1,26 @@
+{
+	"response": {
+		"players": {
+			"player": [
+				{
+					"steamid": 76561197972547631,
+					"communityvisibilitystate": 3,
+					"profilestate": 1,
+					"personaname": "[A-T]Athernar~",
+					"lastlogoff": 1291436198,
+					"commentpermission": 1,
+					"profileurl": "http:\/\/steamcommunity.com\/id\/athernar\/",
+					"avatar": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/76\/767dd27ba0de074e079383e601867b725773c019.jpg",
+					"avatarmedium": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/76\/767dd27ba0de074e079383e601867b725773c019_medium.jpg",
+					"avatarfull": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/76\/767dd27ba0de074e079383e601867b725773c019_full.jpg",
+					"personastate": 1,
+					"realname": "245a58a5dc42397caf57bc06c2c0afd2",
+					"primaryclanid": 103582791431040701,
+					"timecreated": 1104243875,
+					"loccountrycode": "GB",
+					"locstatecode": "D6"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,405 @@
+body
+{
+    font-family: Arial, Verdana, Geneva, Helvetica, Sans-Serif;
+    font-size: 0.75em;
+    background-color: #2A2725;
+    color: #EBE2CA;
+}
+
+a
+{
+    text-decoration: underline;
+    color: #EBE2CA;
+}
+
+#id_page_content, #id_page_title
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#id_items_preview_page_1, #id_items_preview_page_2, #id_items_preview_page_3, #id_items_preview_page_4
+{
+    float: left;
+    width: 100px;
+    margin-right: 8px;
+}
+
+#id_items_preview_text
+{
+    margin-top: 13px;
+    float: left;
+
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: #000000 2px 2px 0px;
+}
+
+hr, #id_page_content, #id_items, #id_items_buttons, #id_items_found, #id_items_craft
+{
+    width: 1080px;
+}
+
+#id_items_buttons_content
+{
+    margin-top: 16px;
+    margin-right: 24px;
+    float: right;
+}
+
+#id_page_logo
+{
+    float: left;
+}
+
+#id_profile_submit_text
+{
+    width: 200px;
+}
+
+#id_profile_submit_select_sort, #id_profile_submit_select_filter, #id_profile_submit_select_highlight, #id_profile_submit_select_scroll
+{
+    width: 125px;
+}
+
+#id_profile_summary_profile_error
+{
+    display: none;
+}
+
+#id_tooltip_item_name
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: #000000 2px 2px 0px;
+}
+
+.class_profile_summary_profile_not_found
+{
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #990000;
+    border: 1px solid #990000;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.class_profile_summary_profile_is_private
+{
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #3333FF;
+    border: 1px solid #3333FF;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.class_profile_summary_profile_invalid_items_format
+{
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #990000;
+    border: 1px solid #990000;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+#id_avatar
+{
+    border: 4px solid #666666;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+#id_items_buttons
+{
+    float: right;
+}
+
+#id_items_buttons img
+{
+    vertical-align: middle;
+}
+
+#id_items_craft
+{
+    font-size: 2.0em;
+    font-weight: normal;
+}
+
+.class_tooltip
+{
+    z-index: 9999;
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-width: 240px;
+    max-width: 480px;
+    font-size: 1.0em;
+    text-align: center;
+    color: white;
+    background-color: black;
+    background-image: url('images/content_bg.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    -moz-box-shadow: 4px 4px 8px black;
+    -webkit-box-shadow: 4px 4px 8px black;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.class_slot, .class_preview_slot
+{
+    position: relative;
+    float: left;
+
+    overflow: visible;
+    margin: 0px;
+}
+
+.class_slot
+{
+    background-color: #3C352E;
+
+    width: 96px;
+    height: 96px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.class_slot:hover
+{
+    background-color: #C8BBA2;
+}
+
+img.class_item
+{
+    z-index: 9993;
+    position: absolute;
+
+    vertical-align: middle;
+
+    width: 96px;
+    height: 96px;
+
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+img.class_effect
+{
+    z-index: 9992;
+    position: absolute;
+
+    vertical-align: middle;
+
+    width: 96px;
+    height: 96px;
+
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.class_preview_item
+{
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+
+.class_item_dialog
+{
+    display: none;
+}
+
+.class_item_level
+{
+    z-index: 9998;
+    position: absolute;
+
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    top: 5px;
+    left: 5px;
+    font-size: 1.0em;
+    text-align: center;
+    color: #6699FF;
+    background-color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.class_item_equipped
+{
+    z-index: 9997;
+    position: absolute;
+
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    top: 72px;
+    left: 18px;
+    font-size: 1.0em;
+    text-align: center;
+    color: #FF3333;
+    background-color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.class_item_painted
+{
+    z-index: 9996;
+    position: absolute;
+
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    top: 5px;
+    left: 59px;
+}
+
+.class_item_tagged
+{
+    z-index: 9995;
+    position: absolute;
+
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    top: 37px;
+    left: 59px;
+}
+
+.class_item_gifted
+{
+    z-index: 9994;
+    position: absolute;
+
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    top: 37px;
+    left: 5px;
+}
+
+.class_color_quality_default
+{
+    color: #FFFF33;
+}
+
+.class_color_quality_vintage
+{
+    color: #0033FF;
+}
+
+.class_color_quality_unusual
+{
+    color: #6633FF;
+}
+
+.class_color_quality_community
+{
+    color: #00CC00;
+}
+
+.class_color_quality_valve
+{
+    color: #FF33FF;
+}
+
+.class_color_quality_self_made
+{
+    color: #33FF33;
+}
+
+.class_color_quality_customized
+{
+    color: #FF3300;
+}
+
+.class_color_quality_special
+{
+    color: #00FF66;
+}
+
+.class_tooltip_item_custom_name
+{
+    color: #999999;
+    font-weight: normal;
+}
+
+.class_tooltip_item_custom_desc
+{
+    color: #999999;
+    font-weight: normal;
+}
+
+.class_tooltip_item_equipped
+{
+    color: #999999;
+    font-weight: normal;
+}
+
+.class_tooltip_item_duplicate
+{
+    color: #999999;
+    font-weight: normal;
+}
+
+.class_tooltip_item_level
+{
+    color: #999999;
+}
+
+.class_tooltip_item_holiday
+{
+    color: #FFFFFF;
+}
+
+.class_tooltip_item_property_type_positive
+{
+    color: #6699FF;
+}
+
+.class_tooltip_item_property_type_negative
+{
+    color: #FF3333;
+}
+
+.class_tooltip_item_property_type_neutral
+{
+    color: #FFFFFF;
+}
+
+.class_tooltip_item_description
+{
+    color: #FFFFFF;
+}
+
+.class_tooltip_item_attributes
+{
+    color: #FFFFFF;
+}

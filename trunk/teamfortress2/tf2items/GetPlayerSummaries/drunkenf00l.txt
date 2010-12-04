@@ -1,0 +1,24 @@
+{
+	"response": {
+		"players": {
+			"player": [
+				{
+					"steamid": 76561197968459473,
+					"communityvisibilitystate": 3,
+					"profilestate": 1,
+					"personaname": "[TF2i] Drunken F00l",
+					"lastlogoff": 1289960833,
+					"profileurl": "http:\/\/steamcommunity.com\/id\/drunkenf00l\/",
+					"avatar": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/d9\/d9359f04c3c39263040b173ca33341643f69ab43.jpg",
+					"avatarmedium": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/d9\/d9359f04c3c39263040b173ca33341643f69ab43_medium.jpg",
+					"avatarfull": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/d9\/d9359f04c3c39263040b173ca33341643f69ab43_full.jpg",
+					"personastate": 1,
+					"realname": " ",
+					"primaryclanid": 103582791429529715,
+					"timecreated": 1093239734,
+					"loccountrycode": "US"
+				}
+			]
+		}
+	}
+}

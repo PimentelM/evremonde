@@ -1,0 +1,26 @@
+{
+	"response": {
+		"players": {
+			"player": [
+				{
+					"steamid": 76561197984116184,
+					"communityvisibilitystate": 3,
+					"profilestate": 1,
+					"personaname": "Kev",
+					"lastlogoff": 1291336783,
+					"commentpermission": 2,
+					"profileurl": "http:\/\/steamcommunity.com\/id\/kevinlr\/",
+					"avatar": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/91\/9130744dcfd7cc3f3fc4cfff50145aff87355b11.jpg",
+					"avatarmedium": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/91\/9130744dcfd7cc3f3fc4cfff50145aff87355b11_medium.jpg",
+					"avatarfull": "http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/avatars\/91\/9130744dcfd7cc3f3fc4cfff50145aff87355b11_full.jpg",
+					"personastate": 1,
+					"primaryclanid": 103582791429544454,
+					"timecreated": 1154645112,
+					"gameextrainfo": "Team Fortress 2",
+					"gameid": 440,
+					"loccountrycode": "US"
+				}
+			]
+		}
+	}
+}

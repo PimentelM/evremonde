@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><profile>
+	<steamID64>76561197984116184</steamID64>
+	<steamID><![CDATA[Kev]]></steamID>
+	<onlineState>in-game</onlineState>
+	<stateMessage><![CDATA[In-Game<br />Team Fortress 2 - <a href="steam://connect/208.94.243.107:27032">Join</a>]]></stateMessage>
+	<privacyState>public</privacyState>
+	<visibilityState>3</visibilityState>
+	<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/91/9130744dcfd7cc3f3fc4cfff50145aff87355b11.jpg]]></avatarIcon>
+	<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/91/9130744dcfd7cc3f3fc4cfff50145aff87355b11_medium.jpg]]></avatarMedium>
+	<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/91/9130744dcfd7cc3f3fc4cfff50145aff87355b11_full.jpg]]></avatarFull>
+	<vacBanned>0</vacBanned>
+	<isLimitedAccount>0</isLimitedAccount>
+	<customURL><![CDATA[kevinlr]]></customURL>
+	<inGameServerIP>208.94.243.107:27032</inGameServerIP>
+	<inGameInfo>
+		<gameName><![CDATA[Team Fortress 2]]></gameName>
+		<gameLink><![CDATA[http://store.steampowered.com/app/440]]></gameLink>
+		<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/440/e3f595a92552da3d664ad00277fad2107345f743.jpg]]></gameIcon>
+		<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/440/07385eb55b5ba974aebbe74d3c99626bda7920b8.jpg]]></gameLogo>
+		<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/440/07385eb55b5ba974aebbe74d3c99626bda7920b8_thumb.jpg]]></gameLogoSmall>
+		<gameJoinLink><![CDATA[steam://connect/208.94.243.107:27032]]></gameJoinLink>
+	</inGameInfo>
+	<memberSince>August 3, 2006</memberSince>
+	<steamRating>5.2</steamRating>
+	<hoursPlayed2Wk>16.6</hoursPlayed2Wk>
+	<headline><![CDATA[]]></headline>
+	<location><![CDATA[United States]]></location>
+	<realname><![CDATA[]]></realname>
+	<summary><![CDATA[No information given.]]></summary>
+ 	<mostPlayedGames>
+		<mostPlayedGame>
+			<gameName><![CDATA[Team Fortress 2]]></gameName>
+			<gameLink><![CDATA[http://store.steampowered.com/app/440]]></gameLink>
+			<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/440/e3f595a92552da3d664ad00277fad2107345f743.jpg]]></gameIcon>
+			<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/440/07385eb55b5ba974aebbe74d3c99626bda7920b8.jpg]]></gameLogo>
+			<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/440/07385eb55b5ba974aebbe74d3c99626bda7920b8_thumb.jpg]]></gameLogoSmall>
+			<hoursPlayed>15.6</hoursPlayed>
+			<hoursOnRecord>2613</hoursOnRecord>
+			<statsName><![CDATA[TF2]]></statsName>
+		</mostPlayedGame>
+		<mostPlayedGame>
+			<gameName><![CDATA[Left 4 Dead 2]]></gameName>
+			<gameLink><![CDATA[http://store.steampowered.com/app/550]]></gameLink>
+			<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/550/7d5a243f9500d2f8467312822f8af2a2928777ed.jpg]]></gameIcon>
+			<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/550/205863cc21e751a576d6fff851984b3170684142.jpg]]></gameLogo>
+			<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/550/205863cc21e751a576d6fff851984b3170684142_thumb.jpg]]></gameLogoSmall>
+			<hoursPlayed>0.6</hoursPlayed>
+			<hoursOnRecord>13.1</hoursOnRecord>
+			<statsName><![CDATA[L4D2]]></statsName>
+		</mostPlayedGame>
+		<mostPlayedGame>
+			<gameName><![CDATA[Counter-Strike]]></gameName>
+			<gameLink><![CDATA[http://store.steampowered.com/app/10]]></gameLink>
+			<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/10/6b0312cda02f5f777efa2f3318c307ff9acafbb5.jpg]]></gameIcon>
+			<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/10/af890f848dd606ac2fd4415de3c3f5e7a66fcb9f.jpg]]></gameLogo>
+			<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/10/dc97d7c8ae3a417cbb09fed1dcfb3204b7a2766b.jpg]]></gameLogoSmall>
+			<hoursPlayed>0.4</hoursPlayed>
+			<hoursOnRecord>2.1</hoursOnRecord>
+		</mostPlayedGame>
+	</mostPlayedGames>
+
+	<friends>
+		<friend>
+			<steamID64>76561197967348725</steamID64>
+			<steamID><![CDATA[Klev]]></steamID>
+			<customURL><![CDATA[]]></customURL>
+			<onlineState>online</onlineState>
+			<stateMessage><![CDATA[Online]]></stateMessage>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/87/87cda3f1a576a285098dc3cc49d33c0d4fa62eef.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/87/87cda3f1a576a285098dc3cc49d33c0d4fa62eef_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/87/87cda3f1a576a285098dc3cc49d33c0d4fa62eef_full.jpg]]></avatarFull>
+			<friendsSince><![CDATA[1277188559]]></friendsSince>
+		</friend>
+		<friend>
+			<steamID64>76561197984035620</steamID64>
+			<steamID><![CDATA[Ryan]]></steamID>
+			<customURL><![CDATA[]]></customURL>
+			<onlineState>offline</onlineState>
+			<stateMessage><![CDATA[Last Online: 61 days ago]]></stateMessage>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/2e/2e9ef694113f8bc7ec0dd9466a15825e9c28a20f.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/2e/2e9ef694113f8bc7ec0dd9466a15825e9c28a20f_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/2e/2e9ef694113f8bc7ec0dd9466a15825e9c28a20f_full.jpg]]></avatarFull>
+			<friendsSince><![CDATA[0]]></friendsSince>
+		</friend>
+	</friends>
+
+	<weblinks>
+	</weblinks>
+
+	<groups>
+		<group isPrimary="1">
+			<groupID64>103582791429544454</groupID64>
+			<groupName><![CDATA[OverClocked ReMix]]></groupName>
+			<groupURL><![CDATA[ocremix]]></groupURL>
+			<headline><![CDATA[OverClocked ReMix]]></headline>
+			<summary><![CDATA[Servers:<br /><br />Team Fortress 2:<br />#1 (Stock): ocrtf2.com:27015 (206.217.135.91:27015)<br />#2: (Stock/Events) red.ocrtf2.com:27015 (206.217.135.92:27015) <br /><br />Left 4 Dead server at 8.12.21.14:27015<br />Left 4 Dead 2 server at 206.217.135.90:27015<br />(must be a member of OverClocked ReMix Community Group)]]></summary>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/8f/8f39802bf29399a5db2850f2d443d84ceed3a53e.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/8f/8f39802bf29399a5db2850f2d443d84ceed3a53e_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/8f/8f39802bf29399a5db2850f2d443d84ceed3a53e_full.jpg]]></avatarFull>
+			<memberCount>283</memberCount>
+			<membersInChat>0</membersInChat>
+			<membersInGame>24</membersInGame>
+			<membersOnline>116</membersOnline>
+		</group>
+		<group isPrimary="0">
+			<groupID64>103582791429578521</groupID64>
+			<groupName><![CDATA[The Teamwork Movement]]></groupName>
+			<groupURL><![CDATA[TheTWM]]></groupURL>
+			<headline><![CDATA[The Teamwork Movement (TWM) aims to bring teamwork oriented players together for the best gaming experience possible.]]></headline>
+			<summary><![CDATA[The Teamwork Movement (TWM) is not a clan, it's an open group of players that anyone can join, as long as they're interested in utilizing teamwork while gaming. TWM participants are encouraged, but not required, to add &lt;TWM&gt; to the end of their name and play on TWM endorsed servers. By adding TWM to the end of your name you're easily recognizable by other TWM participants, so they can engage in teamwork with you; and by playing on TWM endorsed servers you are much more likely to encounter other TWM participants, and have the best gaming experience as a result.<br /><br />While we encourage TWM members to engage in teamwork regardless of what server they play on, we maintain a list of recommended servers which TWM players frequent. By playing on TWM endorsed servers you are much more likely to play with other TWM participants, resulting in the best gaming experience possible. All TWM endorsed servers go through a rigorous approval process that ensures they are lag-free, popular and well administered. You can find the most up to date list of TWM endorsed servers at the following link:<br /><br />http://www.theTWM.com/<br /><br />In addition to the endorsed server list we regularly use the Steam event system to send out notifications of TWM events. Several times throughout the day we'll issue an event alert with a TWM endorsed server's IP, by joining in on those games you get to join a server filled entirely with TWM players -- you'll experience teamwork like you've never experienced before.<br /><br />So, to recap, all you need to do is (all of these are optional): <br />- Add &lt;TWM&gt; to the end of your name.<br />- Play on TWM endorsed servers so you can easily find other teamwork oriented players. The IP for TWM endorsed servers can be found at the "TWM Endorsed Server List" link below. <br />- Engage in teamwork whenever possible!<br /><br />Frag on!]]></summary>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/d7/d7fb243316906aa3171c4fd0d3f68688ac8bee61.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/d7/d7fb243316906aa3171c4fd0d3f68688ac8bee61_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/d7/d7fb243316906aa3171c4fd0d3f68688ac8bee61_full.jpg]]></avatarFull>
+			<memberCount>130105</memberCount>
+			<membersInChat>0</membersInChat>
+			<membersInGame>2611</membersInGame>
+			<membersOnline>10812</membersOnline>
+		</group>
+		<group isPrimary="0">
+			<groupID64>103582791430075519</groupID64>
+			<groupName><![CDATA[Team Fortress 2]]></groupName>
+			<groupURL><![CDATA[TF2]]></groupURL>
+			<headline><![CDATA[TF2 in a nutshell]]></headline>
+			<summary><![CDATA[Team Fortress® 2 (TF2) is the sequel to the game that put class-based, multiplayer team warfare on the map. Play as the flame-throwing Pyro, the room clearing Heavy, or the Spy, a master of disguises. Other classes include: Scout, Sniper, Medic, Engineer, Demoman, or Soldier.]]></summary>
+			<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/e3/e3f595a92552da3d664ad00277fad2107345f743.jpg]]></avatarIcon>
+			<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/e3/e3f595a92552da3d664ad00277fad2107345f743_medium.jpg]]></avatarMedium>
+			<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/e3/e3f595a92552da3d664ad00277fad2107345f743_full.jpg]]></avatarFull>
+			<memberCount>157346</memberCount>
+			<membersInChat>0</membersInChat>
+			<membersInGame>10338</membersInGame>
+			<membersOnline>31358</membersOnline>
+		</group>
+	</groups>
+</profile>
